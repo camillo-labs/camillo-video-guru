@@ -43,4 +43,8 @@ it will load the skill. Update with `git pull` inside that folder.
 
 `scripts/burn_transition.py` ports the `ridged-burn` shader from HyperFrames (github.com/heygen-com/hyperframes,
 Apache-2.0). The motion rules draw on the Prompt Motion gallery (prompt-motion.com) and the `cinetic` and
-`product-film-skill` repos credited in `references/motion.md`. Shared privately; please ask before redistributing.
+`product-film-skill` repos credited in `references/motion.md`.
+
+## Licence
+
+MIT (see `LICENSE`), except `scripts/burn_transition.py`, which ports an Apache-2.0 shader (see `THIRD_PARTY.md`).
