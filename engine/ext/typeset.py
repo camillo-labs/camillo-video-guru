@@ -24,7 +24,9 @@ FONTS = {
     'archivo black': 'ArchivoBlack-Regular.ttf',
     'anton': 'Anton-Regular.ttf',
 }
-MONO = ['/System/Library/Fonts/Menlo.ttc', '/System/Library/Fonts/SFNSMono.ttf', '/System/Library/Fonts/Courier.ttc']
+MONO = ['/System/Library/Fonts/Menlo.ttc', '/System/Library/Fonts/SFNSMono.ttf', '/System/Library/Fonts/Courier.ttc',
+        os.path.join(os.environ.get('WINDIR', 'C:\\Windows'), 'Fonts', 'consola.ttf')]   # Windows fallback
+SANS_FALLBACK = ['/System/Library/Fonts/Helvetica.ttc', os.path.join(os.environ.get('WINDIR', 'C:\\Windows'), 'Fonts', 'arial.ttf')]
 
 
 @lru_cache(maxsize=512)
@@ -35,7 +37,7 @@ def vfont(name, size, wght=None):
     if key == 'mono':
         path = next((p for p in MONO if os.path.exists(p)), None)
     if path is None or not os.path.exists(path):
-        path = '/System/Library/Fonts/Helvetica.ttc'
+        path = next((p for p in SANS_FALLBACK if os.path.exists(p)), SANS_FALLBACK[0])
     f = ImageFont.truetype(path, size)
     if wght is not None:
         try:
