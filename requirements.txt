@@ -1,0 +1,5 @@
+numpy
+scipy
+librosa
+opencv-python-headless
+pillow

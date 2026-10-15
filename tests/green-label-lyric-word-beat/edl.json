@@ -1,0 +1,980 @@
+{
+ "style": "lyric-word-beat",
+ "seed": 4,
+ "fps": 30,
+ "aspect": "9:16",
+ "duration": 19.672,
+ "n_beats": 40,
+ "music": {
+  "path": "tests/green-label/assets/music/Raving-Energy.mp3",
+  "start": 2.0014,
+  "bpm": 122.0,
+  "beat_period": 0.4918,
+  "drops_in_window": [
+   5.902
+  ]
+ },
+ "voiceover": null,
+ "shots": [
+  {
+   "beat0": 0.0,
+   "beat1": 3.0,
+   "role": "intro",
+   "t0": 0.0,
+   "t1": 1.4666666666666666,
+   "clip": "tests/green-label/assets/clips/pexels-32268404.mp4",
+   "clip_kind": "video",
+   "src_in": 9.5,
+   "speed": 1.0,
+   "focus": [
+    0.5021862656847748,
+    0.49725115403485326
+   ],
+   "mask": null,
+   "w": 1920,
+   "h": 1080,
+   "src_dur": 1.4666666666666666,
+   "target_q": 0.56,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "beat0": 3.0,
+   "beat1": 9.0,
+   "role": "mid",
+   "t0": 1.4666666666666666,
+   "t1": 4.433333333333334,
+   "clip": "tests/green-label/assets/clips/pexels-32268481.mp4",
+   "clip_kind": "video",
+   "src_in": 0.0,
+   "speed": 1.0,
+   "focus": [
+    0.5057614045983304,
+    0.43973293254202855
+   ],
+   "mask": null,
+   "w": 1920,
+   "h": 1080,
+   "src_dur": 2.966666666666667,
+   "target_q": 0.15,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "beat0": 9.0,
+   "beat1": 13.0,
+   "role": "low",
+   "t0": 4.433333333333334,
+   "t1": 6.4,
+   "clip": "tests/green-label/assets/clips/pexels-37208833.mp4",
+   "clip_kind": "video",
+   "src_in": 0.5,
+   "speed": 1.0,
+   "focus": [
+    0.9516273490101497,
+    0.7296296296296296
+   ],
+   "mask": null,
+   "w": 1920,
+   "h": 1080,
+   "src_dur": 1.9666666666666668,
+   "target_q": 0.03,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "beat0": 13.0,
+   "beat1": 19.0,
+   "role": "drop",
+   "t0": 6.4,
+   "t1": 9.333333333333334,
+   "clip": "tests/green-label/assets/clips/pexels-37208842.mp4",
+   "clip_kind": "video",
+   "src_in": 0.0,
+   "speed": 1.0,
+   "focus": [
+    0.5026196716924946,
+    0.510701870639862
+   ],
+   "mask": null,
+   "w": 1920,
+   "h": 1080,
+   "src_dur": 2.9333333333333336,
+   "target_q": 0.78,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "beat0": 19.0,
+   "beat1": 23.0,
+   "role": "high",
+   "t0": 9.333333333333334,
+   "t1": 11.3,
+   "clip": "tests/green-label/assets/clips/pexels-6459985.mp4",
+   "clip_kind": "video",
+   "src_in": 5.5,
+   "speed": 1.0,
+   "focus": [
+    0.43791307229922516,
+    0.535252698550132
+   ],
+   "mask": null,
+   "w": 1920,
+   "h": 1080,
+   "src_dur": 1.9666666666666668,
+   "target_q": 0.54,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "beat0": 23.0,
+   "beat1": 28.0,
+   "role": "mid",
+   "t0": 11.3,
+   "t1": 13.766666666666667,
+   "clip": "tests/green-label/assets/clips/pexels-6743542.mp4",
+   "clip_kind": "video",
+   "src_in": 0.0,
+   "speed": 1.0,
+   "focus": [
+    0.4911190760313267,
+    0.44831117736219145
+   ],
+   "mask": null,
+   "w": 1920,
+   "h": 1080,
+   "src_dur": 2.466666666666667,
+   "target_q": 0.41,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "beat0": 28.0,
+   "beat1": 32.0,
+   "role": "mid",
+   "t0": 13.766666666666667,
+   "t1": 15.733333333333333,
+   "clip": "tests/green-label/assets/clips/pexels-7318530.mp4",
+   "clip_kind": "video",
+   "src_in": 8.25,
+   "speed": 1.0,
+   "focus": [
+    0.5103287450480575,
+    0.5107363558287563
+   ],
+   "mask": null,
+   "w": 1920,
+   "h": 1080,
+   "src_dur": 1.966666666666665,
+   "target_q": 0.7,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "beat0": 32.0,
+   "beat1": 37.0,
+   "role": "high",
+   "t0": 15.733333333333333,
+   "t1": 18.2,
+   "clip": "tests/green-label/assets/clips/pexels-7669195.mp4",
+   "clip_kind": "video",
+   "src_in": 2.0,
+   "speed": 1.0,
+   "focus": [
+    0.9432467029743548,
+    0.45866141732283466
+   ],
+   "mask": null,
+   "w": 2048,
+   "h": 1080,
+   "src_dur": 2.466666666666667,
+   "target_q": 0.73,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "beat0": 37.0,
+   "beat1": 39.0,
+   "role": "mid",
+   "t0": 18.2,
+   "t1": 19.166666666666668,
+   "clip": "tests/green-label/assets/clips/pexels-7775093.mp4",
+   "clip_kind": "video",
+   "src_in": 0.25,
+   "speed": 1.0,
+   "focus": [
+    0.6824659354852329,
+    0.3850393700787402
+   ],
+   "mask": null,
+   "w": 2048,
+   "h": 1080,
+   "src_dur": 0.9666666666666686,
+   "target_q": 0.43,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "beat0": 39.0,
+   "beat1": 40.0,
+   "role": "outro",
+   "seam": true,
+   "t0": 19.166666666666668,
+   "t1": 19.666666666666668,
+   "clip": "tests/green-label/assets/clips/pexels-32268404.mp4",
+   "clip_kind": "video",
+   "src_in": 9.5,
+   "speed": 1.0,
+   "focus": [
+    0.5021862656847748,
+    0.49725115403485326
+   ],
+   "mask": null,
+   "w": 1920,
+   "h": 1080,
+   "src_dur": 0.5,
+   "target_q": 0.56,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ ],
+ "events": [
+  {
+   "fx": "lyr_dip_mosaic",
+   "t0": 1.4667,
+   "t1": 2.0568,
+   "tc": 1.4667,
+   "params": {
+    "black": 0.25,
+    "mosaic_end": 0.8,
+    "cells": 3
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "lyr_haze_flash",
+   "t0": 6.3508,
+   "t1": 6.8426,
+   "tc": 6.4,
+   "params": {
+    "cut_u": 0.1,
+    "flash_u": [
+     0.35,
+     0.45
+    ],
+    "veil": 0.65
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "lyr_band_wipe",
+   "t0": 9.3333,
+   "t1": 9.9235,
+   "tc": 9.3333,
+   "params": {
+    "top0": 0.2,
+    "bot0": 0.38,
+    "close_u": 0.85
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "lyr_radial_flash",
+   "t0": 11.0541,
+   "t1": 11.423,
+   "tc": 11.3,
+   "params": {
+    "cut_u": 0.667,
+    "amount": 0.22,
+    "white_u": 0.18
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "lyr_card_up",
+   "t0": 15.7333,
+   "t1": 17.1104,
+   "tc": 15.7333,
+   "params": {
+    "black": 0.1,
+    "up_end": 0.26,
+    "hold_end": 0.62,
+    "full": 0.78,
+    "card_scale": 0.62
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "dip_black",
+   "t0": 19.1667,
+   "t1": 19.5109,
+   "tc": 19.1667,
+   "params": {
+    "peak": 0.8
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "invert",
+   "t0": 19.5355,
+   "t1": 19.6585,
+   "tc": 19.1667,
+   "params": {
+    "shape": "hold"
+   },
+   "layer": "pre",
+   "at": "cut"
+  }
+ ],
+ "sfx": [],
+ "words": [
+  {
+   "text": "4",
+   "t0": 0.0,
+   "t1": 0.2459,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "to",
+   "t0": 0.2459,
+   "t1": 0.4918,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "9%",
+   "t0": 0.4918,
+   "t1": 0.6148,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "of",
+   "t0": 0.6148,
+   "t1": 0.8606,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "textiles",
+   "t0": 0.8606,
+   "t1": 1.2295,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "placed",
+   "t0": 1.2295,
+   "t1": 1.4754,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "on",
+   "t0": 1.4754,
+   "t1": 1.5984,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 1.5984,
+   "t1": 1.8442,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "EU",
+   "t0": 1.8442,
+   "t1": 2.0902,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "market",
+   "t0": 2.0902,
+   "t1": 2.336,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "are",
+   "t0": 2.336,
+   "t1": 2.459,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "destroyed",
+   "t0": 2.459,
+   "t1": 2.7049,
+   "emph": true,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "before",
+   "t0": 2.7049,
+   "t1": 3.0738,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "use",
+   "t0": 3.0738,
+   "t1": 3.3196,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "EEA,",
+   "t0": 3.8114,
+   "t1": 3.9344,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "2024",
+   "t0": 3.9344,
+   "t1": 4.1803,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "Since",
+   "t0": 4.6721,
+   "t1": 4.918,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "19",
+   "t0": 4.918,
+   "t1": 5.1639,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "July",
+   "t0": 5.1639,
+   "t1": 5.2868,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "2026",
+   "t0": 5.2868,
+   "t1": 5.5328,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 5.5328,
+   "t1": 5.9016,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "EU",
+   "t0": 5.9016,
+   "t1": 6.1475,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "bans",
+   "t0": 6.1475,
+   "t1": 6.2704,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "large",
+   "t0": 6.2704,
+   "t1": 6.5164,
+   "emph": true,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "companies",
+   "t0": 6.5164,
+   "t1": 6.7622,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "from",
+   "t0": 6.7622,
+   "t1": 7.0082,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "destroying",
+   "t0": 7.0082,
+   "t1": 7.1311,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "unsold",
+   "t0": 7.1311,
+   "t1": 7.377,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "clothes",
+   "t0": 7.377,
+   "t1": 7.7459,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "Regulation",
+   "t0": 8.2376,
+   "t1": 8.4836,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "(EU)",
+   "t0": 8.4836,
+   "t1": 8.6065,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "2024/1781",
+   "t0": 8.6065,
+   "t1": 8.8524,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "6.94",
+   "t0": 9.3442,
+   "t1": 9.5901,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "million",
+   "t0": 9.5901,
+   "t1": 9.836,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "tonnes",
+   "t0": 9.836,
+   "t1": 9.959,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "of",
+   "t0": 9.959,
+   "t1": 10.2048,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "textile",
+   "t0": 10.2048,
+   "t1": 10.5737,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "waste",
+   "t0": 10.5737,
+   "t1": 10.8196,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "in",
+   "t0": 10.8196,
+   "t1": 10.9426,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 10.9426,
+   "t1": 11.1885,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "EU",
+   "t0": 11.1884,
+   "t1": 11.4344,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "in",
+   "t0": 11.4344,
+   "t1": 11.6803,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "2022",
+   "t0": 11.6803,
+   "t1": 11.8032,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "EEA",
+   "t0": 12.295,
+   "t1": 12.5409,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "4",
+   "t0": 13.0327,
+   "t1": 13.4016,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "to",
+   "t0": 13.4016,
+   "t1": 13.6474,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "9%",
+   "t0": 13.6474,
+   "t1": 13.7704,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "of",
+   "t0": 13.7704,
+   "t1": 14.0163,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "textiles",
+   "t0": 14.0163,
+   "t1": 14.2622,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "placed",
+   "t0": 14.2622,
+   "t1": 14.5081,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "on",
+   "t0": 14.5081,
+   "t1": 14.631,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 14.631,
+   "t1": 14.877,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "EU",
+   "t0": 14.877,
+   "t1": 15.2458,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "market",
+   "t0": 15.2458,
+   "t1": 15.4917,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "are",
+   "t0": 15.4917,
+   "t1": 15.6146,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "destroyed",
+   "t0": 15.6146,
+   "t1": 15.8606,
+   "emph": true,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "before",
+   "t0": 15.8606,
+   "t1": 16.1064,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "use",
+   "t0": 16.1064,
+   "t1": 16.3523,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "EEA,",
+   "t0": 16.8442,
+   "t1": 16.9671,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "2024",
+   "t0": 16.9671,
+   "t1": 17.213,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "Since",
+   "t0": 17.7048,
+   "t1": 18.0736,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "19",
+   "t0": 18.0736,
+   "t1": 18.3196,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "July",
+   "t0": 18.3196,
+   "t1": 18.4425,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "2026",
+   "t0": 18.4425,
+   "t1": 18.6884,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 18.6884,
+   "t1": 18.9343,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "EU",
+   "t0": 18.9343,
+   "t1": 19.1802,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  }
+ ],
+ "stats": {
+  "n_shots": 10,
+  "mean_shot_beats": 4.0,
+  "shot_beats_hist": {
+   "1.0": 1,
+   "2.0": 1,
+   "3.0": 1,
+   "4.0": 3,
+   "5.0": 2,
+   "6.0": 2
+  },
+  "planned_cut_offset_ms_from_sixteenth_grid_mean_abs": 7.74,
+  "n_events": 7,
+  "events_by_fx": {
+   "dip_black": 1,
+   "invert": 1,
+   "lyr_band_wipe": 1,
+   "lyr_card_up": 1,
+   "lyr_dip_mosaic": 1,
+   "lyr_haze_flash": 1,
+   "lyr_radial_flash": 1
+  }
+ },
+ "style_path": "tests/green-label-lyric-word-beat/style.json"
+}

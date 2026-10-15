@@ -1,0 +1,14 @@
+{
+ "per_fx_mean_abs_ms": {
+  "slow_zoom": 41.9,
+  "zoom_blur": 49.2,
+  "rgb_split": 11.4,
+  "shake": 11.4,
+  "flash": 24.6,
+  "invert": 109.6,
+  "mask_flash": 66.7
+ },
+ "all_events_mean_abs_ms": 42.0,
+ "n_events": 39,
+ "frame_ms": 33.3
+}

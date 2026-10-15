@@ -1,0 +1,146 @@
+{
+ "name": "velocity-ramp-edit",
+ "description": "Fast, slightly sped-up cuts that each drop into a one-beat slow-motion ramp on the downbeat, the ramp held to the music's own beat length rather than stretched or squeezed by how long the shot happens to be.",
+ "defaults": {
+  "aspect": "9:16",
+  "duration": 15.0
+ },
+ "structure": {
+  "intro_beats": 2,
+  "outro_beats": 2,
+  "drop_at": 0.5,
+  "drop_beats": 4,
+  "end_on_bar": true
+ },
+ "music": {
+  "bpm_target": 120,
+  "style_kind": "flash",
+  "mood": "energetic"
+ },
+ "cuts": {
+  "first_shot_beats": 2,
+  "min_beats": 1,
+  "phrase_snap_beats": 1,
+  "lengths": {
+   "intro": [
+    [2, 2],
+    [1, 2]
+   ],
+   "low": [
+    [2, 3],
+    [1, 2]
+   ],
+   "mid": [
+    [1, 3],
+    [2, 2]
+   ],
+   "high": [
+    [1, 4],
+    [2, 1]
+   ],
+   "drop": [
+    [2, 4],
+    [1, 2]
+   ],
+   "outro": [
+    [2, 2],
+    [4, 1]
+   ]
+  }
+ },
+ "clips": {
+  "select": "energy_match",
+  "avoid_repeat": 2,
+  "jitter": 0.25,
+  "prefer_faces": true
+ },
+ "speed": {
+  "choices": [
+   [1.0, 3],
+   [1.15, 2]
+  ],
+  "ramps": [
+   {
+    "when": {
+     "downbeat": true,
+     "shot_beats_min": 1
+    },
+    "ramp": {
+     "s0": 1.0,
+     "s1": 0.3,
+     "portion_beats": [0, 1],
+     "shape": "in_out"
+    }
+   },
+   {
+    "when": {
+     "role": ["drop"],
+     "first": true
+    },
+    "ramp": {
+     "s0": 1.0,
+     "s1": 0.25,
+     "portion_beats": [0, 2],
+     "shape": "in_out"
+    }
+   }
+  ]
+ },
+ "grade": {
+  "base": {
+   "contrast": 1.08,
+   "saturation": 1.05,
+   "vignette": 0.15
+  }
+ },
+ "moves": [
+  {
+   "fx": "punch_in",
+   "at": "shot",
+   "params": {
+    "from": 1.0,
+    "to": 1.05
+   },
+   "when": {
+    "shot_beats_min": 1
+   }
+  },
+  {
+   "fx": "flash",
+   "at": "cut",
+   "span_beats": [0.0, 0.15],
+   "params": {
+    "shape": "decay",
+    "alpha": 0.6
+   },
+   "when": {
+    "role": ["high", "drop"],
+    "p": 0.4
+   }
+  }
+ ],
+ "sfx": [
+  {
+   "kind": "whoosh",
+   "at": "cut",
+   "gain": 0.35,
+   "when": {
+    "downbeat": true,
+    "p": 0.6
+   },
+   "min_gap_beats": 1
+  },
+  {
+   "kind": "riser",
+   "at": "drop",
+   "gain": 0.35,
+   "dur": 1.6,
+   "end_at_t": true
+  },
+  {
+   "kind": "impact",
+   "at": "drop",
+   "gain": 0.7
+  }
+ ]
+}

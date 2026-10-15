@@ -1,0 +1,3182 @@
+{
+ "style": "kinetic-card-explainer",
+ "seed": 1,
+ "fps": 30,
+ "aspect": "9:16",
+ "duration": 30.9395,
+ "n_beats": 66,
+ "music": {
+  "path": "_testdata/music/house128.wav",
+  "start": 7.4991,
+  "bpm": 127.99,
+  "beat_period": 0.46878,
+  "drops_in_window": [
+   15.001
+  ]
+ },
+ "voiceover": {
+  "path": "_testdata/vo/kc_demo.aiff",
+  "start": 0.1172
+ },
+ "shots": [
+  {
+   "beat0": 0.0,
+   "beat1": 4.0,
+   "role": "intro",
+   "t0": 0.0,
+   "t1": 1.9666666666666666,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 4.0,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 1.967,
+   "target_q": 0.4,
+   "grade": {}
+  },
+  {
+   "beat0": 4.0,
+   "beat1": 6.0,
+   "role": "mid",
+   "t0": 1.9666666666666666,
+   "t1": 2.8666666666666667,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 0.5,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 0.9,
+   "target_q": 0.44,
+   "grade": {}
+  },
+  {
+   "beat0": 6.0,
+   "beat1": 10.0,
+   "role": "mid",
+   "t0": 2.8666666666666667,
+   "t1": 4.633333333333334,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 0.75,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 1.767,
+   "target_q": 0.44,
+   "grade": {}
+  },
+  {
+   "beat0": 10.0,
+   "beat1": 13.0,
+   "role": "mid",
+   "t0": 4.633333333333334,
+   "t1": 5.966666666666667,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 0.0,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 1.333,
+   "target_q": 0.21,
+   "grade": {}
+  },
+  {
+   "beat0": 13.0,
+   "beat1": 17.0,
+   "role": "mid",
+   "t0": 5.966666666666667,
+   "t1": 8.066666666666666,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 0.5,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 2.1,
+   "target_q": 0.44,
+   "grade": {}
+  },
+  {
+   "beat0": 17.0,
+   "beat1": 20.0,
+   "role": "mid",
+   "t0": 8.066666666666666,
+   "t1": 9.366666666666667,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 0.0,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 1.3,
+   "target_q": 0.25,
+   "grade": {}
+  },
+  {
+   "beat0": 20.0,
+   "beat1": 23.0,
+   "role": "mid",
+   "t0": 9.366666666666667,
+   "t1": 10.8,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 0.0,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 1.433,
+   "target_q": 0.25,
+   "grade": {}
+  },
+  {
+   "beat0": 23.0,
+   "beat1": 28.0,
+   "role": "mid",
+   "t0": 10.8,
+   "t1": 13.133333333333333,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 1.25,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 2.333,
+   "target_q": 0.54,
+   "grade": {}
+  },
+  {
+   "beat0": 28.0,
+   "beat1": 32.0,
+   "role": "mid",
+   "t0": 13.133333333333333,
+   "t1": 15.033333333333333,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 2.25,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 1.9,
+   "target_q": 0.59,
+   "grade": {}
+  },
+  {
+   "beat0": 32.0,
+   "beat1": 34.0,
+   "role": "drop",
+   "t0": 15.033333333333333,
+   "t1": 15.933333333333334,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 2.25,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 0.9,
+   "target_q": 0.98,
+   "grade": {}
+  },
+  {
+   "beat0": 34.0,
+   "beat1": 37.0,
+   "role": "drop",
+   "t0": 15.933333333333334,
+   "t1": 17.266666666666666,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 2.0,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 1.333,
+   "target_q": 0.77,
+   "grade": {}
+  },
+  {
+   "beat0": 37.0,
+   "beat1": 39.0,
+   "role": "high",
+   "t0": 17.266666666666666,
+   "t1": 18.166666666666668,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 2.25,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 0.9,
+   "target_q": 0.67,
+   "grade": {}
+  },
+  {
+   "beat0": 39.0,
+   "beat1": 41.0,
+   "role": "high",
+   "t0": 18.166666666666668,
+   "t1": 19.133333333333333,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 2.25,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 0.967,
+   "target_q": 0.82,
+   "grade": {}
+  },
+  {
+   "beat0": 41.0,
+   "beat1": 44.0,
+   "role": "high",
+   "t0": 19.133333333333333,
+   "t1": 20.733333333333334,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 2.0,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 1.6,
+   "target_q": 0.8,
+   "grade": {}
+  },
+  {
+   "beat0": 44.0,
+   "beat1": 46.0,
+   "role": "high",
+   "t0": 20.733333333333334,
+   "t1": 21.566666666666666,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 2.25,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 0.833,
+   "target_q": 0.92,
+   "grade": {}
+  },
+  {
+   "beat0": 46.0,
+   "beat1": 49.0,
+   "role": "high",
+   "t0": 21.566666666666666,
+   "t1": 23.0,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 2.0,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 1.433,
+   "target_q": 0.82,
+   "grade": {}
+  },
+  {
+   "beat0": 49.0,
+   "beat1": 52.0,
+   "role": "high",
+   "t0": 23.0,
+   "t1": 24.3,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 2.0,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 1.3,
+   "target_q": 0.85,
+   "grade": {}
+  },
+  {
+   "beat0": 52.0,
+   "beat1": 55.0,
+   "role": "high",
+   "t0": 24.3,
+   "t1": 25.766666666666666,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 2.0,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 1.467,
+   "target_q": 0.67,
+   "grade": {}
+  },
+  {
+   "beat0": 55.0,
+   "beat1": 58.0,
+   "role": "mid",
+   "t0": 25.766666666666666,
+   "t1": 27.2,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 0.25,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 1.433,
+   "target_q": 0.54,
+   "grade": {}
+  },
+  {
+   "beat0": 58.0,
+   "beat1": 61.0,
+   "role": "mid",
+   "t0": 27.2,
+   "t1": 28.6,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 3.75,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 1.4,
+   "target_q": 0.4,
+   "grade": {}
+  },
+  {
+   "beat0": 61.0,
+   "beat1": 66.0,
+   "role": "mid",
+   "t0": 28.6,
+   "t1": 30.933333333333334,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 0.0,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 2.333,
+   "target_q": 0.4,
+   "grade": {}
+  }
+ ],
+ "events": [
+  {
+   "fx": "kc_scene",
+   "t0": 0.0,
+   "t1": 1.9666666666666666,
+   "tc": 0.0,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 1.9666666666666666,
+   "t1": 2.8666666666666667,
+   "tc": 1.9666666666666666,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 2.8666666666666667,
+   "t1": 4.633333333333334,
+   "tc": 2.8666666666666667,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 4.633333333333334,
+   "t1": 5.966666666666667,
+   "tc": 4.633333333333334,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 5.966666666666667,
+   "t1": 8.066666666666666,
+   "tc": 5.966666666666667,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 8.066666666666666,
+   "t1": 9.3667,
+   "tc": 8.066666666666666,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 9.3667,
+   "t1": 10.8,
+   "tc": 9.3667,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 10.8,
+   "t1": 13.1333,
+   "tc": 10.8,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 13.1333,
+   "t1": 15.033333333333333,
+   "tc": 13.1333,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 15.033333333333333,
+   "t1": 15.9333,
+   "tc": 15.033333333333333,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 15.9333,
+   "t1": 17.266666666666666,
+   "tc": 15.9333,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 17.266666666666666,
+   "t1": 18.166666666666668,
+   "tc": 17.266666666666666,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 18.166666666666668,
+   "t1": 19.133333333333333,
+   "tc": 18.166666666666668,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 19.133333333333333,
+   "t1": 20.733333333333334,
+   "tc": 19.133333333333333,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 20.733333333333334,
+   "t1": 21.5667,
+   "tc": 20.733333333333334,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 21.5667,
+   "t1": 23.0,
+   "tc": 21.5667,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 23.0,
+   "t1": 24.3,
+   "tc": 23.0,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 24.3,
+   "t1": 25.7667,
+   "tc": 24.3,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 25.7667,
+   "t1": 27.2,
+   "tc": 25.7667,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 27.2,
+   "t1": 28.6,
+   "tc": 27.2,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "kc_scene",
+   "t0": 28.6,
+   "t1": 30.9333,
+   "tc": 28.6,
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   },
+   "layer": "pre",
+   "at": "shot"
+  }
+ ],
+ "sfx": [],
+ "words": [
+  {
+   "text": "One",
+   "t0": 0.1172,
+   "t1": 0.2772,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "engine",
+   "t0": 0.2772,
+   "t1": 0.5172,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "that",
+   "t0": 0.5172,
+   "t1": 0.7372,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "turns",
+   "t0": 0.7372,
+   "t1": 1.0372,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "a",
+   "t0": 1.0372,
+   "t1": 1.2572,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "folder",
+   "t0": 1.2572,
+   "t1": 1.4972,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "of",
+   "t0": 1.4972,
+   "t1": 1.6972,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "clips",
+   "t0": 1.6972,
+   "t1": 1.9772,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "and",
+   "t0": 1.9772,
+   "t1": 2.1372,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "a",
+   "t0": 2.1372,
+   "t1": 2.2372,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "song",
+   "t0": 2.2372,
+   "t1": 2.4972,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "into",
+   "t0": 2.4972,
+   "t1": 2.6972,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "a",
+   "t0": 2.6972,
+   "t1": 2.8772,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "finished",
+   "t0": 2.8772,
+   "t1": 3.1772,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "short.",
+   "t0": 3.1772,
+   "t1": 3.5572,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "You",
+   "t0": 3.7972,
+   "t1": 4.0172,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "describe",
+   "t0": 4.0172,
+   "t1": 4.4572,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 4.4572,
+   "t1": 4.6372,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "look",
+   "t0": 4.6372,
+   "t1": 4.8572,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "in",
+   "t0": 4.8572,
+   "t1": 4.9972,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "plain",
+   "t0": 4.9972,
+   "t1": 5.1972,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "words.",
+   "t0": 5.1972,
+   "t1": 5.7172,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "The",
+   "t0": 5.9772,
+   "t1": 6.1972,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "agent",
+   "t0": 6.1972,
+   "t1": 6.4772,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "plans",
+   "t0": 6.4772,
+   "t1": 6.8772,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "every",
+   "t0": 6.8772,
+   "t1": 7.1572,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "cut.",
+   "t0": 7.1572,
+   "t1": 7.5372,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "Writes",
+   "t0": 7.6972,
+   "t1": 8.0572,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 8.0572,
+   "t1": 8.1972,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "captions.",
+   "t0": 8.1972,
+   "t1": 8.6572,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "Adds",
+   "t0": 9.0572,
+   "t1": 9.3572,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 9.3572,
+   "t1": 9.4372,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "voice",
+   "t0": 9.4372,
+   "t1": 9.7172,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "and",
+   "t0": 9.7172,
+   "t1": 9.8772,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 9.8772,
+   "t1": 9.9572,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "music.",
+   "t0": 9.9572,
+   "t1": 10.3972,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "And",
+   "t0": 10.5772,
+   "t1": 10.7972,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "renders",
+   "t0": 10.7972,
+   "t1": 11.1372,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 11.1372,
+   "t1": 11.2772,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "final",
+   "t0": 11.2772,
+   "t1": 11.5572,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "edit.",
+   "t0": 11.5572,
+   "t1": 11.8572,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "Or",
+   "t0": 12.0772,
+   "t1": 12.3172,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "point",
+   "t0": 12.3172,
+   "t1": 12.5772,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "it",
+   "t0": 12.5772,
+   "t1": 12.6772,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "at",
+   "t0": 12.6772,
+   "t1": 12.7772,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "a",
+   "t0": 12.7772,
+   "t1": 12.9172,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "reel",
+   "t0": 12.9172,
+   "t1": 13.1172,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "you",
+   "t0": 13.1172,
+   "t1": 13.2772,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "love.",
+   "t0": 13.2772,
+   "t1": 13.5572,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "It",
+   "t0": 13.7372,
+   "t1": 13.9172,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "measures",
+   "t0": 13.9172,
+   "t1": 14.2172,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 14.2172,
+   "t1": 14.3972,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "pacing.",
+   "t0": 14.3972,
+   "t1": 14.7972,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "The",
+   "t0": 15.0172,
+   "t1": 15.2372,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "scenes",
+   "t0": 15.2372,
+   "t1": 15.5372,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "and",
+   "t0": 15.5372,
+   "t1": 15.6772,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 15.6772,
+   "t1": 15.7972,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "style.",
+   "t0": 15.7972,
+   "t1": 16.1572,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "Then",
+   "t0": 16.4572,
+   "t1": 16.6772,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "builds",
+   "t0": 16.6772,
+   "t1": 17.0172,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "yours",
+   "t0": 17.0172,
+   "t1": 17.2572,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "from",
+   "t0": 17.2572,
+   "t1": 17.4772,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "that.",
+   "t0": 17.4772,
+   "t1": 17.7372,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "The",
+   "t0": 17.9572,
+   "t1": 18.1772,
+   "emph": false,
+   "phrase": 11,
+   "line": 0
+  },
+  {
+   "text": "demos",
+   "t0": 18.1772,
+   "t1": 18.4772,
+   "emph": false,
+   "phrase": 11,
+   "line": 0
+  },
+  {
+   "text": "in",
+   "t0": 18.4772,
+   "t1": 18.6572,
+   "emph": false,
+   "phrase": 11,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 18.6572,
+   "t1": 18.7572,
+   "emph": false,
+   "phrase": 11,
+   "line": 0
+  },
+  {
+   "text": "library",
+   "t0": 18.7572,
+   "t1": 19.1372,
+   "emph": false,
+   "phrase": 11,
+   "line": 0
+  },
+  {
+   "text": "include",
+   "t0": 19.1372,
+   "t1": 19.5572,
+   "emph": false,
+   "phrase": 11,
+   "line": 0
+  },
+  {
+   "text": "a",
+   "t0": 19.5572,
+   "t1": 19.7172,
+   "emph": false,
+   "phrase": 11,
+   "line": 0
+  },
+  {
+   "text": "lyric",
+   "t0": 19.7172,
+   "t1": 19.9372,
+   "emph": false,
+   "phrase": 11,
+   "line": 0
+  },
+  {
+   "text": "edit",
+   "t0": 19.9372,
+   "t1": 20.1572,
+   "emph": false,
+   "phrase": 11,
+   "line": 0
+  },
+  {
+   "text": "and",
+   "t0": 20.1572,
+   "t1": 20.3372,
+   "emph": false,
+   "phrase": 12,
+   "line": 0
+  },
+  {
+   "text": "a",
+   "t0": 20.3372,
+   "t1": 20.4372,
+   "emph": false,
+   "phrase": 12,
+   "line": 0
+  },
+  {
+   "text": "talking",
+   "t0": 20.4372,
+   "t1": 20.7372,
+   "emph": false,
+   "phrase": 12,
+   "line": 0
+  },
+  {
+   "text": "head",
+   "t0": 20.7372,
+   "t1": 21.0172,
+   "emph": false,
+   "phrase": 12,
+   "line": 0
+  },
+  {
+   "text": "explainer.",
+   "t0": 21.0172,
+   "t1": 21.6372,
+   "emph": false,
+   "phrase": 12,
+   "line": 0
+  },
+  {
+   "text": "Comment",
+   "t0": 21.8772,
+   "t1": 22.2372,
+   "emph": false,
+   "phrase": 13,
+   "line": 0
+  },
+  {
+   "text": "style",
+   "t0": 22.2372,
+   "t1": 22.5372,
+   "emph": false,
+   "phrase": 13,
+   "line": 0
+  },
+  {
+   "text": "and",
+   "t0": 22.5372,
+   "t1": 22.7172,
+   "emph": false,
+   "phrase": 13,
+   "line": 0
+  },
+  {
+   "text": "I",
+   "t0": 22.7172,
+   "t1": 22.8572,
+   "emph": false,
+   "phrase": 13,
+   "line": 0
+  },
+  {
+   "text": "will",
+   "t0": 22.8572,
+   "t1": 22.9972,
+   "emph": false,
+   "phrase": 13,
+   "line": 0
+  },
+  {
+   "text": "send",
+   "t0": 22.9972,
+   "t1": 23.2372,
+   "emph": false,
+   "phrase": 13,
+   "line": 0
+  },
+  {
+   "text": "you",
+   "t0": 23.2372,
+   "t1": 23.3772,
+   "emph": false,
+   "phrase": 13,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 23.3772,
+   "t1": 23.4972,
+   "emph": false,
+   "phrase": 13,
+   "line": 0
+  },
+  {
+   "text": "link",
+   "t0": 23.4972,
+   "t1": 23.7172,
+   "emph": false,
+   "phrase": 13,
+   "line": 0
+  },
+  {
+   "text": "and",
+   "t0": 23.7172,
+   "t1": 23.8572,
+   "emph": false,
+   "phrase": 14,
+   "line": 0
+  },
+  {
+   "text": "a",
+   "t0": 23.8572,
+   "t1": 23.9772,
+   "emph": false,
+   "phrase": 14,
+   "line": 0
+  },
+  {
+   "text": "setup",
+   "t0": 23.9772,
+   "t1": 24.2972,
+   "emph": false,
+   "phrase": 14,
+   "line": 0
+  },
+  {
+   "text": "guide.",
+   "t0": 24.2972,
+   "t1": 24.6172,
+   "emph": false,
+   "phrase": 14,
+   "line": 0
+  }
+ ],
+ "stats": {
+  "n_shots": 21,
+  "mean_shot_beats": 3.143,
+  "shot_beats_hist": {
+   "2.0": 5,
+   "3.0": 10,
+   "4.0": 4,
+   "5.0": 2
+  },
+  "planned_cut_offset_ms_from_sixteenth_grid_mean_abs": 8.75,
+  "n_events": 21,
+  "events_by_fx": {
+   "kc_scene": 21
+  }
+ },
+ "style_path": "/Users/student/dev/design-library/edits/kinetic-card-explainer/style.json",
+ "audio": {
+  "music_gain": 0.0
+ }
+}

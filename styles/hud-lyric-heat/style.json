@@ -1,0 +1,385 @@
+{
+ "name": "hud-lyric-heat",
+ "description": "Lyric words behind the subject in one flat hot red, a DETECTING HUD, detect wipes and a thermal heat band on a 6 beat clock, for saturated, graded footage.",
+ "defaults": {
+  "aspect": "16:9",
+  "duration": 16.0
+ },
+ "needs_mask": true,
+ "structure": {
+  "intro_beats": 8,
+  "outro_beats": 4,
+  "drop_at": 0.5,
+  "drop_beats": 4,
+  "end_on_bar": true
+ },
+ "hud": {
+  "row_y": 0.49,
+  "end_card_beats": 0,
+  "cycle_beats": 6,
+  "start_beat": 8
+ },
+ "cuts": {
+  "first_shot_beats": 8,
+  "min_beats": 1,
+  "phrase_snap_beats": 1.0,
+  "lengths": {
+   "intro": [
+    [
+     8,
+     1
+    ]
+   ],
+   "low": [
+    [
+     8,
+     3
+    ],
+    [
+     12,
+     2
+    ],
+    [
+     6,
+     1
+    ]
+   ],
+   "mid": [
+    [
+     8,
+     3
+    ],
+    [
+     12,
+     2
+    ],
+    [
+     6,
+     1
+    ]
+   ],
+   "high": [
+    [
+     6,
+     2
+    ],
+    [
+     8,
+     3
+    ],
+    [
+     12,
+     1
+    ]
+   ],
+   "drop": [
+    [
+     6,
+     2
+    ],
+    [
+     8,
+     2
+    ]
+   ],
+   "outro": [
+    [
+     8,
+     1
+    ]
+   ]
+  }
+ },
+ "clips": {
+  "select": "energy_match",
+  "avoid_repeat": 2,
+  "jitter": 0.3,
+  "prefer_faces": true
+ },
+ "grade": {
+  "base": {
+   "saturation": 1.2,
+   "contrast": 1.08,
+   "tint": [
+    0.93,
+    1.0,
+    1.05
+   ]
+  }
+ },
+ "moves": [
+  {
+   "fx": "hud_glitch",
+   "at": "time",
+   "sec": 0,
+   "span_beats": [
+    0,
+    1.0
+   ],
+   "params": {
+    "amount": 1.0
+   }
+  },
+  {
+   "fx": "hud_glitch",
+   "at": "cut",
+   "span_beats": [
+    0,
+    0.5
+   ],
+   "params": {
+    "amount": 0.6
+   },
+   "when": {
+    "p": 0.7
+   }
+  },
+  {
+   "fx": "hud_bar",
+   "at": "beat",
+   "every": 6,
+   "offset": 8,
+   "dur_beats": 1.0,
+   "params": {
+    "side": "left",
+    "xmark": true,
+    "brackets": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "when": {
+    "frac_max": 1.0
+   }
+  },
+  {
+   "fx": "hud_wipe",
+   "at": "beat",
+   "every": 6,
+   "offset": 9.5,
+   "dur_beats": 0.125,
+   "layer": "pre",
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "when": {
+    "frac_max": 1.0
+   }
+  },
+  {
+   "fx": "hud_bar",
+   "at": "beat",
+   "every": 6,
+   "offset": 10,
+   "dur_beats": 1.0,
+   "params": {
+    "side": "right",
+    "network": true,
+    "card": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "when": {
+    "frac_max": 1.0
+   }
+  },
+  {
+   "fx": "hud_wipe",
+   "at": "beat",
+   "every": 6,
+   "offset": 11,
+   "dur_beats": 0.125,
+   "layer": "pre",
+   "params": {
+    "band_y": 0.62,
+    "band_h": 0.07,
+    "texture": true,
+    "width": 0.45
+   },
+   "when": {
+    "frac_max": 1.0
+   }
+  },
+  {
+   "fx": "hud_heat",
+   "at": "beat",
+   "every": 6,
+   "offset": 12.5,
+   "dur_beats": 0.75,
+   "params": {
+    "y0": 0.115,
+    "y1": 0.73,
+    "normalise": true,
+    "subject_black": true,
+    "range": 0.75,
+    "floor": 0.02
+   },
+   "when": {
+    "frac_max": 0.9
+   }
+  },
+  {
+   "fx": "hud_marks",
+   "at": "beat",
+   "every": 6,
+   "offset": 13.5,
+   "dur_beats": 0.25,
+   "params": {
+    "count": 2
+   },
+   "when": {
+    "frac_max": 0.9
+   }
+  },
+  {
+   "fx": "hud_marks",
+   "at": "beat",
+   "every": 6,
+   "offset": 12.5,
+   "dur_beats": 0.25,
+   "params": {
+    "count": 2,
+    "size": 50
+   },
+   "when": {
+    "frac_max": 0.9
+   }
+  },
+  {
+   "fx": "zoom_pulse",
+   "at": "drop",
+   "span_beats": [
+    0,
+    0.5
+   ],
+   "params": {
+    "amount": 0.05
+   }
+  },
+  {
+   "fx": "hud_wipe",
+   "at": "beat",
+   "every": 6,
+   "offset": 8,
+   "dur_beats": 0.125,
+   "layer": "pre",
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "when": {
+    "frac_max": 0.9
+   }
+  },
+  {
+   "fx": "hud_marks",
+   "at": "beat",
+   "every": 6,
+   "offset": 11.5,
+   "dur_beats": 0.25,
+   "params": {
+    "count": 2,
+    "size": 90
+   },
+   "when": {
+    "frac_max": 0.9
+   }
+  }
+ ],
+ "sfx": [
+  {
+   "kind": "whoosh",
+   "at": "beat",
+   "every": 6,
+   "offset": 12.5,
+   "gain": 0.35,
+   "offset_s": 0,
+   "when": {
+    "frac_max": 1.0
+   }
+  },
+  {
+   "kind": "click",
+   "at": "beat",
+   "every": 6,
+   "offset": 9.5,
+   "gain": 0.2,
+   "when": {
+    "frac_max": 1.0
+   }
+  },
+  {
+   "kind": "click",
+   "at": "beat",
+   "every": 6,
+   "offset": 11,
+   "gain": 0.2,
+   "when": {
+    "frac_max": 1.0
+   }
+  },
+  {
+   "kind": "impact",
+   "at": "drop",
+   "gain": 0.5
+  },
+  {
+   "kind": "gap",
+   "at": "time",
+   "frac": 0.985,
+   "dur": 0.15,
+   "gain": 1
+  }
+ ],
+ "overlays": [
+  {
+   "kind": "hud_end_matte",
+   "frames": 3
+  }
+ ],
+ "captions": {
+  "kind": "hud_row",
+  "font": "Archivo Black",
+  "size_frac": 0.14,
+  "span": 0.85,
+  "y": 0.49,
+  "glow": 0,
+  "themes": [
+   {
+    "color": [
+     212,
+     17,
+     23
+    ]
+   }
+  ],
+  "max_hold_beats": 3.0,
+  "fallback_ellipse": true,
+  "caption_sfx": "tick",
+  "caption_sfx_gain": 0.12,
+  "timing": {
+   "mode": "grid",
+   "start_beat": 8.5,
+   "step_beats": 0.5,
+   "phrase_gap_beats": 0.5,
+   "fill": true,
+   "fill_tail_beats": 3,
+   "fill_whole": true
+  },
+  "size_frac_portrait": 0.15,
+  "depth_text": {
+   "enabled": true,
+   "behind_ratio": 0.5
+  },
+  "min_visible": 0.55,
+  "gap_em": 0.35,
+  "wipe_color": "theme",
+  "wipe_ghost": false,
+  "fit_up": false,
+  "hold_last": true
+ }
+}

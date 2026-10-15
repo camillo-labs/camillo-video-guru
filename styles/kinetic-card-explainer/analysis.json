@@ -1,0 +1,169 @@
+{
+ "source": "Downloads/fd121c814e014601a8b89c32c32a7b46.MP4 (@alekseitalksai, OpenMontage, AirDropped 12 Oct 2026). 720x1280, 30 fps, HEVC, 31.2 s, AAC 44.1 kHz stereo (speech to 29.35 s). Copy in _source/kinetic-card-explainer-openmontage.MP4 (gitignored).",
+ "method": "ffmpeg scene detection, full-frame difference at 30 fps, caption-band masks, pixel sampling of backgrounds and ink, local Whisper for word times, ebur128 loudness, frames viewed in 4 fps contact sheets and at full size.",
+ "layout": {
+  "frame": [
+   720,
+   1280
+  ],
+  "scene_area": "y 0.08 to 0.62 of the height, centred",
+  "caption_baseline_frac": 0.7,
+  "split": {
+   "head_top_frac": 0.47,
+   "edge": "soft 3 percent gradient from the background colour into the head picture",
+   "caption_frac_in_split": 0.43
+  },
+  "head_cutin": "full frame talker, caption centred at 0.69"
+ },
+ "shots": {
+  "boundaries_s": [
+   0,
+   1.43,
+   3.3,
+   5.3,
+   6.57,
+   8.43,
+   9.8,
+   10.63,
+   12.23,
+   13.3,
+   14.47,
+   16.07,
+   17.37,
+   18.87,
+   20.1,
+   21.03,
+   22.73,
+   23.97,
+   25.23,
+   27.17,
+   31.2
+  ],
+  "lengths_s": [
+   1.43,
+   1.87,
+   2.0,
+   1.27,
+   1.86,
+   1.37,
+   0.83,
+   1.6,
+   1.07,
+   1.17,
+   1.6,
+   1.3,
+   1.5,
+   1.23,
+   0.93,
+   1.7,
+   1.24,
+   1.26,
+   1.94,
+   4.03
+  ],
+  "median_s_excluding_dim": 1.37,
+  "mean_s_excluding_dim": 1.43,
+  "cut_type": "all hard single frame cuts (19 of 20, one 3 frame)",
+  "cut_to_nearest_word_start_s_median": 0.05,
+  "scenes_in_order": [
+   "split: card over head",
+   "dark: stat pill, logo, arrow, mascot",
+   "light: README card",
+   "terracotta: logo card",
+   "dark: terminal",
+   "light: source hub",
+   "dark: script card",
+   "beige: tool hub",
+   "dark: voice and music chips",
+   "light: chips to final cut",
+   "head cut-in",
+   "light: timeline",
+   "dark: doc with highlight",
+   "beige: timeline pills",
+   "head cut-in",
+   "light: media card",
+   "dark: media card",
+   "split: comment MONTAGE over head",
+   "card: setup guide",
+   "dim end"
+  ]
+ },
+ "palette": {
+  "dark_rgb": [
+   14,
+   11,
+   17
+  ],
+  "light_rgb": [
+   232,
+   232,
+   232
+  ],
+  "beige_rgb": [
+   231,
+   227,
+   216
+  ],
+  "terracotta_rgb": [
+   200,
+   115,
+   89
+  ],
+  "ink_on_dark_rgb": [
+   251,
+   248,
+   253
+  ],
+  "ink_on_light_rgb": [
+   15,
+   15,
+   17
+  ],
+  "accent_blue_rgb": [
+   59,
+   173,
+   221
+  ],
+  "keyword_blue_rgb": [
+   38,
+   178,
+   241
+  ],
+  "mascot_orange_rgb": [
+   222,
+   112,
+   78
+  ],
+  "order": "dark, light, dark, light, terracotta, dark, light, dark, beige, dark, light, head, light, dark, beige, head, light, dark, split, card"
+ },
+ "captions": {
+  "font_sans": "bold grotesk (Inter or SF Pro Bold look), weight 700, about 47 px at 720 wide, text height 34 px",
+  "accent_font": "italic Didone serif (Playfair Display Italic look), about 1.17x the sans, colour #3BADDD, one noun per chunk",
+  "chunk": "1 to 2 words, hard swap on the first word, no animation",
+  "onset_vs_first_word_s_median": 0.04,
+  "words_per_second_speech": 3.6,
+  "head_cutin_style": "serif italic white (2 lines max), closing words in bold light blue, built up through the phrase",
+  "end_card": "comment in italic serif black, KEYWORD in bold italic serif #26B2F1 about 0.17 of the width per cap height, 'and I will send you the link' italic, 'and a setup guide' bold sans"
+ },
+ "motion": "elements spring in with overshoot (pills and mascot), arrows draw along their length, waveforms animate, cards rise with a slight tilt; no transitions between scenes",
+ "mascot": "orange pixel creature, white on terracotta, appears in most scenes",
+ "end": {
+  "split_from_s": 23.97,
+  "card_from_s": 25.23,
+  "dim_from_s": 27.17,
+  "dim_factor": 0.25,
+  "dim_s": 4.03,
+  "note": "the dim and the Instagram glyph are the platform end screen, the comment card before it is part of the edit"
+ },
+ "audio": {
+  "integrated_lufs": -13.6,
+  "loudness_range_lu": 3.0,
+  "true_peak_dbfs": 0.0,
+  "speech_rms_db_mean": -19.1,
+  "music_bed": "none (digital silence between phrases)",
+  "sound_effects": "none (2 non-speech onsets at 27.5 s, the end)",
+  "speech_end_s": 29.35,
+  "words": 95
+ },
+ "transcript": "edits/techniques-2026-10-12.md"
+}

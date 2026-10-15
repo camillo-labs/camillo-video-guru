@@ -1,0 +1,1145 @@
+{
+ "style": "hud-lyric-heat",
+ "seed": 2,
+ "fps": 30,
+ "aspect": "9:16",
+ "duration": 20.2179,
+ "n_beats": 32,
+ "music": {
+  "path": "tests/fontainebleau/assets/music/Court-of-the-Queen.mp3",
+  "start": 27.8747,
+  "bpm": 94.97,
+  "beat_period": 0.63181,
+  "drops_in_window": [
+   10.109
+  ]
+ },
+ "voiceover": null,
+ "shots": [
+  {
+   "beat0": 0.0,
+   "beat1": 8.0,
+   "role": "intro",
+   "t0": 0.0,
+   "t1": 5.066666666666666,
+   "clip": "tests/fontainebleau/work/clips/04-video-foret-chateau-dusk-wall.mp4",
+   "clip_kind": "video",
+   "src_in": 3.87,
+   "speed": 1.0,
+   "focus": [
+    0.49516895074190503,
+    0.46288141873010297
+   ],
+   "mask": null,
+   "w": 1920,
+   "h": 1080,
+   "src_dur": 5.066666666666666,
+   "target_q": 0.13,
+   "grade": {
+    "saturation": 1.2,
+    "contrast": 1.08,
+    "tint": [
+     0.93,
+     1.0,
+     1.05
+    ]
+   }
+  },
+  {
+   "beat0": 8.0,
+   "beat1": 16.0,
+   "role": "low",
+   "t0": 5.066666666666666,
+   "t1": 10.1,
+   "clip": "tests/fontainebleau/work/clips/11-video-foret-town-hillview.mp4",
+   "clip_kind": "video",
+   "src_in": 0.0,
+   "speed": 0.8791390728476821,
+   "focus": [
+    0.5057127215966737,
+    0.5216233146390965
+   ],
+   "mask": null,
+   "w": 1920,
+   "h": 1080,
+   "src_dur": 4.425,
+   "target_q": 0.13,
+   "grade": {
+    "saturation": 1.2,
+    "contrast": 1.08,
+    "tint": [
+     0.93,
+     1.0,
+     1.05
+    ]
+   }
+  },
+  {
+   "beat0": 16.0,
+   "beat1": 22.0,
+   "role": "drop",
+   "t0": 10.1,
+   "t1": 13.9,
+   "clip": "tests/fontainebleau/work/clips/08-video-foret-dusk-water.mp4",
+   "clip_kind": "video",
+   "src_in": 4.87,
+   "speed": 1.0,
+   "focus": [
+    0.4470354938176439,
+    0.4569429327694697
+   ],
+   "mask": null,
+   "w": 1920,
+   "h": 1080,
+   "src_dur": 3.8000000000000007,
+   "target_q": 0.48,
+   "grade": {
+    "saturation": 1.2,
+    "contrast": 1.08,
+    "tint": [
+     0.93,
+     1.0,
+     1.05
+    ]
+   }
+  },
+  {
+   "beat0": 22.0,
+   "beat1": 32.0,
+   "role": "mid",
+   "t0": 13.9,
+   "t1": 20.233333333333334,
+   "clip": "tests/fontainebleau/work/clips/06-video-foret-aerial-town.mp4",
+   "clip_kind": "video",
+   "src_in": 0.0,
+   "speed": 0.5,
+   "focus": [
+    0.4980665591384,
+    0.5119552138932086
+   ],
+   "mask": null,
+   "w": 1920,
+   "h": 1080,
+   "src_dur": 3.166666666666667,
+   "target_q": 0.47,
+   "grade": {
+    "saturation": 1.2,
+    "contrast": 1.08,
+    "tint": [
+     0.93,
+     1.0,
+     1.05
+    ]
+   }
+  }
+ ],
+ "events": [
+  {
+   "fx": "hud_glitch",
+   "t0": 0.0,
+   "t1": 0.6318,
+   "tc": 0,
+   "params": {
+    "amount": 1.0
+   },
+   "layer": "post",
+   "at": "time"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 5.0545,
+   "t1": 5.6863,
+   "tc": 5.0545,
+   "params": {
+    "side": "left",
+    "xmark": true,
+    "brackets": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 5.0545,
+   "t1": 5.1335,
+   "tc": 5.0545,
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 6.0022,
+   "t1": 6.0812,
+   "tc": 6.0022,
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 6.3181,
+   "t1": 6.9499,
+   "tc": 6.3181,
+   "params": {
+    "side": "right",
+    "network": true,
+    "card": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 6.9499,
+   "t1": 7.0289,
+   "tc": 6.9499,
+   "params": {
+    "band_y": 0.62,
+    "band_h": 0.07,
+    "texture": true,
+    "width": 0.45
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 7.2658,
+   "t1": 7.4238,
+   "tc": 7.2658,
+   "params": {
+    "count": 2,
+    "size": 90
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_heat",
+   "t0": 7.8976,
+   "t1": 8.3715,
+   "tc": 7.8976,
+   "params": {
+    "y0": 0.115,
+    "y1": 0.73,
+    "normalise": true,
+    "subject_black": true,
+    "range": 0.75,
+    "floor": 0.02
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 7.8976,
+   "t1": 8.0556,
+   "tc": 7.8976,
+   "params": {
+    "count": 2,
+    "size": 50
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 8.5294,
+   "t1": 8.6874,
+   "tc": 8.5294,
+   "params": {
+    "count": 2
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 8.8453,
+   "t1": 9.4772,
+   "tc": 8.8453,
+   "params": {
+    "side": "left",
+    "xmark": true,
+    "brackets": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 8.8453,
+   "t1": 8.9243,
+   "tc": 8.8453,
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 9.7931,
+   "t1": 9.872,
+   "tc": 9.7931,
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_glitch",
+   "t0": 10.1,
+   "t1": 10.4159,
+   "tc": 10.1,
+   "params": {
+    "amount": 0.6
+   },
+   "layer": "post",
+   "at": "cut"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 10.109,
+   "t1": 10.7408,
+   "tc": 10.109,
+   "params": {
+    "side": "right",
+    "network": true,
+    "card": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "zoom_pulse",
+   "t0": 10.109,
+   "t1": 10.4249,
+   "tc": 10.109,
+   "params": {
+    "amount": 0.05
+   },
+   "layer": "post",
+   "at": "drop"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 10.7408,
+   "t1": 10.8197,
+   "tc": 10.7408,
+   "params": {
+    "band_y": 0.62,
+    "band_h": 0.07,
+    "texture": true,
+    "width": 0.45
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 11.0567,
+   "t1": 11.2146,
+   "tc": 11.0567,
+   "params": {
+    "count": 2,
+    "size": 90
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_heat",
+   "t0": 11.6885,
+   "t1": 12.1623,
+   "tc": 11.6885,
+   "params": {
+    "y0": 0.115,
+    "y1": 0.73,
+    "normalise": true,
+    "subject_black": true,
+    "range": 0.75,
+    "floor": 0.02
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 11.6885,
+   "t1": 11.8464,
+   "tc": 11.6885,
+   "params": {
+    "count": 2,
+    "size": 50
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 12.3203,
+   "t1": 12.4782,
+   "tc": 12.3203,
+   "params": {
+    "count": 2
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 12.6362,
+   "t1": 13.268,
+   "tc": 12.6362,
+   "params": {
+    "side": "left",
+    "xmark": true,
+    "brackets": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 12.6362,
+   "t1": 12.7152,
+   "tc": 12.6362,
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 13.5839,
+   "t1": 13.6629,
+   "tc": 13.5839,
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 13.8998,
+   "t1": 14.5316,
+   "tc": 13.8998,
+   "params": {
+    "side": "right",
+    "network": true,
+    "card": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 14.5316,
+   "t1": 14.6106,
+   "tc": 14.5316,
+   "params": {
+    "band_y": 0.62,
+    "band_h": 0.07,
+    "texture": true,
+    "width": 0.45
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 14.8475,
+   "t1": 15.0055,
+   "tc": 14.8475,
+   "params": {
+    "count": 2,
+    "size": 90
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_heat",
+   "t0": 15.4793,
+   "t1": 15.9532,
+   "tc": 15.4793,
+   "params": {
+    "y0": 0.115,
+    "y1": 0.73,
+    "normalise": true,
+    "subject_black": true,
+    "range": 0.75,
+    "floor": 0.02
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 15.4793,
+   "t1": 15.6373,
+   "tc": 15.4793,
+   "params": {
+    "count": 2,
+    "size": 50
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 16.1112,
+   "t1": 16.2691,
+   "tc": 16.1112,
+   "params": {
+    "count": 2
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 16.4271,
+   "t1": 17.0589,
+   "tc": 16.4271,
+   "params": {
+    "side": "left",
+    "xmark": true,
+    "brackets": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 16.4271,
+   "t1": 16.506,
+   "tc": 16.4271,
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 17.3748,
+   "t1": 17.4538,
+   "tc": 17.3748,
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 17.6907,
+   "t1": 18.3225,
+   "tc": 17.6907,
+   "params": {
+    "side": "right",
+    "network": true,
+    "card": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "layer": "post",
+   "at": "beat"
+  }
+ ],
+ "sfx": [
+  {
+   "kind": "tick",
+   "t": 5.3704,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 5.6863,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 6.0022,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 6.0022,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 6.634,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 6.9499,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 6.9499,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 7.2658,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "whoosh",
+   "t": 7.8976,
+   "gain": 0.35,
+   "at": "beat",
+   "offset": 0
+  },
+  {
+   "kind": "tick",
+   "t": 7.8976,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 8.2135,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 8.8453,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 9.1612,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 9.4772,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 9.7931,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 9.7931,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "impact",
+   "t": 10.109,
+   "gain": 0.5,
+   "at": "drop"
+  },
+  {
+   "kind": "tick",
+   "t": 10.4249,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 10.7408,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 10.7408,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 11.0567,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "whoosh",
+   "t": 11.6885,
+   "gain": 0.35,
+   "at": "beat",
+   "offset": 0
+  },
+  {
+   "kind": "tick",
+   "t": 11.6885,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 12.0044,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 12.3203,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 12.9521,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 13.268,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 13.5839,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 13.5839,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 13.8998,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 14.2157,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 14.5316,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 14.8475,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 15.1634,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "whoosh",
+   "t": 15.4793,
+   "gain": 0.35,
+   "at": "beat",
+   "offset": 0
+  },
+  {
+   "kind": "tick",
+   "t": 15.7952,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 16.1112,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 16.4271,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 17.0589,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 17.3748,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 17.3748,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 17.6907,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 18.3225,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "whoosh",
+   "t": 19.2702,
+   "gain": 0.35,
+   "at": "beat",
+   "offset": 0
+  },
+  {
+   "kind": "gap",
+   "t": 19.9147,
+   "gain": 1,
+   "at": "time",
+   "dur": 0.15
+  }
+ ],
+ "words": [
+  {
+   "text": "UNESCO",
+   "t0": 5.3704,
+   "t1": 5.6863,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "World",
+   "t0": 5.6863,
+   "t1": 6.0022,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "Heritage",
+   "t0": 6.0022,
+   "t1": 6.3181,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "Site",
+   "t0": 6.634,
+   "t1": 6.9499,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "since",
+   "t0": 6.9499,
+   "t1": 7.2658,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "1981",
+   "t0": 7.2658,
+   "t1": 7.5817,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "Napoleon's",
+   "t0": 7.8976,
+   "t1": 8.2135,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "farewell",
+   "t0": 8.2135,
+   "t1": 8.5294,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "to",
+   "t0": 8.8453,
+   "t1": 9.1612,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 9.1612,
+   "t1": 9.4772,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "Old",
+   "t0": 9.4772,
+   "t1": 9.7931,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "Guard",
+   "t0": 9.7931,
+   "t1": 10.109,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "20",
+   "t0": 10.4249,
+   "t1": 10.7408,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "April",
+   "t0": 10.7408,
+   "t1": 11.0567,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "1814",
+   "t0": 11.0567,
+   "t1": 11.3726,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "The",
+   "t0": 11.6885,
+   "t1": 12.0044,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "Horseshoe",
+   "t0": 12.0044,
+   "t1": 12.3203,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "staircase",
+   "t0": 12.3203,
+   "t1": 12.6362,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "a",
+   "t0": 12.9521,
+   "t1": 13.268,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "symbol",
+   "t0": 13.268,
+   "t1": 13.5839,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "of",
+   "t0": 13.5839,
+   "t1": 13.8998,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 13.8998,
+   "t1": 14.2157,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "ch\u00e2teau",
+   "t0": 14.2157,
+   "t1": 14.5316,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "From",
+   "t0": 14.8475,
+   "t1": 15.1634,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "1528",
+   "t0": 15.1634,
+   "t1": 15.4793,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "Fran\u00e7ois",
+   "t0": 15.7952,
+   "t1": 16.1112,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "I",
+   "t0": 16.1112,
+   "t1": 16.4271,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "builds",
+   "t0": 16.4271,
+   "t1": 16.743,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "his",
+   "t0": 17.0589,
+   "t1": 17.3748,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "'New",
+   "t0": 17.3748,
+   "t1": 17.6907,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "Rome'",
+   "t0": 17.6907,
+   "t1": 18.0066,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  }
+ ],
+ "stats": {
+  "n_shots": 4,
+  "mean_shot_beats": 8.0,
+  "shot_beats_hist": {
+   "6.0": 1,
+   "8.0": 2,
+   "10.0": 1
+  },
+  "planned_cut_offset_ms_from_sixteenth_grid_mean_abs": 7.11,
+  "n_events": 34,
+  "events_by_fx": {
+   "hud_bar": 8,
+   "hud_glitch": 2,
+   "hud_heat": 3,
+   "hud_marks": 9,
+   "hud_wipe": 11,
+   "zoom_pulse": 1
+  }
+ },
+ "style_path": "tests/fontainebleau-hud-lyric-heat/style.json"
+}

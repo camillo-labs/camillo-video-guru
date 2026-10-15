@@ -1,0 +1,40 @@
+{
+ "features": {
+  "clip_count": 10,
+  "stills_share": 0.0,
+  "screen_capture_count": 0,
+  "screen_capture_share": 0.0,
+  "speech": false,
+  "speech_share": 0.0,
+  "large_face_share": 0.0,
+  "long_clip_share": 0.9487,
+  "mean_motion": 8.1241,
+  "mean_saturation": 65.45,
+  "mean_luma": 126.05,
+  "subjects": 6,
+  "cards_dir": null,
+  "has_cards": false,
+  "has_caption_source": true,
+  "mood": "edgy",
+  "audience": null,
+  "caption_kind": null,
+  "voiceover": false,
+  "duration": null,
+  "aspect": null
+ },
+ "scores": {
+  "bw-flash-vo": 0.85,
+  "lyric-word-beat": 0.45,
+  "hud-lyric-heat": 0.0,
+  "hud-lyric-light": 0.0,
+  "talking-head-split": 0.0,
+  "kinetic-card-explainer": 0.0
+ },
+ "runner_up": "lyric-word-beat",
+ "runner_up_score": 0.45,
+ "audio": {
+  "bed_db": -14.0
+ },
+ "style": "bw-flash-vo",
+ "score": 0.85
+}

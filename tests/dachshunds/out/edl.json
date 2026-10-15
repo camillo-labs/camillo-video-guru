@@ -1,0 +1,508 @@
+{
+ "style": "lyric-word-beat",
+ "seed": 3,
+ "fps": 30,
+ "aspect": "9:16",
+ "duration": 13.7704,
+ "n_beats": 28,
+ "music": {
+  "path": "tests/dachshunds/assets/music/Raving-Energy.mp3",
+  "start": 3.9686,
+  "bpm": 122.0,
+  "beat_period": 0.4918,
+  "drops_in_window": [
+   3.934
+  ]
+ },
+ "voiceover": null,
+ "shots": [
+  {
+   "beat0": 0.0,
+   "beat1": 3.0,
+   "role": "intro",
+   "t0": 0.0,
+   "t1": 1.4666666666666666,
+   "clip": "tests/dachshunds/assets/clips/pexels-10660961.mp4",
+   "clip_kind": "video",
+   "src_in": 4.25,
+   "speed": 1.0,
+   "focus": [
+    0.43863948486548554,
+    0.5163934426229508
+   ],
+   "mask": null,
+   "w": 720,
+   "h": 1280,
+   "src_dur": 1.4666666666666666,
+   "target_q": 0.1,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.03,
+     1.0,
+     0.95
+    ]
+   }
+  },
+  {
+   "beat0": 3.0,
+   "beat1": 7.0,
+   "role": "low",
+   "t0": 1.4666666666666666,
+   "t1": 3.433333333333333,
+   "clip": "tests/dachshunds/assets/clips/pexels-3042471.mp4",
+   "clip_kind": "video",
+   "src_in": 0.5,
+   "speed": 1.0,
+   "focus": [
+    0.6421720534482912,
+    0.23580246913580247
+   ],
+   "mask": null,
+   "w": 1280,
+   "h": 720,
+   "src_dur": 1.9666666666666666,
+   "target_q": 0.03,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.03,
+     1.0,
+     0.95
+    ]
+   }
+  },
+  {
+   "beat0": 7.0,
+   "beat1": 11.0,
+   "role": "low",
+   "t0": 3.433333333333333,
+   "t1": 5.4,
+   "clip": "tests/dachshunds/assets/clips/pexels-31710569.mp4",
+   "clip_kind": "video",
+   "src_in": 1.25,
+   "speed": 1.0,
+   "focus": [
+    0.510005540707829,
+    0.3236220472440945
+   ],
+   "mask": null,
+   "w": 1280,
+   "h": 676,
+   "src_dur": 1.9666666666666672,
+   "target_q": 0.08,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.03,
+     1.0,
+     0.95
+    ]
+   }
+  },
+  {
+   "beat0": 11.0,
+   "beat1": 15.0,
+   "role": "drop",
+   "t0": 5.4,
+   "t1": 7.366666666666666,
+   "clip": "tests/dachshunds/assets/clips/pexels-3644110.mp4",
+   "clip_kind": "video",
+   "src_in": 2.0,
+   "speed": 1.0,
+   "focus": [
+    0.34370222356853536,
+    0.5562962962962963
+   ],
+   "mask": null,
+   "w": 1280,
+   "h": 720,
+   "src_dur": 1.966666666666666,
+   "target_q": 0.77,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.03,
+     1.0,
+     0.95
+    ]
+   }
+  },
+  {
+   "beat0": 15.0,
+   "beat1": 20.0,
+   "role": "high",
+   "t0": 7.366666666666666,
+   "t1": 9.833333333333334,
+   "clip": "tests/dachshunds/assets/clips/pexels-37554395.mp4",
+   "clip_kind": "video",
+   "src_in": 6.5,
+   "speed": 1.0,
+   "focus": [
+    0.6218409163358358,
+    0.4910226385636222
+   ],
+   "mask": null,
+   "w": 720,
+   "h": 1280,
+   "src_dur": 2.4666666666666677,
+   "target_q": 0.51,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.03,
+     1.0,
+     0.95
+    ]
+   }
+  },
+  {
+   "beat0": 20.0,
+   "beat1": 24.0,
+   "role": "mid",
+   "t0": 9.833333333333334,
+   "t1": 11.8,
+   "clip": "tests/dachshunds/assets/clips/pexels-6952897.mp4",
+   "clip_kind": "video",
+   "src_in": 1.25,
+   "speed": 1.0,
+   "focus": [
+    0.4553017796545439,
+    0.5049349240536797
+   ],
+   "mask": null,
+   "w": 1280,
+   "h": 720,
+   "src_dur": 1.9666666666666668,
+   "target_q": 0.41,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.03,
+     1.0,
+     0.95
+    ]
+   }
+  },
+  {
+   "beat0": 24.0,
+   "beat1": 27.0,
+   "role": "mid",
+   "t0": 11.8,
+   "t1": 13.266666666666667,
+   "clip": "tests/dachshunds/assets/clips/pexels-6953022.mp4",
+   "clip_kind": "video",
+   "src_in": 2.75,
+   "speed": 1.0,
+   "focus": [
+    0.5774494183669094,
+    0.4913348946135831
+   ],
+   "mask": null,
+   "w": 720,
+   "h": 1280,
+   "src_dur": 1.4666666666666668,
+   "target_q": 0.7,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.03,
+     1.0,
+     0.95
+    ]
+   }
+  },
+  {
+   "beat0": 27.0,
+   "beat1": 28.0,
+   "role": "outro",
+   "seam": true,
+   "t0": 13.266666666666667,
+   "t1": 13.766666666666667,
+   "clip": "tests/dachshunds/assets/clips/pexels-10660961.mp4",
+   "clip_kind": "video",
+   "src_in": 4.25,
+   "speed": 1.0,
+   "focus": [
+    0.43863948486548554,
+    0.5163934426229508
+   ],
+   "mask": null,
+   "w": 720,
+   "h": 1280,
+   "src_dur": 0.5,
+   "target_q": 0.1,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.2,
+    "grain": 0.01,
+    "tint": [
+     1.03,
+     1.0,
+     0.95
+    ]
+   }
+  }
+ ],
+ "events": [
+  {
+   "fx": "lyr_dip_mosaic",
+   "t0": 1.4667,
+   "t1": 2.0568,
+   "tc": 1.4667,
+   "params": {
+    "black": 0.25,
+    "mosaic_end": 0.8,
+    "cells": 3
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "lyr_haze_flash",
+   "t0": 5.3508,
+   "t1": 5.8426,
+   "tc": 5.4,
+   "params": {
+    "cut_u": 0.1,
+    "flash_u": [
+     0.35,
+     0.45
+    ],
+    "veil": 0.65
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "lyr_band_wipe",
+   "t0": 7.3667,
+   "t1": 7.9568,
+   "tc": 7.3667,
+   "params": {
+    "top0": 0.2,
+    "bot0": 0.38,
+    "close_u": 0.85
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "lyr_radial_flash",
+   "t0": 9.5874,
+   "t1": 9.9563,
+   "tc": 9.8333,
+   "params": {
+    "cut_u": 0.667,
+    "amount": 0.22,
+    "white_u": 0.18
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "dip_black",
+   "t0": 13.2667,
+   "t1": 13.6109,
+   "tc": 13.2667,
+   "params": {
+    "peak": 0.8
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "invert",
+   "t0": 13.6355,
+   "t1": 13.7585,
+   "tc": 13.2667,
+   "params": {
+    "shape": "hold"
+   },
+   "layer": "pre",
+   "at": "cut"
+  }
+ ],
+ "sfx": [],
+ "words": [
+  {
+   "text": "Dachshund",
+   "t0": 0.9836,
+   "t1": 1.4754,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "means",
+   "t0": 1.4754,
+   "t1": 1.7213,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "badger",
+   "t0": 1.7213,
+   "t1": 2.2131,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "dog",
+   "t0": 2.2131,
+   "t1": 2.7049,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "Bred",
+   "t0": 3.1967,
+   "t1": 3.4426,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "to",
+   "t0": 3.4426,
+   "t1": 3.9344,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "flush",
+   "t0": 3.9344,
+   "t1": 4.1803,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "out",
+   "t0": 4.1803,
+   "t1": 4.6721,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "badgers",
+   "t0": 4.6721,
+   "t1": 5.1639,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "Smooth,",
+   "t0": 5.6557,
+   "t1": 5.9016,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "wire",
+   "t0": 5.9016,
+   "t1": 6.3934,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "or",
+   "t0": 6.3934,
+   "t1": 6.6393,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "long",
+   "t0": 6.6393,
+   "t1": 7.1311,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "haired",
+   "t0": 7.1311,
+   "t1": 7.6229,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "A",
+   "t0": 8.1147,
+   "t1": 8.3606,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "German",
+   "t0": 8.3606,
+   "t1": 8.8524,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "breed",
+   "t0": 8.8524,
+   "t1": 9.0983,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  }
+ ],
+ "stats": {
+  "n_shots": 8,
+  "mean_shot_beats": 3.5,
+  "shot_beats_hist": {
+   "1.0": 1,
+   "3.0": 2,
+   "4.0": 4,
+   "5.0": 1
+  },
+  "planned_cut_offset_ms_from_sixteenth_grid_mean_abs": 7.99,
+  "n_events": 6,
+  "events_by_fx": {
+   "dip_black": 1,
+   "invert": 1,
+   "lyr_band_wipe": 1,
+   "lyr_dip_mosaic": 1,
+   "lyr_haze_flash": 1,
+   "lyr_radial_flash": 1
+  }
+ },
+ "style_path": "tests/dachshunds/style.json"
+}

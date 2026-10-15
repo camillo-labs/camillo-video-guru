@@ -1,0 +1,13 @@
+{
+ "per_fx_mean_abs_ms": {
+  "hud_glitch": 1.0,
+  "hud_bar": 8.6,
+  "hud_wipe": 8.3,
+  "hud_heat": 6.6,
+  "hud_marks": 6.7,
+  "zoom_pulse": 3.2
+ },
+ "all_events_mean_abs_ms": 7.3,
+ "n_events": 30,
+ "frame_ms": 33.3
+}

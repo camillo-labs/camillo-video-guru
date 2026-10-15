@@ -1,0 +1,396 @@
+{
+ "fps": 30,
+ "duration": 12.6,
+ "crop": {
+  "x": 0,
+  "y": 8,
+  "w": 1288,
+  "h": 724,
+  "note": "TikTok UI overlay (CellVerse avatar, plus, heart, smiley) sits over the right edge and bottom corner"
+ },
+ "bpm": 124.0,
+ "beat_s": 0.4839,
+ "beat_phase_s": 0.27,
+ "loop": {
+  "period_s": 9.9,
+  "black_matte_frames": [
+   1.93,
+   11.83
+  ],
+  "note": "video loops under a continuing song, so loop 2 starts at 1.93 s and is not in sync with the music"
+ },
+ "structure": {
+  "tail_of_previous_loop": [
+   0.0,
+   1.9
+  ],
+  "glitch_reveal": [
+   2.0,
+   2.5
+  ],
+  "clean_footage": [
+   2.5,
+   6.3
+  ],
+  "first_caption": 6.83,
+  "loop_end": 11.83
+ },
+ "events": {
+  "heat_flash": [
+   [
+    8.27,
+    8.57
+   ],
+   [
+    10.6,
+    10.93
+   ],
+   [
+    0.67,
+    1.03
+   ]
+  ],
+  "detect_midband": [
+   [
+    1.17,
+    1.2
+   ],
+   [
+    6.37,
+    6.37
+   ],
+   [
+    8.7,
+    8.73
+   ],
+   [
+    11.07,
+    11.1
+   ]
+  ],
+  "caption_onsets": [
+   6.83,
+   7.23,
+   7.8,
+   9.0,
+   9.63,
+   10.6
+  ],
+  "caption_text": [
+   "BOUGHT MAMA",
+   "A CRIB AND A",
+   "BRAND NEW WAGON",
+   "NOW SHE HIT",
+   "THE GROCERY SHOP",
+   "LOOKING LAVISH"
+  ]
+ },
+ "lyric_words": [
+  [
+   2.28,
+   2.74,
+   " Let"
+  ],
+  [
+   2.74,
+   3.04,
+   " a"
+  ],
+  [
+   3.04,
+   3.24,
+   " nigga"
+  ],
+  [
+   3.24,
+   3.7,
+   " bracket,"
+  ],
+  [
+   4.02,
+   4.14,
+   " let"
+  ],
+  [
+   4.14,
+   4.28,
+   " you"
+  ],
+  [
+   4.28,
+   4.44,
+   " know"
+  ],
+  [
+   4.44,
+   4.54,
+   " the"
+  ],
+  [
+   4.54,
+   4.9,
+   " fall,"
+  ],
+  [
+   5.02,
+   5.1,
+   " took"
+  ],
+  [
+   5.1,
+   5.26,
+   " the"
+  ],
+  [
+   5.26,
+   5.48,
+   " year"
+  ],
+  [
+   5.48,
+   5.76,
+   " like"
+  ],
+  [
+   5.76,
+   5.94,
+   " a"
+  ],
+  [
+   5.94,
+   6.46,
+   " bandit"
+  ],
+  [
+   6.46,
+   6.74,
+   " Bob"
+  ],
+  [
+   6.74,
+   7.0,
+   " I'm"
+  ],
+  [
+   7.0,
+   7.04,
+   " on"
+  ],
+  [
+   7.04,
+   7.3,
+   " a"
+  ],
+  [
+   7.3,
+   7.44,
+   " crib"
+  ],
+  [
+   7.44,
+   7.68,
+   " and"
+  ],
+  [
+   7.68,
+   7.84,
+   " a"
+  ],
+  [
+   7.84,
+   8.08,
+   " brand"
+  ],
+  [
+   8.08,
+   8.38,
+   " new"
+  ],
+  [
+   8.38,
+   8.94,
+   " wagon"
+  ],
+  [
+   8.94,
+   9.28,
+   " Now"
+  ],
+  [
+   9.28,
+   9.46,
+   " she"
+  ],
+  [
+   9.46,
+   9.64,
+   " hit"
+  ],
+  [
+   9.64,
+   9.76,
+   " the"
+  ],
+  [
+   9.76,
+   10.22,
+   " grocery"
+  ],
+  [
+   10.22,
+   10.7,
+   " shop,"
+  ],
+  [
+   10.8,
+   11.0,
+   " looking"
+  ],
+  [
+   11.0,
+   11.72,
+   " lavish"
+  ]
+ ],
+ "offsets_ms": {
+  "caption_onsets_to_beat": [
+   -214,
+   186,
+   -212,
+   20,
+   166,
+   169
+  ],
+  "caption_onsets_to_eighth": [
+   28,
+   -56,
+   30,
+   20,
+   -75,
+   -73
+  ],
+  "heat_flash_to_beat": [
+   -226,
+   169,
+   -84
+  ],
+  "heat_flash_to_eighth": [
+   16,
+   -73,
+   -84
+  ],
+  "caption_onset_minus_nearest_lyric_onset": [
+   90,
+   -70,
+   -40,
+   60,
+   -10,
+   -200
+  ]
+ },
+ "grade": {
+  "v1_clean_footage_3.0-6.0": {
+   "meanRGB": [
+    120.5,
+    144.3,
+    155.2
+   ],
+   "sat": 0.298,
+   "lum_p1_5_50_95_99": [
+    2.1,
+    9.4,
+    161.4,
+    232.7,
+    245.5
+   ],
+   "sky_top": [
+    135.8,
+    175.5,
+    189.9
+   ]
+  },
+  "v1_captioned_7.9-8.2": {
+   "meanRGB": [
+    119.8,
+    127.1,
+    134.2
+   ],
+   "sat": 0.368,
+   "lum_p1_5_50_95_99": [
+    1.1,
+    5.5,
+    150.4,
+    230.5,
+    245.4
+   ],
+   "sky_top": [
+    139.9,
+    176.3,
+    188.1
+   ]
+  },
+  "v1_heat_8.3-8.5": {
+   "meanRGB": [
+    149.3,
+    87.4,
+    63.7
+   ],
+   "sat": 0.631,
+   "lum_p1_5_50_95_99": [
+    0.9,
+    5.5,
+    90.2,
+    216.0,
+    233.0
+   ],
+   "sky_top": [
+    174.2,
+    150.7,
+    134.2
+   ]
+  }
+ },
+ "heat_palette_stops_rgb": [
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   97,
+   3,
+   6
+  ],
+  [
+   170,
+   10,
+   3
+  ],
+  [
+   221,
+   122,
+   29
+  ],
+  [
+   251,
+   133,
+   18
+  ],
+  [
+   246,
+   197,
+   80
+  ],
+  [
+   255,
+   240,
+   175
+  ]
+ ],
+ "heat_band_rows_frac": [
+  0.115,
+  0.884
+ ],
+ "fx_cycle_s": null,
+ "finding": "Captions are locked to lyric word onsets (mean absolute offset to nearest word onset 59 ms in v4, 78 ms in v1). The HUD bar, detect wipe and heat flash run on a fixed 2.95 s clock (6.1 beats at 124 BPM) and are not beat locked, their mean offset to the eighth-note grid (36 to 58 ms) is no better than chance (60 ms)."
+}

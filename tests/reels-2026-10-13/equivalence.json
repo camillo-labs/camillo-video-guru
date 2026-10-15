@@ -1,0 +1,7 @@
+{
+  "command": "make_edit.py --style bw-flash-vo (before) and the same style plus audio_shape and sfx_library (after.style.json), --clips _testdata/clips/A_16x9 --music _testdata/music/house128.wav --voiceover _testdata/vo/vo1.aiff --aspect 16:9 --duration 15 --seed 3 --music-start 14.9995 --res 360",
+  "shots_equal": true, "events_equal": true, "caption_words_equal": true,
+  "video_frame_md5_over_all_394_frames": {"before": "756571e08193428f7fbd5b9c58243ca1", "after": "756571e08193428f7fbd5b9c58243ca1"},
+  "audio": "differs as intended: music low band under the voice about 15 dB down, intro gated, one gap before the drop impact at 7.38 s, library samples on whoosh, impact, riser and click",
+  "sfx_after_removing_the_added_gap_and_sample_tags_equal": true
+}

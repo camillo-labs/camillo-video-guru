@@ -1,0 +1,114 @@
+{
+ "bpm_planned": 127.99,
+ "bpm_rendered_audio": 122.63,
+ "n_planned_cuts": 20,
+ "n_cuts_detected_in_video": 17,
+ "planned_cut_offset_from_sixteenth_grid_ms_mean_abs": 21.1,
+ "video_cut_offset_from_nearest_sixteenth_ms_mean_abs": 29.85,
+ "share_of_cuts_within_one_frame_of_a_sixteenth": 0.588,
+ "share_of_cuts_on_a_beat_or_eighth_within_one_frame": 0.412,
+ "video_cut_offset_from_nearest_eighth_ms_mean_abs": 51.72,
+ "video_cut_offset_from_nearest_eighth_ms_median_abs": 46.07,
+ "video_cut_offset_from_nearest_beat_ms_mean_abs": 102.33,
+ "video_cut_offset_signed_mean_ms": -2.17,
+ "frame_ms": 33.33,
+ "planned_beats_vs_local_attack_in_music": {
+  "beats_with_a_clear_attack": 1.0,
+  "median_offset_ms": 0.5,
+  "mean_abs_offset_ms": 13.2,
+  "share_within_25ms": 0.73
+ },
+ "vs_synthesised_ground_truth": {
+  "true_bpm": 128.0,
+  "video_cut_offset_vs_true_sixteenth_grid_ms_mean_abs": 23.19,
+  "planned_cut_offset_vs_true_sixteenth_grid_ms_mean_abs": 21.33,
+  "video_cut_offset_vs_true_sixteenth_grid_ms_max_abs": 55.07
+ },
+ "cuts": [
+  {
+   "planned": 1.967,
+   "measured": 1.967,
+   "off_sixteenth_ms": -8.3
+  },
+  {
+   "planned": 2.867,
+   "measured": 2.867,
+   "off_sixteenth_ms": 35.4
+  },
+  {
+   "planned": 4.633,
+   "measured": 4.633,
+   "off_sixteenth_ms": -32.6
+  },
+  {
+   "planned": 5.967,
+   "measured": 5.967,
+   "off_sixteenth_ms": -44.7
+  },
+  {
+   "planned": 8.067,
+   "measured": 8.067,
+   "off_sixteenth_ms": -24.1
+  },
+  {
+   "planned": 9.367,
+   "measured": 9.367,
+   "off_sixteenth_ms": 52.8
+  },
+  {
+   "planned": 10.8,
+   "measured": 10.8,
+   "off_sixteenth_ms": 18.3
+  },
+  {
+   "planned": 13.133,
+   "measured": 13.133,
+   "off_sixteenth_ms": 27.7
+  },
+  {
+   "planned": 15.033,
+   "measured": 15.033,
+   "off_sixteenth_ms": -29.4
+  },
+  {
+   "planned": 15.933,
+   "measured": 15.933,
+   "off_sixteenth_ms": 14.4
+  },
+  {
+   "planned": 17.267,
+   "measured": 17.267,
+   "off_sixteenth_ms": 2.3
+  },
+  {
+   "planned": 18.167,
+   "measured": 18.167,
+   "off_sixteenth_ms": 46.1
+  },
+  {
+   "planned": 19.133,
+   "measured": 19.133,
+   "off_sixteenth_ms": 34.2
+  },
+  {
+   "planned": 20.733,
+   "measured": 20.733,
+   "off_sixteenth_ms": 44.1
+  },
+  {
+   "planned": 21.567,
+   "measured": 21.567,
+   "off_sixteenth_ms": 21.3
+  },
+  {
+   "planned": 23.0,
+   "measured": 23.0,
+   "off_sixteenth_ms": -13.2
+  },
+  {
+   "planned": 24.3,
+   "measured": 24.3,
+   "off_sixteenth_ms": -58.6
+  }
+ ]
+}

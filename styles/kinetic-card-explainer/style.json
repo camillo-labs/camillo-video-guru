@@ -1,0 +1,188 @@
+{
+ "name": "kinetic-card-explainer",
+ "description": "Vertical explainer built from one-idea scenes. Hard cuts about every 1.4 s between flat dark, light, beige and terracotta scenes that hold a small diagram, a pixel mascot, pills and arrows that spring in, one or two bold sans words at a time with an italic serif accent word in sky blue, two talking-head cut-ins with serif italic captions, and a closing comment KEYWORD end card that dims for the last four seconds. Voice only, no music bed.",
+ "defaults": {
+  "aspect": "9:16",
+  "duration": 31.0
+ },
+ "structure": {
+  "intro_beats": 3,
+  "outro_beats": 3,
+  "drop_at": 0.5,
+  "drop_beats": 4,
+  "end_on_bar": false,
+  "vo_start_beats": 0.25
+ },
+ "cuts": {
+  "first_shot_beats": 3,
+  "min_beats": 2,
+  "phrase_snap_beats": 1.0,
+  "bar_align": false,
+  "lengths": {
+   "default": [
+    [
+     3,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4,
+     2
+    ]
+   ]
+  },
+  "snap_words": {
+   "tol": 0.3,
+   "min_len": 0.8
+  }
+ },
+ "clips": {
+  "select": "sequential",
+  "avoid_repeat": 1,
+  "jitter": 0.1
+ },
+ "audio": {
+  "music_gain": 0.0
+ },
+ "moves": [
+  {
+   "fx": "kc_scene",
+   "at": "shot",
+   "layer": "pre",
+   "params": {
+    "split_y": 0.47,
+    "sequence": [
+     {
+      "bg": "light",
+      "scene": "stat",
+      "head": "split",
+      "stat": "65,896 stars  \u00b7  Oct 10, 2026"
+     },
+     {
+      "bg": "dark",
+      "scene": "stat"
+     },
+     {
+      "bg": "light",
+      "scene": "doc"
+     },
+     {
+      "bg": "terra",
+      "scene": "logo",
+      "name": "StyleEngine",
+      "tag": "Clips and a song in, a finished short out."
+     },
+     {
+      "bg": "dark",
+      "scene": "terminal"
+     },
+     {
+      "bg": "light",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "it handles research",
+      "row": false
+     },
+     {
+      "bg": "beige",
+      "scene": "hub"
+     },
+     {
+      "bg": "dark",
+      "scene": "chips"
+     },
+     {
+      "bg": "light",
+      "scene": "chips"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "doc",
+      "highlight": "scenes, keyframes, and style"
+     },
+     {
+      "bg": "beige",
+      "scene": "timeline"
+     },
+     {
+      "bg": "dark",
+      "scene": "none",
+      "head": "full"
+     },
+     {
+      "bg": "light",
+      "scene": "media",
+      "tint": 0,
+      "pill": "Generated clips"
+     },
+     {
+      "bg": "dark",
+      "scene": "media",
+      "tint": 1,
+      "pill": "Six clips"
+     }
+    ]
+   }
+  }
+ ],
+ "captions": {
+  "kind": "kc_word",
+  "size_frac": 0.07,
+  "y": 0.7,
+  "y_head": 0.69,
+  "max_words": 2,
+  "auto_accent": true,
+  "accent_min_len": 6,
+  "accent": [
+   59,
+   173,
+   221
+  ],
+  "head_key_color": [
+   160,
+   224,
+   255
+  ],
+  "hold_max": 0.9,
+  "stop_before_end_s": 7.2,
+  "timing": {
+   "mode": "grid",
+   "start_beat": 1,
+   "step_beats": 0.5,
+   "phrase_gap_beats": 0.5
+  },
+  "depth_text": {
+   "enabled": false
+  }
+ },
+ "overlays": [
+  {
+   "kind": "kc_end",
+   "keyword": "MONTAGE",
+   "pre": "comment",
+   "lines": [
+    "and I'll send you the link",
+    "and a setup guide"
+   ],
+   "split_s": 1.26,
+   "card_s": 1.94,
+   "dim_s": 4.03,
+   "dim": 0.75
+  }
+ ]
+}

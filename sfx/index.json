@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "licence": "unknown, personal and internal use only until cleared",
+  "effects": [
+    {
+      "name": "8 Bit Talking",
+      "id": "8-bit-talking",
+      "file": "ui/8-bit-talking.wav",
+      "category": "ui",
+      "duration": 2.375,
+      "peak_dbfs": -3.85,
+      "lufs": -16.0,
+      "loudness_limited_by_peak": false,
+      "sample_rate": 48000,
+      "channels": 2,
+      "source_reel": "2b7b86e46eaf4886a19f5c5a342a7d92.MP4",
+      "source_duplicate_reel": "aad7a9353ad8440f88e31cd76b65f48c.MP4",
+      "timestamp_in_source": [
+        0.0,
+        2.37
+      ],
+      "tags": [
+        "8-bit",
+        "voice",
+        "retro",
+        "game",
+        "chiptune"
+      ],
+      "licence": "unknown, personal and internal use only until cleared"
+    },
+    {
+      "name": "Old Flash",
+      "id": "old-flash",
+      "file": "other/old-flash.wav",
+      "category": "other",
+      "duration": 0.85,
+      "peak_dbfs": -1.0,
+      "lufs": -17.0,
+      "loudness_limited_by_peak": true,
+      "sample_rate": 48000,
+      "channels": 2,
+      "source_reel": "2b7b86e46eaf4886a19f5c5a342a7d92.MP4",
+      "source_duplicate_reel": "aad7a9353ad8440f88e31cd76b65f48c.MP4",
+      "timestamp_in_source": [
+        2.57,
+        3.41
+      ],
+      "tags": [
+        "flash",
+        "camera-flash",
+        "retro",
+        "pop"
+      ],
+      "licence": "unknown, personal and internal use only until cleared"
+    },
+    {
+      "name": "Cinematic Woosh",
+      "id": "cinematic-woosh",
+      "file": "transitions/whoosh/cinematic-woosh.wav",
+      "category": "transitions/whoosh",
+      "duration": 2.33,
+      "peak_dbfs": -4.89,
+      "lufs": -16.0,
+      "loudness_limited_by_peak": false,
+      "sample_rate": 48000,
+      "channels": 2,
+      "source_reel": "2b7b86e46eaf4886a19f5c5a342a7d92.MP4",
+      "source_duplicate_reel": "aad7a9353ad8440f88e31cd76b65f48c.MP4",
+      "timestamp_in_source": [
+        4.04,
+        6.36
+      ],
+      "tags": [
+        "whoosh",
+        "cinematic",
+        "transition",
+        "swoosh",
+        "tail"
+      ],
+      "licence": "unknown, personal and internal use only until cleared"
+    },
+    {
+      "name": "Night Vision",
+      "id": "night-vision",
+      "file": "other/night-vision.wav",
+      "category": "other",
+      "duration": 1.52,
+      "peak_dbfs": -5.02,
+      "lufs": -16.0,
+      "loudness_limited_by_peak": false,
+      "sample_rate": 48000,
+      "channels": 2,
+      "source_reel": "2b7b86e46eaf4886a19f5c5a342a7d92.MP4",
+      "source_duplicate_reel": "aad7a9353ad8440f88e31cd76b65f48c.MP4",
+      "timestamp_in_source": [
+        6.6,
+        8.11
+      ],
+      "tags": [
+        "night-vision",
+        "power-up",
+        "goggles",
+        "scan"
+      ],
+      "licence": "unknown, personal and internal use only until cleared"
+    },
+    {
+      "name": "Nextel",
+      "id": "nextel",
+      "file": "ui/nextel.wav",
+      "category": "ui",
+      "duration": 0.42,
+      "peak_dbfs": -10.76,
+      "lufs": -16.0,
+      "loudness_limited_by_peak": false,
+      "sample_rate": 48000,
+      "channels": 2,
+      "source_reel": "2b7b86e46eaf4886a19f5c5a342a7d92.MP4",
+      "source_duplicate_reel": "aad7a9353ad8440f88e31cd76b65f48c.MP4",
+      "timestamp_in_source": [
+        8.45,
+        8.86
+      ],
+      "tags": [
+        "nextel",
+        "walkie-talkie",
+        "chirp",
+        "beep",
+        "radio"
+      ],
+      "licence": "unknown, personal and internal use only until cleared"
+    },
+    {
+      "name": "Digital Text",
+      "id": "digital-text",
+      "file": "ui/digital-text.wav",
+      "category": "ui",
+      "duration": 0.58,
+      "peak_dbfs": -1.0,
+      "lufs": -21.9,
+      "loudness_limited_by_peak": true,
+      "sample_rate": 48000,
+      "channels": 2,
+      "source_reel": "2b7b86e46eaf4886a19f5c5a342a7d92.MP4",
+      "source_duplicate_reel": "aad7a9353ad8440f88e31cd76b65f48c.MP4",
+      "timestamp_in_source": [
+        8.93,
+        9.5
+      ],
+      "tags": [
+        "digital",
+        "text",
+        "typing",
+        "data",
+        "chatter"
+      ],
+      "licence": "unknown, personal and internal use only until cleared"
+    },
+    {
+      "name": "Riser",
+      "id": "riser",
+      "file": "risers/riser.wav",
+      "category": "risers",
+      "duration": 3.76,
+      "peak_dbfs": -1.74,
+      "lufs": -16.0,
+      "loudness_limited_by_peak": false,
+      "sample_rate": 48000,
+      "channels": 2,
+      "source_reel": "2b7b86e46eaf4886a19f5c5a342a7d92.MP4",
+      "source_duplicate_reel": "aad7a9353ad8440f88e31cd76b65f48c.MP4",
+      "timestamp_in_source": [
+        9.5,
+        13.25
+      ],
+      "tags": [
+        "riser",
+        "build-up",
+        "tension",
+        "swell"
+      ],
+      "licence": "unknown, personal and internal use only until cleared"
+    },
+    {
+      "name": "Counter",
+      "id": "counter",
+      "file": "clicks-and-switches/counter.wav",
+      "category": "clicks-and-switches",
+      "duration": 0.86,
+      "peak_dbfs": -1.0,
+      "lufs": -18.1,
+      "loudness_limited_by_peak": true,
+      "sample_rate": 48000,
+      "channels": 2,
+      "source_reel": "2b7b86e46eaf4886a19f5c5a342a7d92.MP4",
+      "source_duplicate_reel": "aad7a9353ad8440f88e31cd76b65f48c.MP4",
+      "timestamp_in_source": [
+        13.94,
+        14.79
+      ],
+      "tags": [
+        "counter",
+        "ticker",
+        "ticks",
+        "count"
+      ],
+      "licence": "unknown, personal and internal use only until cleared"
+    },
+    {
+      "name": "Bicycle Chain",
+      "id": "bicycle-chain",
+      "file": "other/bicycle-chain.wav",
+      "category": "other",
+      "duration": 0.59,
+      "peak_dbfs": -1.0,
+      "lufs": -16.5,
+      "loudness_limited_by_peak": true,
+      "sample_rate": 48000,
+      "channels": 2,
+      "source_reel": "2b7b86e46eaf4886a19f5c5a342a7d92.MP4",
+      "source_duplicate_reel": "aad7a9353ad8440f88e31cd76b65f48c.MP4",
+      "timestamp_in_source": [
+        14.96,
+        15.54
+      ],
+      "tags": [
+        "bicycle",
+        "chain",
+        "mechanical",
+        "foley"
+      ],
+      "licence": "unknown, personal and internal use only until cleared"
+    },
+    {
+      "name": "Camera Click",
+      "id": "camera-click",
+      "file": "clicks-and-switches/camera-click.wav",
+      "category": "clicks-and-switches",
+      "duration": 0.66,
+      "peak_dbfs": -1.0,
+      "lufs": -18.7,
+      "loudness_limited_by_peak": true,
+      "sample_rate": 48000,
+      "channels": 2,
+      "source_reel": "2b7b86e46eaf4886a19f5c5a342a7d92.MP4",
+      "source_duplicate_reel": "aad7a9353ad8440f88e31cd76b65f48c.MP4",
+      "timestamp_in_source": [
+        16.18,
+        16.83
+      ],
+      "tags": [
+        "camera",
+        "shutter",
+        "click",
+        "photo"
+      ],
+      "licence": "unknown, personal and internal use only until cleared"
+    },
+    {
+      "name": "Shine",
+      "id": "shine",
+      "file": "ui/shine.wav",
+      "category": "ui",
+      "duration": 0.63,
+      "peak_dbfs": -1.0,
+      "lufs": -16.8,
+      "loudness_limited_by_peak": true,
+      "sample_rate": 48000,
+      "channels": 2,
+      "source_reel": "2b7b86e46eaf4886a19f5c5a342a7d92.MP4",
+      "source_duplicate_reel": "aad7a9353ad8440f88e31cd76b65f48c.MP4",
+      "timestamp_in_source": [
+        17.21,
+        17.83
+      ],
+      "tags": [
+        "shine",
+        "sparkle",
+        "glint",
+        "highlight"
+      ],
+      "licence": "unknown, personal and internal use only until cleared"
+    },
+    {
+      "name": "Woosh",
+      "id": "woosh",
+      "file": "transitions/whoosh/woosh.wav",
+      "category": "transitions/whoosh",
+      "duration": 0.73,
+      "peak_dbfs": -3.27,
+      "lufs": -16.0,
+      "loudness_limited_by_peak": false,
+      "sample_rate": 48000,
+      "channels": 2,
+      "source_reel": "2b7b86e46eaf4886a19f5c5a342a7d92.MP4",
+      "source_duplicate_reel": "aad7a9353ad8440f88e31cd76b65f48c.MP4",
+      "timestamp_in_source": [
+        18.49,
+        19.21
+      ],
+      "tags": [
+        "whoosh",
+        "swoosh",
+        "transition",
+        "short"
+      ],
+      "licence": "unknown, personal and internal use only until cleared"
+    },
+    {
+      "name": "Outro Hit",
+      "id": "outro-hit",
+      "file": "impacts/outro-hit.wav",
+      "category": "impacts",
+      "duration": 1.27,
+      "peak_dbfs": -7.9,
+      "lufs": -16.0,
+      "loudness_limited_by_peak": false,
+      "sample_rate": 48000,
+      "channels": 2,
+      "source_reel": "2b7b86e46eaf4886a19f5c5a342a7d92.MP4",
+      "source_duplicate_reel": "aad7a9353ad8440f88e31cd76b65f48c.MP4",
+      "timestamp_in_source": [
+        19.97,
+        21.23
+      ],
+      "tags": [
+        "impact",
+        "hit",
+        "outro",
+        "sting",
+        "sub-boom",
+        "end-card-sting",
+        "unlabelled-in-reel"
+      ],
+      "licence": "unknown, personal and internal use only until cleared",
+      "note": "Not in the on-screen list. It is the end-card sting the reel wrapper adds (waveform correlation 0.9997 with the boom after the end card of the walkthrough reel 537fad), kept because it is a clean sub boom."
+    }
+  ]
+}

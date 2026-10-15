@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+engine/bin/
+# rendered video, audio and large media stay out of git (see fixtures/README.md)
+*.mp4
+*.mov
+*.m4a
+*.mp3
+*.aiff
+*.wav
+*.sheet.png
+contact*.png
+# local media and render folders
+_testdata/
+_source/
+work/
+cache/
+tests/*/assets/
+tests/*/work/

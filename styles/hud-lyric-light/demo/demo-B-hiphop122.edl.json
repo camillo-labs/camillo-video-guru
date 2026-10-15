@@ -1,0 +1,698 @@
+{
+ "style": "hud-lyric-light",
+ "seed": 4,
+ "fps": 30,
+ "aspect": "16:9",
+ "duration": 15.7376,
+ "n_beats": 32,
+ "music": {
+  "path": "_testdata/music/hiphop122.wav",
+  "start": 11.8063,
+  "bpm": 122.0,
+  "beat_period": 0.4918,
+  "drops_in_window": [
+   7.869
+  ]
+ },
+ "voiceover": null,
+ "shots": [
+  {
+   "beat0": 0.0,
+   "beat1": 8.0,
+   "role": "intro",
+   "t0": 0.0,
+   "t1": 3.933333333333333,
+   "clip": "_testdata/clips/A_16x9/plasma_slow.mp4",
+   "clip_kind": "video",
+   "src_in": 0.25,
+   "speed": 1.0,
+   "focus": [
+    0.47068147764988966,
+    0.31629629629629624
+   ],
+   "mask": null,
+   "w": 960,
+   "h": 540,
+   "src_dur": 3.933333333333333,
+   "target_q": 0.38,
+   "grade": {}
+  },
+  {
+   "beat0": 8.0,
+   "beat1": 14.0,
+   "role": "mid",
+   "t0": 3.933333333333333,
+   "t1": 6.9,
+   "clip": "_testdata/clips/A_16x9/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 0.75,
+   "speed": 1.0,
+   "focus": [
+    0.4968337569895783,
+    0.4526435004030412
+   ],
+   "mask": "_testdata/clips/A_16x9/figure.mask.mp4",
+   "w": 960,
+   "h": 540,
+   "src_dur": 2.9666666666666672,
+   "target_q": 0.5,
+   "grade": {}
+  },
+  {
+   "beat0": 14.0,
+   "beat1": 26.0,
+   "role": "mid",
+   "t0": 6.9,
+   "t1": 12.8,
+   "clip": "_testdata/clips/A_16x9/plasma_fast.mp4",
+   "clip_kind": "video",
+   "src_in": 0.0,
+   "speed": 0.6440677966101694,
+   "focus": [
+    0.49296526167841415,
+    0.24567901234567902
+   ],
+   "mask": null,
+   "w": 960,
+   "h": 540,
+   "src_dur": 3.8,
+   "target_q": 0.78,
+   "grade": {}
+  },
+  {
+   "beat0": 26.0,
+   "beat1": 32.0,
+   "role": "outro",
+   "t0": 12.8,
+   "t1": 15.733333333333333,
+   "clip": "_testdata/clips/A_16x9/metaballs.mp4",
+   "clip_kind": "video",
+   "src_in": 0.5,
+   "speed": 1.0,
+   "focus": [
+    0.4976574196615983,
+    0.4856693791993205
+   ],
+   "mask": null,
+   "w": 960,
+   "h": 540,
+   "src_dur": 2.933333333333332,
+   "target_q": 0.78,
+   "grade": {}
+  }
+ ],
+ "events": [
+  {
+   "fx": "hud_glitch",
+   "t0": 0.0,
+   "t1": 0.4918,
+   "tc": 0,
+   "params": {
+    "amount": 1.0
+   },
+   "layer": "post",
+   "at": "time"
+  },
+  {
+   "fx": "hud_glitch",
+   "t0": 3.9333,
+   "t1": 4.1792,
+   "tc": 3.9333,
+   "params": {
+    "amount": 0.6
+   },
+   "layer": "post",
+   "at": "cut"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 3.9344,
+   "t1": 4.6721,
+   "tc": 3.9344,
+   "params": {
+    "side": "left",
+    "xmark": true,
+    "brackets": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 4.6721,
+   "t1": 4.918,
+   "tc": 4.6721,
+   "params": {},
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 4.918,
+   "t1": 5.6557,
+   "tc": 4.918,
+   "params": {
+    "side": "right",
+    "network": true,
+    "card": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 5.4098,
+   "t1": 5.6557,
+   "tc": 5.4098,
+   "params": {},
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_heat",
+   "t0": 6.1475,
+   "t1": 6.5164,
+   "tc": 6.1475,
+   "params": {
+    "contrast": 1.0,
+    "beta": -70
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 6.1475,
+   "t1": 6.5164,
+   "tc": 6.1475,
+   "params": {
+    "count": 2,
+    "size": 50
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 6.6393,
+   "t1": 6.8852,
+   "tc": 6.6393,
+   "params": {
+    "count": 2
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 6.8852,
+   "t1": 7.6229,
+   "tc": 6.8852,
+   "params": {
+    "side": "left",
+    "xmark": true,
+    "brackets": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 7.6229,
+   "t1": 7.8688,
+   "tc": 7.6229,
+   "params": {},
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 7.8688,
+   "t1": 8.6065,
+   "tc": 7.8688,
+   "params": {
+    "side": "right",
+    "network": true,
+    "card": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "zoom_pulse",
+   "t0": 7.8688,
+   "t1": 8.1147,
+   "tc": 7.8688,
+   "params": {
+    "amount": 0.05
+   },
+   "layer": "post",
+   "at": "drop"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 8.3606,
+   "t1": 8.6065,
+   "tc": 8.3606,
+   "params": {},
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_heat",
+   "t0": 9.0983,
+   "t1": 9.4672,
+   "tc": 9.0983,
+   "params": {
+    "contrast": 1.0,
+    "beta": -70
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 9.0983,
+   "t1": 9.4672,
+   "tc": 9.0983,
+   "params": {
+    "count": 2,
+    "size": 50
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 9.5901,
+   "t1": 9.836,
+   "tc": 9.5901,
+   "params": {
+    "count": 2
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 9.836,
+   "t1": 10.5737,
+   "tc": 9.836,
+   "params": {
+    "side": "left",
+    "xmark": true,
+    "brackets": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 10.5737,
+   "t1": 10.8196,
+   "tc": 10.5737,
+   "params": {},
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 10.8196,
+   "t1": 11.5573,
+   "tc": 10.8196,
+   "params": {
+    "side": "right",
+    "network": true,
+    "card": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 11.3114,
+   "t1": 11.5573,
+   "tc": 11.3114,
+   "params": {},
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_glitch",
+   "t0": 12.8,
+   "t1": 13.0459,
+   "tc": 12.8,
+   "params": {
+    "amount": 0.6
+   },
+   "layer": "post",
+   "at": "cut"
+  }
+ ],
+ "sfx": [
+  {
+   "kind": "tick",
+   "t": 4.1803,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 4.4262,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 4.6721,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 4.6721,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 4.918,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 5.4098,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 5.4098,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 5.6557,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 5.9016,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "whoosh",
+   "t": 6.1475,
+   "gain": 0.35,
+   "at": "beat",
+   "offset": 0
+  },
+  {
+   "kind": "tick",
+   "t": 6.3934,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 6.6393,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 6.8852,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 7.1311,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 7.6229,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 7.6229,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "impact",
+   "t": 7.8688,
+   "gain": 0.5,
+   "at": "drop"
+  },
+  {
+   "kind": "tick",
+   "t": 7.8688,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 8.1147,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 8.3606,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 8.6065,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 8.8524,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "whoosh",
+   "t": 9.0983,
+   "gain": 0.35,
+   "at": "beat",
+   "offset": 0
+  },
+  {
+   "kind": "tick",
+   "t": 9.0983,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 9.5901,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 9.836,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 10.5737,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "click",
+   "t": 11.3114,
+   "gain": 0.2,
+   "at": "beat"
+  }
+ ],
+ "words": [
+  {
+   "text": "stay",
+   "t0": 4.1803,
+   "t1": 4.4262,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "in",
+   "t0": 4.4262,
+   "t1": 4.6721,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 4.6721,
+   "t1": 4.918,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "fog",
+   "t0": 4.918,
+   "t1": 5.1639,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "make",
+   "t0": 5.4098,
+   "t1": 5.6557,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "it",
+   "t0": 5.6557,
+   "t1": 5.9016,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "loud",
+   "t0": 5.9016,
+   "t1": 6.1475,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "shine",
+   "t0": 6.3934,
+   "t1": 6.6393,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "through",
+   "t0": 6.6393,
+   "t1": 6.8852,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 6.8852,
+   "t1": 7.1311,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "snow",
+   "t0": 7.1311,
+   "t1": 7.377,
+   "emph": true,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "move",
+   "t0": 7.6229,
+   "t1": 7.8688,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "with",
+   "t0": 7.8688,
+   "t1": 8.1147,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "me",
+   "t0": 8.1147,
+   "t1": 8.3606,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "bring",
+   "t0": 8.6065,
+   "t1": 8.8524,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "it",
+   "t0": 8.8524,
+   "t1": 9.0983,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "home",
+   "t0": 9.0983,
+   "t1": 9.3442,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "last",
+   "t0": 9.5901,
+   "t1": 9.836,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "call",
+   "t0": 9.836,
+   "t1": 10.0819,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  }
+ ],
+ "stats": {
+  "n_shots": 4,
+  "mean_shot_beats": 8.0,
+  "shot_beats_hist": {
+   "6.0": 2,
+   "8.0": 1,
+   "12.0": 1
+  },
+  "planned_cut_offset_ms_from_sixteenth_grid_mean_abs": 9.69,
+  "n_events": 22,
+  "events_by_fx": {
+   "hud_bar": 6,
+   "hud_glitch": 3,
+   "hud_heat": 2,
+   "hud_marks": 4,
+   "hud_wipe": 6,
+   "zoom_pulse": 1
+  }
+ },
+ "style_path": "/Users/student/dev/design-library/edits/hud-lyric-light/style.json"
+}

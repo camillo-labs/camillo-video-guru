@@ -1,0 +1,159 @@
+{
+ "name": "strobe-photo-dump",
+ "description": "A camera-roll dump cut to the beat: near-every-cut white flash frames, a hard strobe pulse on the drop, snap-length shots under a beat, stills drifting on their own Ken Burns pan while video grabs get a quick push-in, and a held last frame.",
+ "defaults": {
+  "aspect": "9:16",
+  "duration": 15.0
+ },
+ "structure": {
+  "intro_beats": 2,
+  "outro_beats": 2,
+  "drop_at": 0.5,
+  "drop_beats": 4,
+  "end_on_bar": true
+ },
+ "music": {
+  "bpm_target": 122,
+  "style_kind": "flash",
+  "mood": "energetic"
+ },
+ "cuts": {
+  "first_shot_beats": 1,
+  "min_beats": 0.25,
+  "phrase_snap_beats": 0.5,
+  "lengths": {
+   "intro": [
+    [0.5, 3],
+    [0.25, 2],
+    [1, 1]
+   ],
+   "low": [
+    [0.5, 3],
+    [0.25, 2],
+    [1, 2]
+   ],
+   "mid": [
+    [0.25, 3],
+    [0.5, 3],
+    [0.75, 1]
+   ],
+   "high": [
+    [0.25, 4],
+    [0.5, 2]
+   ],
+   "drop": [
+    [0.25, 5],
+    [0.5, 2]
+   ],
+   "outro": [
+    [1, 2],
+    [2, 1]
+   ]
+  }
+ },
+ "clips": {
+  "select": "energy_match",
+  "avoid_repeat": 3,
+  "jitter": 0.35
+ },
+ "grade": {
+  "base": {
+   "contrast": 1.1,
+   "vignette": 0.2,
+   "grain": 0.03
+  }
+ },
+ "moves": [
+  {
+   "fx": "slow_zoom",
+   "at": "shot",
+   "params": {
+    "from": 1.0,
+    "to": 1.06
+   },
+   "when": {
+    "shot_beats_min": 0.5
+   }
+  },
+  {
+   "fx": "flash",
+   "at": "cut",
+   "span_beats": [0.0, 0.2],
+   "params": {
+    "shape": "decay",
+    "alpha": 0.9
+   },
+   "when": {
+    "role": ["intro", "low", "mid"],
+    "p": 0.5
+   }
+  },
+  {
+   "fx": "flash",
+   "at": "cut",
+   "span_beats": [0.0, 0.2],
+   "params": {
+    "shape": "decay",
+    "alpha": 1.0
+   },
+   "when": {
+    "role": ["high"],
+    "p": 0.75
+   }
+  },
+  {
+   "fx": "strobe",
+   "at": "drop",
+   "span_beats": [0.0, 1.0],
+   "params": {
+    "count": 6
+   }
+  },
+  {
+   "fx": "zoom_blur",
+   "at": "cut",
+   "span_beats": [0.3, 0.3],
+   "params": {
+    "amount": 0.18
+   },
+   "when": {
+    "role": ["high", "drop"],
+    "p": 0.2
+   },
+   "min_gap_beats": 1
+  }
+ ],
+ "sfx": [
+  {
+   "kind": "click",
+   "at": "cut",
+   "gain": 0.45,
+   "when": {
+    "role": ["intro", "low", "mid"],
+    "p": 0.4
+   }
+  },
+  {
+   "kind": "whoosh",
+   "at": "cut",
+   "gain": 0.3,
+   "when": {
+    "role": ["high"],
+    "p": 0.35
+   },
+   "min_gap_beats": 0.5
+  },
+  {
+   "kind": "riser",
+   "at": "drop",
+   "gain": 0.35,
+   "dur": 1.6,
+   "end_at_t": true
+  },
+  {
+   "kind": "impact",
+   "at": "drop",
+   "gain": 0.7
+  }
+ ]
+}

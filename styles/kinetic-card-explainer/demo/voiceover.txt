@@ -1,0 +1,3 @@
+Voiceover used for the demo (macOS say, voice Daniel, 190 words a minute). Written for the demo, not taken from the source video.
+
+One engine that turns a folder of clips and a song into a finished short. You describe the look in plain words. The agent plans every cut, writes the captions, adds the voice and the music, and renders the final edit. Or point it at a reel you love. It measures the pacing, the scenes and the style, then builds yours from that. The demos in the library include a lyric edit and a talking head explainer. Comment style and I will send you the link and a setup guide.

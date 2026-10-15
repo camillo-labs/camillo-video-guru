@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "edits/_study corpus entry",
+  "description": "One studied edit (a TikTok/Reels download, an AirDropped clip, or a screen recording of one) and what the engine learned or could learn from it. Stage 1 of overnight-improve-video-edit-e (N1) seeds this with the historical entries the six existing styles were already built from, each marked learned:historical so they do not count toward N1's new-learning minimum. A later pass adds learned:new entries once a studied reel has actually arrived (gates G1/2998a8b4, G3/791496f9 in out/plan.md), and learned:designed for anything built by extrapolation rather than measurement.",
+  "type": "object",
+  "required": ["id", "source", "platform", "learned", "style_learned", "cut_rhythm", "transitions", "caption_style", "music_character", "sfx_placement", "suits", "evidence"],
+  "properties": {
+    "id": {"type": "string", "description": "short slug, first 6 chars of the source filename or hash where the creator's own handle is unknown"},
+    "source": {"type": "string", "description": "path (if local, under the gitignored edits/_source/ or edits/_study/raw/) or creator handle/title; raw footage is never committed or published"},
+    "platform": {"type": "string", "enum": ["tiktok", "reels", "airdrop", "screen-recording", "other"]},
+    "learned": {"type": "string", "enum": ["historical", "new", "designed"], "description": "historical: already built into an existing style before this build; new: from a reel studied during this build; designed: extrapolated, not measured from a studied edit"},
+    "style_learned": {"type": ["string", "null"], "description": "the engine style folder this entry fed, or null for material (like the sfx reels) that fed the sound-effect library instead of a style"},
+    "cut_rhythm": {"type": "string", "description": "measured cut rate/gaps, in prose with numbers"},
+    "transitions": {"type": "string"},
+    "caption_style": {"type": "string"},
+    "music_character": {"type": "string"},
+    "sfx_placement": {"type": "string"},
+    "suits": {
+      "type": "object",
+      "properties": {
+        "subject": {"type": "string"},
+        "mood": {"type": "string"},
+        "footage": {"type": "string"},
+        "brief": {"type": "string"}
+      },
+      "required": ["subject", "mood", "footage", "brief"]
+    },
+    "evidence": {"type": "string", "description": "repo-relative path(s) this entry's facts were taken from"}
+  }
+}

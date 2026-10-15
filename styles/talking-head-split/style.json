@@ -1,0 +1,194 @@
+{
+ "name": "talking-head-split",
+ "description": "Vertical talking-head explainer. One full-bleed talker that alternates wide and close shots at sentence boundaries, 16:9 screen captures and product cards inset in the upper third that hard-cut every 0.3 to 3 s, tight two-line serif caption chunks in the lower third that swap with the speech, a gold-highlighted serif title hook that leaves at the first card, and a dimmed end card. Voice only, no music bed.",
+ "defaults": {
+  "aspect": "9:16",
+  "duration": 30.0
+ },
+ "structure": {
+  "intro_beats": 9,
+  "outro_beats": 6,
+  "drop_at": 0.5,
+  "drop_beats": 4,
+  "end_on_bar": false,
+  "vo_start_beats": 0.5
+ },
+ "cuts": {
+  "first_shot_beats": 9,
+  "min_beats": 4,
+  "phrase_snap_beats": 2.0,
+  "bar_align": false,
+  "lengths": {
+   "default": [
+    [
+     7,
+     2
+    ],
+    [
+     9,
+     3
+    ],
+    [
+     12,
+     3
+    ],
+    [
+     14,
+     1
+    ]
+   ]
+  },
+  "snap_words": {
+   "tol": 0.45,
+   "min_len": 1.5
+  }
+ },
+ "clips": {
+  "select": "sequential",
+  "avoid_repeat": 1,
+  "jitter": 0.1,
+  "prefer_faces": true
+ },
+ "audio": {
+  "music_gain": 0.0
+ },
+ "grade": {
+  "base": {
+   "contrast": 1.03,
+   "saturation": 0.97,
+   "vignette": 0.0,
+   "grain": 0.0
+  }
+ },
+ "moves": [
+  {
+   "fx": "th_zoom",
+   "at": "shot",
+   "layer": "pre",
+   "params": {
+    "scale": 1.7,
+    "cx": 0.5,
+    "cy": 0.62
+   },
+   "when": {
+    "index_mod": 2,
+    "index_offset": 1
+   }
+  }
+ ],
+ "captions": {
+  "kind": "serif_chunk",
+  "font": "playfair",
+  "wght": 600,
+  "size_frac": 0.088,
+  "tracking": -0.035,
+  "line_pitch": 0.089,
+  "max_width": 0.82,
+  "max_lines": 2,
+  "max_words": 8,
+  "x": 0.5,
+  "y": 0.733,
+  "color": [
+   255,
+   255,
+   255
+  ],
+  "emph_color": [
+   240,
+   200,
+   21
+  ],
+  "shadow": [
+   0,
+   3,
+   6,
+   0.6
+  ],
+  "hold_max": 0.8,
+  "timing": {
+   "mode": "grid",
+   "start_beat": 4,
+   "step_beats": 0.5,
+   "phrase_gap_beats": 0.5
+  },
+  "depth_text": {
+   "enabled": false
+  }
+ },
+ "overlays": [
+  {
+   "kind": "th_title",
+   "seconds": 4.43,
+   "font": "playfair",
+   "wght": 700,
+   "size_frac": 0.101,
+   "tracking": -0.03,
+   "x": 0.083,
+   "y": 0.258,
+   "pitch": 0.114,
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "hi_color": [
+    240,
+    200,
+    21
+   ],
+   "lines": [
+    [
+     {
+      "t": "How to make"
+     }
+    ],
+    [
+     {
+      "t": "motion design",
+      "hi": 1
+     },
+     {
+      "t": " with"
+     }
+    ],
+    [
+     {
+      "t": "your own engine",
+      "hi": 1
+     }
+    ]
+   ]
+  },
+  {
+   "kind": "th_cards",
+   "x": 0.09,
+   "y": 0.2273,
+   "width": 0.82,
+   "push": 0.03,
+   "kinds": [
+    "ui",
+    "stat",
+    "title",
+    "poster",
+    "code",
+    "chart"
+   ],
+   "start_s": 4.43,
+   "end_before_end_s": 9.7,
+   "burst_s": 4.9,
+   "burst_len": [
+    0.3,
+    0.7
+   ],
+   "len": [
+    1.2,
+    3.2
+   ]
+  },
+  {
+   "kind": "th_outro",
+   "seconds": 4.0,
+   "dim": 0.75
+  }
+ ]
+}

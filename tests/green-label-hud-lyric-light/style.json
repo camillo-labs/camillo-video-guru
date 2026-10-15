@@ -1,0 +1,385 @@
+{
+ "name": "hud-lyric-light",
+ "description": "The same template on pale, flat footage: ungraded footage, saturated glowing caption themes (pink, blue, gold, orange) that change at each heat flash, and a dark end card.",
+ "defaults": {
+  "aspect": "9:16",
+  "duration": 20
+ },
+ "needs_mask": true,
+ "structure": {
+  "intro_beats": 8,
+  "outro_beats": 8,
+  "drop_at": 0.5,
+  "drop_beats": 4,
+  "end_on_bar": true
+ },
+ "hud": {
+  "row_y": 0.59,
+  "end_card_beats": 0,
+  "cycle_beats": 6,
+  "start_beat": 8
+ },
+ "cuts": {
+  "first_shot_beats": 8,
+  "min_beats": 1,
+  "phrase_snap_beats": 1.0,
+  "lengths": {
+   "intro": [
+    [
+     8,
+     1
+    ]
+   ],
+   "low": [
+    [
+     8,
+     3
+    ],
+    [
+     12,
+     2
+    ],
+    [
+     6,
+     1
+    ]
+   ],
+   "mid": [
+    [
+     8,
+     3
+    ],
+    [
+     12,
+     2
+    ],
+    [
+     6,
+     1
+    ]
+   ],
+   "high": [
+    [
+     6,
+     2
+    ],
+    [
+     8,
+     3
+    ],
+    [
+     12,
+     1
+    ]
+   ],
+   "drop": [
+    [
+     6,
+     2
+    ],
+    [
+     8,
+     2
+    ]
+   ],
+   "outro": [
+    [
+     8,
+     1
+    ]
+   ]
+  }
+ },
+ "clips": {
+  "select": "energy_match",
+  "avoid_repeat": 2,
+  "jitter": 0.3,
+  "prefer_faces": true
+ },
+ "grade": {
+  "base": {
+   "target_luma": 0.68,
+   "contrast": 0.85,
+   "saturation": 0.78,
+   "tint": [
+    0.93,
+    1.0,
+    1.08
+   ]
+  }
+ },
+ "moves": [
+  {
+   "fx": "hud_glitch",
+   "at": "time",
+   "sec": 0,
+   "span_beats": [
+    0,
+    1.0
+   ],
+   "params": {
+    "amount": 1.0
+   }
+  },
+  {
+   "fx": "hud_glitch",
+   "at": "cut",
+   "span_beats": [
+    0,
+    0.5
+   ],
+   "params": {
+    "amount": 0.6
+   },
+   "when": {
+    "p": 0.7
+   }
+  },
+  {
+   "fx": "hud_bar",
+   "at": "beat",
+   "every": 6,
+   "offset": 8,
+   "dur_beats": 1.0,
+   "params": {
+    "side": "left",
+    "xmark": true,
+    "brackets": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "when": {
+    "frac_max": 0.9
+   }
+  },
+  {
+   "fx": "hud_wipe",
+   "at": "beat",
+   "every": 6,
+   "offset": 9.5,
+   "dur_beats": 0.125,
+   "layer": "pre",
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "when": {
+    "frac_max": 0.9
+   }
+  },
+  {
+   "fx": "hud_bar",
+   "at": "beat",
+   "every": 6,
+   "offset": 10,
+   "dur_beats": 1.0,
+   "params": {
+    "side": "right",
+    "network": true,
+    "card": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "when": {
+    "frac_max": 0.9
+   }
+  },
+  {
+   "fx": "hud_wipe",
+   "at": "beat",
+   "every": 6,
+   "offset": 11,
+   "dur_beats": 0.125,
+   "layer": "pre",
+   "params": {
+    "band_y": 0.66,
+    "band_h": 0.07,
+    "texture": true,
+    "width": 0.45
+   },
+   "when": {
+    "frac_max": 0.9
+   }
+  },
+  {
+   "fx": "hud_heat",
+   "at": "beat",
+   "every": 6,
+   "offset": 12.5,
+   "dur_beats": 0.75,
+   "params": {
+    "y0": 0.115,
+    "y1": 0.73,
+    "normalise": true,
+    "range": 0.45,
+    "floor": 0.0
+   },
+   "when": {
+    "frac_max": 0.9
+   }
+  },
+  {
+   "fx": "hud_marks",
+   "at": "beat",
+   "every": 6,
+   "offset": 13.5,
+   "dur_beats": 0.25,
+   "params": {
+    "count": 2
+   },
+   "when": {
+    "frac_max": 0.9
+   }
+  },
+  {
+   "fx": "hud_marks",
+   "at": "beat",
+   "every": 6,
+   "offset": 12.5,
+   "dur_beats": 0.25,
+   "params": {
+    "count": 2,
+    "size": 50
+   },
+   "when": {
+    "frac_max": 0.9
+   }
+  },
+  {
+   "fx": "zoom_pulse",
+   "at": "drop",
+   "span_beats": [
+    0,
+    0.5
+   ],
+   "params": {
+    "amount": 0.05
+   }
+  }
+ ],
+ "sfx": [
+  {
+   "kind": "whoosh",
+   "at": "beat",
+   "every": 6,
+   "offset": 12.5,
+   "gain": 0.35,
+   "offset_s": 0,
+   "when": {
+    "frac_max": 0.72
+   }
+  },
+  {
+   "kind": "click",
+   "at": "beat",
+   "every": 6,
+   "offset": 9.5,
+   "gain": 0.2,
+   "when": {
+    "frac_max": 0.72
+   }
+  },
+  {
+   "kind": "click",
+   "at": "beat",
+   "every": 6,
+   "offset": 11,
+   "gain": 0.2,
+   "when": {
+    "frac_max": 0.72
+   }
+  },
+  {
+   "kind": "impact",
+   "at": "drop",
+   "gain": 0.5
+  }
+ ],
+ "overlays": [
+  {
+   "kind": "logo_card",
+   "image": "/Users/student/dev/design-library/edits/tests/green-label/assets/logo-light.png",
+   "bg": [
+    8,
+    73,
+    8
+   ],
+   "last_beats": 4,
+   "fade_beats": 0.6,
+   "logo_width": 0.5,
+   "y": 0.5
+  }
+ ],
+ "captions": {
+  "kind": "hud_row",
+  "font": "Archivo Black",
+  "size_frac": 0.14,
+  "span": 0.85,
+  "y": 0.59,
+  "glow": 6,
+  "themes": [
+   {
+    "color": [
+     230,
+     10,
+     150
+    ],
+    "glow": 6
+   },
+   {
+    "color": [
+     230,
+     10,
+     150
+    ],
+    "glow": 6
+   },
+   {
+    "color": [
+     28,
+     111,
+     224
+    ],
+    "glow": 6
+   },
+   {
+    "color": [
+     28,
+     111,
+     224
+    ],
+    "glow": 6
+   }
+  ],
+  "max_hold_beats": 3.0,
+  "fallback_ellipse": true,
+  "caption_sfx": "tick",
+  "caption_sfx_gain": 0.12,
+  "timing": {
+   "mode": "grid",
+   "start_beat": 8.5,
+   "step_beats": 0.5,
+   "phrase_gap_beats": 0.5,
+   "fill": true,
+   "fill_tail_beats": 4,
+   "fill_whole": true
+  },
+  "size_frac_portrait": 0.15,
+  "depth_text": {
+   "enabled": true,
+   "behind_ratio": 0.5
+  },
+  "min_visible": 0.55,
+  "gap_em": 0.35,
+  "band_color": [
+   255,
+   210,
+   130
+  ],
+  "fit_up": false,
+  "hold_last": true
+ }
+}

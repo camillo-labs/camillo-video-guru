@@ -1,0 +1,1185 @@
+{
+ "style": "hud-lyric-heat",
+ "seed": 3,
+ "fps": 30,
+ "aspect": "9:16",
+ "duration": 15.7376,
+ "n_beats": 32,
+ "music": {
+  "path": "tests/dachshunds/assets/music/Raving-Energy.mp3",
+  "start": 0.0342,
+  "bpm": 122.0,
+  "beat_period": 0.4918,
+  "drops_in_window": [
+   7.869
+  ]
+ },
+ "voiceover": null,
+ "shots": [
+  {
+   "beat0": 0.0,
+   "beat1": 8.0,
+   "role": "intro",
+   "t0": 0.0,
+   "t1": 3.933333333333333,
+   "clip": "tests/dachshunds/hud/clips/pexels-10660961.mp4",
+   "clip_kind": "video",
+   "src_in": 6.0,
+   "speed": 1.0,
+   "focus": [
+    0.43863948486548554,
+    0.5163934426229508
+   ],
+   "mask": null,
+   "w": 720,
+   "h": 1280,
+   "src_dur": 3.933333333333333,
+   "target_q": 0.52,
+   "grade": {
+    "saturation": 1.2,
+    "contrast": 1.08,
+    "tint": [
+     0.93,
+     1.0,
+     1.05
+    ]
+   }
+  },
+  {
+   "beat0": 8.0,
+   "beat1": 16.0,
+   "role": "low",
+   "t0": 3.933333333333333,
+   "t1": 7.866666666666666,
+   "clip": "tests/dachshunds/hud/clips/pexels-3042471.mp4",
+   "clip_kind": "video",
+   "src_in": 5.25,
+   "speed": 1.0,
+   "focus": [
+    0.6421720534482912,
+    0.23580246913580247
+   ],
+   "mask": null,
+   "w": 1280,
+   "h": 720,
+   "src_dur": 3.933333333333333,
+   "target_q": 0.03,
+   "grade": {
+    "saturation": 1.2,
+    "contrast": 1.08,
+    "tint": [
+     0.93,
+     1.0,
+     1.05
+    ]
+   }
+  },
+  {
+   "beat0": 16.0,
+   "beat1": 22.0,
+   "role": "drop",
+   "t0": 7.866666666666666,
+   "t1": 10.833333333333334,
+   "clip": "tests/dachshunds/hud/clips/pexels-6953022.mp4",
+   "clip_kind": "video",
+   "src_in": 1.75,
+   "speed": 1.0,
+   "focus": [
+    0.5774494183669094,
+    0.4913348946135831
+   ],
+   "mask": null,
+   "w": 720,
+   "h": 1280,
+   "src_dur": 2.9666666666666677,
+   "target_q": 0.79,
+   "grade": {
+    "saturation": 1.2,
+    "contrast": 1.08,
+    "tint": [
+     0.93,
+     1.0,
+     1.05
+    ]
+   }
+  },
+  {
+   "beat0": 22.0,
+   "beat1": 30.0,
+   "role": "high",
+   "t0": 10.833333333333334,
+   "t1": 14.766666666666667,
+   "clip": "tests/dachshunds/hud/clips/pexels-6953362.mp4",
+   "clip_kind": "video",
+   "src_in": 1.0,
+   "speed": 1.0,
+   "focus": [
+    0.5161704305103962,
+    0.18430913348946135
+   ],
+   "mask": null,
+   "w": 720,
+   "h": 1280,
+   "src_dur": 3.9333333333333336,
+   "target_q": 0.57,
+   "grade": {
+    "saturation": 1.2,
+    "contrast": 1.08,
+    "tint": [
+     0.93,
+     1.0,
+     1.05
+    ]
+   }
+  },
+  {
+   "beat0": 30.0,
+   "beat1": 32.0,
+   "role": "outro",
+   "t0": 14.766666666666667,
+   "t1": 15.733333333333333,
+   "clip": "tests/dachshunds/hud/clips/pexels-3644110.mp4",
+   "clip_kind": "video",
+   "src_in": 3.0,
+   "speed": 1.0,
+   "focus": [
+    0.34370222356853536,
+    0.5562962962962963
+   ],
+   "mask": null,
+   "w": 1280,
+   "h": 720,
+   "src_dur": 0.966666666666665,
+   "target_q": 0.27,
+   "grade": {
+    "saturation": 1.2,
+    "contrast": 1.08,
+    "tint": [
+     0.93,
+     1.0,
+     1.05
+    ]
+   }
+  }
+ ],
+ "events": [
+  {
+   "fx": "hud_glitch",
+   "t0": 0.0,
+   "t1": 0.4918,
+   "tc": 0,
+   "params": {
+    "amount": 1.0
+   },
+   "layer": "post",
+   "at": "time"
+  },
+  {
+   "fx": "hud_glitch",
+   "t0": 3.9333,
+   "t1": 4.1792,
+   "tc": 3.9333,
+   "params": {
+    "amount": 0.6
+   },
+   "layer": "post",
+   "at": "cut"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 3.9344,
+   "t1": 4.4262,
+   "tc": 3.9344,
+   "params": {
+    "side": "left",
+    "xmark": true,
+    "brackets": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 3.9344,
+   "t1": 3.9959,
+   "tc": 3.9344,
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 4.6721,
+   "t1": 4.7336,
+   "tc": 4.6721,
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 4.918,
+   "t1": 5.4098,
+   "tc": 4.918,
+   "params": {
+    "side": "right",
+    "network": true,
+    "card": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 5.4098,
+   "t1": 5.4713,
+   "tc": 5.4098,
+   "params": {
+    "band_y": 0.62,
+    "band_h": 0.07,
+    "texture": true,
+    "width": 0.45
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 5.6557,
+   "t1": 5.7787,
+   "tc": 5.6557,
+   "params": {
+    "count": 2,
+    "size": 90
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_heat",
+   "t0": 6.1475,
+   "t1": 6.5164,
+   "tc": 6.1475,
+   "params": {
+    "y0": 0.115,
+    "y1": 0.73,
+    "normalise": true,
+    "subject_black": true,
+    "range": 0.75,
+    "floor": 0.02
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 6.1475,
+   "t1": 6.2704,
+   "tc": 6.1475,
+   "params": {
+    "count": 2,
+    "size": 50
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 6.6393,
+   "t1": 6.7623,
+   "tc": 6.6393,
+   "params": {
+    "count": 2
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 6.8852,
+   "t1": 7.377,
+   "tc": 6.8852,
+   "params": {
+    "side": "left",
+    "xmark": true,
+    "brackets": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 6.8852,
+   "t1": 6.9467,
+   "tc": 6.8852,
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 7.6229,
+   "t1": 7.6844,
+   "tc": 7.6229,
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 7.8688,
+   "t1": 8.3606,
+   "tc": 7.8688,
+   "params": {
+    "side": "right",
+    "network": true,
+    "card": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "zoom_pulse",
+   "t0": 7.8688,
+   "t1": 8.1147,
+   "tc": 7.8688,
+   "params": {
+    "amount": 0.05
+   },
+   "layer": "post",
+   "at": "drop"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 8.3606,
+   "t1": 8.4221,
+   "tc": 8.3606,
+   "params": {
+    "band_y": 0.62,
+    "band_h": 0.07,
+    "texture": true,
+    "width": 0.45
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 8.6065,
+   "t1": 8.7294,
+   "tc": 8.6065,
+   "params": {
+    "count": 2,
+    "size": 90
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_heat",
+   "t0": 9.0983,
+   "t1": 9.4672,
+   "tc": 9.0983,
+   "params": {
+    "y0": 0.115,
+    "y1": 0.73,
+    "normalise": true,
+    "subject_black": true,
+    "range": 0.75,
+    "floor": 0.02
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 9.0983,
+   "t1": 9.2212,
+   "tc": 9.0983,
+   "params": {
+    "count": 2,
+    "size": 50
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 9.5901,
+   "t1": 9.713,
+   "tc": 9.5901,
+   "params": {
+    "count": 2
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 9.836,
+   "t1": 10.3278,
+   "tc": 9.836,
+   "params": {
+    "side": "left",
+    "xmark": true,
+    "brackets": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 9.836,
+   "t1": 9.8975,
+   "tc": 9.836,
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 10.5737,
+   "t1": 10.6352,
+   "tc": 10.5737,
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 10.8196,
+   "t1": 11.3114,
+   "tc": 10.8196,
+   "params": {
+    "side": "right",
+    "network": true,
+    "card": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 11.3114,
+   "t1": 11.3729,
+   "tc": 11.3114,
+   "params": {
+    "band_y": 0.62,
+    "band_h": 0.07,
+    "texture": true,
+    "width": 0.45
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 11.5573,
+   "t1": 11.6802,
+   "tc": 11.5573,
+   "params": {
+    "count": 2,
+    "size": 90
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_heat",
+   "t0": 12.0491,
+   "t1": 12.418,
+   "tc": 12.0491,
+   "params": {
+    "y0": 0.115,
+    "y1": 0.73,
+    "normalise": true,
+    "subject_black": true,
+    "range": 0.75,
+    "floor": 0.02
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 12.0491,
+   "t1": 12.172,
+   "tc": 12.0491,
+   "params": {
+    "count": 2,
+    "size": 50
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_marks",
+   "t0": 12.5409,
+   "t1": 12.6638,
+   "tc": 12.5409,
+   "params": {
+    "count": 2
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 12.7868,
+   "t1": 13.2786,
+   "tc": 12.7868,
+   "params": {
+    "side": "left",
+    "xmark": true,
+    "brackets": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 12.7868,
+   "t1": 12.8483,
+   "tc": 12.7868,
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 13.5245,
+   "t1": 13.586,
+   "tc": 13.5245,
+   "params": {
+    "band_y": 0.18,
+    "band_h": 0.1,
+    "texture": true
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_bar",
+   "t0": 13.7704,
+   "t1": 14.2622,
+   "tc": 13.7704,
+   "params": {
+    "side": "right",
+    "network": true,
+    "card": true,
+    "flicker": 4,
+    "mark_frames": 3,
+    "reroll": true
+   },
+   "layer": "post",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_wipe",
+   "t0": 14.2622,
+   "t1": 14.3237,
+   "tc": 14.2622,
+   "params": {
+    "band_y": 0.62,
+    "band_h": 0.07,
+    "texture": true,
+    "width": 0.45
+   },
+   "layer": "pre",
+   "at": "beat"
+  },
+  {
+   "fx": "hud_glitch",
+   "t0": 14.7667,
+   "t1": 15.0126,
+   "tc": 14.7667,
+   "params": {
+    "amount": 0.6
+   },
+   "layer": "post",
+   "at": "cut"
+  }
+ ],
+ "sfx": [
+  {
+   "kind": "tick",
+   "t": 4.1803,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 4.4262,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 4.6721,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 4.918,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 5.1639,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 5.4098,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 5.4098,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 5.9016,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "whoosh",
+   "t": 6.1475,
+   "gain": 0.35,
+   "at": "beat",
+   "offset": 0
+  },
+  {
+   "kind": "tick",
+   "t": 6.1475,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 6.3934,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 6.8852,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 7.1311,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 7.6229,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 7.6229,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "impact",
+   "t": 7.8688,
+   "gain": 0.5,
+   "at": "drop"
+  },
+  {
+   "kind": "tick",
+   "t": 7.8688,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 8.1147,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 8.3606,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 8.6065,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 8.8524,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "whoosh",
+   "t": 9.0983,
+   "gain": 0.35,
+   "at": "beat",
+   "offset": 0
+  },
+  {
+   "kind": "tick",
+   "t": 9.0983,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 9.3442,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 9.836,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 10.0819,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 10.5737,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 10.5737,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 10.8196,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 11.0655,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 11.3114,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 11.5573,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 11.8032,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "whoosh",
+   "t": 12.0491,
+   "gain": 0.35,
+   "at": "beat",
+   "offset": 0
+  },
+  {
+   "kind": "tick",
+   "t": 12.0491,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 12.5409,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 12.7868,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 13.2786,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 13.5245,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "tick",
+   "t": 13.5245,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "tick",
+   "t": 13.7704,
+   "gain": 0.12,
+   "at": "caption"
+  },
+  {
+   "kind": "click",
+   "t": 14.2622,
+   "gain": 0.2,
+   "at": "beat"
+  },
+  {
+   "kind": "whoosh",
+   "t": 14.9999,
+   "gain": 0.35,
+   "at": "beat",
+   "offset": 0
+  },
+  {
+   "kind": "gap",
+   "t": 15.5015,
+   "gain": 1,
+   "at": "time",
+   "dur": 0.15
+  }
+ ],
+ "words": [
+  {
+   "text": "BADGER",
+   "t0": 4.1803,
+   "t1": 4.4262,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "HUNTER",
+   "t0": 4.4262,
+   "t1": 4.6721,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "FIRST",
+   "t0": 4.918,
+   "t1": 5.1639,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "OLYMPIC",
+   "t0": 5.1639,
+   "t1": 5.4098,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "MASCOT",
+   "t0": 5.4098,
+   "t1": 5.6557,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "BORN",
+   "t0": 5.9016,
+   "t1": 6.1475,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "TO",
+   "t0": 6.1475,
+   "t1": 6.3934,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "TUNNEL",
+   "t0": 6.3934,
+   "t1": 6.6393,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "LOUD",
+   "t0": 6.8852,
+   "t1": 7.1311,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "BARK",
+   "t0": 7.1311,
+   "t1": 7.377,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "WIENER",
+   "t0": 7.6229,
+   "t1": 7.8688,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "OR",
+   "t0": 7.8688,
+   "t1": 8.1147,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "SAUSAGE",
+   "t0": 8.1147,
+   "t1": 8.3606,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "300",
+   "t0": 8.6065,
+   "t1": 8.8524,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "YEARS",
+   "t0": 8.8524,
+   "t1": 9.0983,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "OF",
+   "t0": 9.0983,
+   "t1": 9.3442,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "ATTITUDE",
+   "t0": 9.3442,
+   "t1": 9.5901,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "BADGER",
+   "t0": 9.836,
+   "t1": 10.0819,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "HUNTER",
+   "t0": 10.0819,
+   "t1": 10.3278,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "FIRST",
+   "t0": 10.5737,
+   "t1": 10.8196,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "OLYMPIC",
+   "t0": 10.8196,
+   "t1": 11.0655,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "MASCOT",
+   "t0": 11.0655,
+   "t1": 11.3114,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "BORN",
+   "t0": 11.5573,
+   "t1": 11.8032,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "TO",
+   "t0": 11.8032,
+   "t1": 12.0491,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "TUNNEL",
+   "t0": 12.0491,
+   "t1": 12.295,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "LOUD",
+   "t0": 12.5409,
+   "t1": 12.7868,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "BARK",
+   "t0": 12.7868,
+   "t1": 13.0327,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "WIENER",
+   "t0": 13.2786,
+   "t1": 13.5245,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "OR",
+   "t0": 13.5245,
+   "t1": 13.7704,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "SAUSAGE",
+   "t0": 13.7704,
+   "t1": 14.0163,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  }
+ ],
+ "stats": {
+  "n_shots": 5,
+  "mean_shot_beats": 6.4,
+  "shot_beats_hist": {
+   "2.0": 1,
+   "6.0": 1,
+   "8.0": 3
+  },
+  "planned_cut_offset_ms_from_sixteenth_grid_mean_abs": 7.4,
+  "n_events": 36,
+  "events_by_fx": {
+   "hud_bar": 8,
+   "hud_glitch": 3,
+   "hud_heat": 3,
+   "hud_marks": 9,
+   "hud_wipe": 12,
+   "zoom_pulse": 1
+  }
+ },
+ "style_path": "/Users/student/dev/design-library/edits/hud-lyric-heat/style.json"
+}

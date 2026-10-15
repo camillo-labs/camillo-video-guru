@@ -1,0 +1,135 @@
+[
+  {
+    "id": "v24044g-537fad",
+    "source": "edits/_source/v24044gl0000dagu96vog65oq9i5qe0g.MP4 (gitignored); re-downloaded at higher resolution as reel 537fad, 13 Oct 2026",
+    "platform": "tiktok",
+    "learned": "historical",
+    "style_learned": "bw-flash-vo",
+    "cut_rhythm": "34 cut events in 17.3 s once white-frame bursts are merged; median gap 0.43 s, mean 0.52 s, shortest 0.17 s, longest 1.73 s; density 4.17/s in the intro, 1.63/s in the voiceover, 4.91/s in the montage, 3.42/s in the close",
+    "transitions": "flash cuts with white-frame bursts (0.0-0.2, 0.5-0.6, 1.5-1.6 s), a 7-frame hold flash at the 7.4 s drop, a masking flash before the final hold",
+    "caption_style": "white, bold, uppercase, small (cap height ~22px at 720px wide, ~5.4% of a 408px band); 1-2 words per line, a function word joined to the word it leans on; one accent word per phrase at 1.5x size in dark red or cyan",
+    "music_character": "tracker tempo 129 BPM but no measurable beat-grid lock (phase concentration R=0.04 on the full-beat grid against a random baseline of 0.18); sound-led, not beat-synced; low end ducked ~20 dB under the voiceover and swelled back over the last 1.8 s before the drop; a 3.3 Hz tremolo gate in the intro",
+    "sfx_placement": "hits land from a 0.1 s music mute ending 0.02 s before the event (silence-before-hits), not on a beat grid; a riser/charge swell from 5.2-6.9 s builds into the 7.4 s drop",
+    "suits": {
+      "subject": "a single talking head intercut with flash-cut b-roll (hand, page, phone, keyboard)",
+      "mood": "confessional, flash-cut, builds to a drop",
+      "footage": "short clips with a voiceover and a clear drop moment",
+      "brief": "an edgy, sound-led hook-to-drop edit, not beat-synced"
+    },
+    "evidence": "edits/lessons/reels-2026-10-13.md:13,43-51,56,83-85; edits/bw-flash-vo/README.md"
+  },
+  {
+    "id": "sfx-2b7b86",
+    "source": "two re-posts of the same sound-effect reel (@mr.biss, 2b7b86; @lorenzoadams_photography \"SFX you need Vol 1\", aad7a9 — onsets match to 10 ms and the end sting correlates at 0.9999, so aad7a9 adds no new clips)",
+    "platform": "tiktok",
+    "learned": "historical",
+    "style_learned": null,
+    "cut_rhythm": "not applicable: a static scrolling-waveform template, no video cuts",
+    "transitions": "none; a scrolling waveform strip over a static shot of a man at a mic",
+    "caption_style": "effect names as text labels on the waveform strip (not a caption style for a rendered edit)",
+    "music_character": "no music bed, audio is only the thirteen effects back to back",
+    "sfx_placement": "12 named effects play in sequence (8 Bit Talking, Old Flash, Cinematic Woosh, Night Vision, Nextel, Digital Text, Riser, Counter, Bicycle Chain, Camera Click, Shine, Woosh) plus an unlabelled 13th closing sting kept as outro-hit/end-card-sting; 7 of 13 reach -16 LUFS integrated, 6 short sparse clips are peak-limited to -1 dBFS instead (-16.5 to -21.9 LUFS) to avoid brick-walling",
+    "suits": {
+      "subject": "not applicable (a sound-effect reference reel)",
+      "mood": "not applicable",
+      "footage": "not applicable",
+      "brief": "source material for the sfx/ library's clip set and loudness targets, licence unknown, personal and internal use only until cleared"
+    },
+    "evidence": "edits/lessons/reels-2026-10-13.md:9-10,17-25; edits/sfx/README.md"
+  },
+  {
+    "id": "screenrec-19-40-58",
+    "source": "edits/_source/ScreenRecording_10-11-2026 19-40-58_1.mov (gitignored)",
+    "platform": "screen-recording",
+    "learned": "historical",
+    "style_learned": "hud-lyric-heat",
+    "cut_rhythm": "one continuous take, never cut; all energy comes from overlays firing on a repeating clock, not from editing cuts",
+    "transitions": "none (no cuts); the effect is carried by a stack of overlays (detect HUD, thermal flash) over the single take",
+    "caption_style": "huge lyric captions sitting behind the subject, one phrase line at a time",
+    "music_character": "a repeating-clock overlay rhythm tied to the lyric/HUD cycle rather than a cut-driven edit",
+    "sfx_placement": "not separately measured in this entry; see analysis.json for the full recipe parameters",
+    "suits": {
+      "subject": "a single continuous selfie-style shot (ski summit selfie in the source recording)",
+      "mood": "high-energy, HUD/detect overlay aesthetic",
+      "footage": "one uncut take with no coverage to intercut",
+      "brief": "a lyric/caption-led edit over a single shot, carried by overlay rhythm rather than cutting"
+    },
+    "evidence": "edits/hud-lyric-heat/README.md"
+  },
+  {
+    "id": "v26044gc-hud-light",
+    "source": "edits/_source/v26044gc0000dau3ftvog65vlo4gptag.MP4 (gitignored)",
+    "platform": "tiktok",
+    "learned": "historical",
+    "style_learned": "hud-lyric-light",
+    "cut_rhythm": "same one-continuous-take hud-lyric template as hud-lyric-heat, run at full length (17.2 s) rather than a short cut",
+    "transitions": "none (no cuts); the template's overlay stack, shown over its full colour progression because this rendering runs it at full length",
+    "caption_style": "the shared hud-lyric caption template; saturated caption colours and the red heat band read more strongly here because the footage itself is nearly colourless (pale grey-blue snowfield, black hoodie)",
+    "music_character": "same repeating-clock overlay rhythm as hud-lyric-heat",
+    "sfx_placement": "not separately measured in this entry; see analysis.json",
+    "suits": {
+      "subject": "a single continuous shot of a hooded figure (snowfield), low-saturation footage",
+      "mood": "same HUD/detect overlay aesthetic as hud-lyric-heat, suited to colourless source footage",
+      "footage": "one uncut take, low natural saturation",
+      "brief": "the hud-lyric template where the brief's footage itself has little colour, letting the caption/heat-band colour carry the look"
+    },
+    "evidence": "edits/hud-lyric-light/README.md"
+  },
+  {
+    "id": "screenrec-22-33-20",
+    "source": "edits/_source/ScreenRecording_10-11-2026 22-33-20_1.MP4 (gitignored)",
+    "platform": "screen-recording",
+    "learned": "historical",
+    "style_learned": "lyric-word-beat",
+    "cut_rhythm": "about nine shots across 16.9 s (night/dusk running and gym footage); the caption, not the cut, changes five times a second",
+    "transitions": "short, loud transitions between shots (described in the style README as mono tile mosaic-style cuts)",
+    "caption_style": "one lyric word at a time, dead centre, heavy white capitals, no animation, difference-blend so colour inverts against the footage (white over dark, sky blue over orange, olive over pink, navy over white)",
+    "music_character": "a music edit where the caption clock (5 words/second) runs independently of the shot cuts",
+    "sfx_placement": "not separately measured in this entry; see analysis.json",
+    "suits": {
+      "subject": "montage of action footage (running, gym) with no single continuous subject",
+      "mood": "driving, lyric-led music edit",
+      "footage": "multiple short shots of varied brightness/colour, since the difference-blend caption depends on contrast against the footage",
+      "brief": "a one-word-at-a-time lyric caption edit over a multi-shot montage"
+    },
+    "evidence": "edits/lyric-word-beat/README.md"
+  },
+  {
+    "id": "kinetic-card-openmontage",
+    "source": "edits/_source/kinetic-card-explainer-openmontage.MP4 (gitignored); @alekseitalksai, OpenMontage promo, AirDropped 12 Oct 2026",
+    "platform": "airdrop",
+    "learned": "historical",
+    "style_learned": "kinetic-card-explainer",
+    "cut_rhythm": "twenty hard-cut scenes across 31.2 s, each about 1.4 s, one idea per scene",
+    "transitions": "hard cuts between flat-colour cards (alternating dark #0E0B11, light grey #E8E8E8, beige #E7E3D8, once terracotta #C87359)",
+    "caption_style": "word-by-word explainer text paired with a small upper-half diagram per card",
+    "music_character": "not separately measured in this entry; see analysis.json and edits/techniques-2026-10-12.md",
+    "sfx_placement": "not separately measured in this entry; see analysis.json",
+    "suits": {
+      "subject": "no filmed subject; abstract diagram cards",
+      "mood": "crisp, one-idea-per-card explainer",
+      "footage": "none required beyond generated cards/diagrams",
+      "brief": "a product or repo explainer where each beat is one idea on a flat card"
+    },
+    "evidence": "edits/kinetic-card-explainer/README.md; edits/kinetic-card-explainer/analysis.json; edits/techniques-2026-10-12.md"
+  },
+  {
+    "id": "talking-head-raycfu",
+    "source": "edits/_source/talking-head-split-raycfu.MP4 (gitignored); @raycfu, \"How to do motion design with Claude Opus 5.5\", AirDropped 12 Oct 2026",
+    "platform": "airdrop",
+    "learned": "historical",
+    "style_learned": "talking-head-split",
+    "cut_rhythm": "one continuous talking-head take, reframed by hard jump cuts between a wide shot and a close shot (~1.7x), rather than cutting away to other footage",
+    "transitions": "hard jump cuts between the two framings of the same take; inset screen captures layered in on their own clock",
+    "caption_style": "serif caption chunks",
+    "music_character": "not separately measured in this entry; see analysis.json and edits/techniques-2026-10-12.md",
+    "sfx_placement": "not separately measured in this entry; see analysis.json",
+    "suits": {
+      "subject": "a single person talking to camera, never cut away from",
+      "mood": "how-to / explainer, personal and direct",
+      "footage": "one continuous talking-head take plus screen-capture inserts",
+      "brief": "a talking-head explainer that needs inset screen evidence without ever leaving the speaker's face"
+    },
+    "evidence": "edits/talking-head-split/README.md; edits/talking-head-split/analysis.json; edits/techniques-2026-10-12.md"
+  }
+]

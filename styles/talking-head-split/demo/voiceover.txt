@@ -1,0 +1,3 @@
+Voiceover used for the demo (macOS say, voice Daniel, 185 words a minute). Written for the demo, not taken from the source video.
+
+Most explainers are not one clip. They are a small studio that you set up once. Start with the footage and a beat grid, and let the engine decide where every cut lands. Then add the captions in short chunks that follow the voice. Keep each chunk to two lines, so the eye never has to hunt. Put a screen capture above the speaker whenever a claim needs proof, and swap it every second or two so nothing sits still. Alternate a wide shot with a close shot at each new sentence. That gives you rhythm from a single camera. Finally, render it, and check every frame. Follow for more ways to build your own edits.

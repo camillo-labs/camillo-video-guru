@@ -1,0 +1,1197 @@
+{
+ "style": "talking-head-split",
+ "seed": 1,
+ "fps": 30,
+ "aspect": "9:16",
+ "duration": 35.6273,
+ "n_beats": 76,
+ "music": {
+  "path": "_testdata/music/house128.wav",
+  "start": 3.7488,
+  "bpm": 127.99,
+  "beat_period": 0.46878,
+  "drops_in_window": [
+   18.751,
+   35.627
+  ]
+ },
+ "voiceover": {
+  "path": "_testdata/vo/th_demo.aiff",
+  "start": 0.2344
+ },
+ "shots": [
+  {
+   "beat0": 0.0,
+   "beat1": 9.0,
+   "role": "intro",
+   "t0": 0.0,
+   "t1": 4.266666666666667,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 0.75,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 4.267,
+   "target_q": 0.4,
+   "grade": {
+    "contrast": 1.03,
+    "saturation": 0.97,
+    "vignette": 0.0,
+    "grain": 0.0
+   }
+  },
+  {
+   "beat0": 9.0,
+   "beat1": 20.0,
+   "role": "mid",
+   "t0": 4.266666666666667,
+   "t1": 9.3,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 0.5,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 5.033,
+   "target_q": 0.4,
+   "grade": {
+    "contrast": 1.03,
+    "saturation": 0.97,
+    "vignette": 0.0,
+    "grain": 0.0
+   }
+  },
+  {
+   "beat0": 20.0,
+   "beat1": 36.0,
+   "role": "mid",
+   "t0": 9.3,
+   "t1": 16.633333333333333,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 0.0,
+   "speed": 0.7733333333333333,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 5.671,
+   "target_q": 0.44,
+   "grade": {
+    "contrast": 1.03,
+    "saturation": 0.97,
+    "vignette": 0.0,
+    "grain": 0.0
+   }
+  },
+  {
+   "beat0": 36.0,
+   "beat1": 44.0,
+   "role": "mid",
+   "t0": 16.633333333333333,
+   "t1": 20.9,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 0.0,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 4.267,
+   "target_q": 0.67,
+   "grade": {
+    "contrast": 1.03,
+    "saturation": 0.97,
+    "vignette": 0.0,
+    "grain": 0.0
+   }
+  },
+  {
+   "beat0": 44.0,
+   "beat1": 60.0,
+   "role": "high",
+   "t0": 20.9,
+   "t1": 28.1,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 0.0,
+   "speed": 0.7733333333333333,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 5.568,
+   "target_q": 0.81,
+   "grade": {
+    "contrast": 1.03,
+    "saturation": 0.97,
+    "vignette": 0.0,
+    "grain": 0.0
+   }
+  },
+  {
+   "beat0": 60.0,
+   "beat1": 68.0,
+   "role": "high",
+   "t0": 28.1,
+   "t1": 31.866666666666667,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 1.75,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 3.767,
+   "target_q": 0.55,
+   "grade": {
+    "contrast": 1.03,
+    "saturation": 0.97,
+    "vignette": 0.0,
+    "grain": 0.0
+   }
+  },
+  {
+   "beat0": 68.0,
+   "beat1": 76.0,
+   "role": "mid",
+   "t0": 31.866666666666667,
+   "t1": 35.63333333333333,
+   "clip": "_testdata/clips/head_9x16/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 0.0,
+   "speed": 1.0,
+   "focus": [
+    0.49630077375626935,
+    0.5072124367101127
+   ],
+   "mask": "_testdata/clips/head_9x16/figure.mask.mp4",
+   "w": 540,
+   "h": 960,
+   "src_dur": 3.767,
+   "target_q": 0.45,
+   "grade": {
+    "contrast": 1.03,
+    "saturation": 0.97,
+    "vignette": 0.0,
+    "grain": 0.0
+   }
+  }
+ ],
+ "events": [
+  {
+   "fx": "th_zoom",
+   "t0": 4.266666666666667,
+   "t1": 9.3,
+   "tc": 4.266666666666667,
+   "params": {
+    "scale": 1.7,
+    "cx": 0.5,
+    "cy": 0.62
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "th_zoom",
+   "t0": 16.633333333333333,
+   "t1": 20.9,
+   "tc": 16.633333333333333,
+   "params": {
+    "scale": 1.7,
+    "cx": 0.5,
+    "cy": 0.62
+   },
+   "layer": "pre",
+   "at": "shot"
+  },
+  {
+   "fx": "th_zoom",
+   "t0": 28.1,
+   "t1": 31.8667,
+   "tc": 28.1,
+   "params": {
+    "scale": 1.7,
+    "cx": 0.5,
+    "cy": 0.62
+   },
+   "layer": "pre",
+   "at": "shot"
+  }
+ ],
+ "sfx": [],
+ "words": [
+  {
+   "text": "Most",
+   "t0": 0.2344,
+   "t1": 0.5144,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "explainers",
+   "t0": 0.5144,
+   "t1": 1.1944,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "are",
+   "t0": 1.1944,
+   "t1": 1.3744,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "not",
+   "t0": 1.3744,
+   "t1": 1.5544,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "one",
+   "t0": 1.5544,
+   "t1": 1.8144,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "clip.",
+   "t0": 1.8144,
+   "t1": 2.1544,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "They",
+   "t0": 2.3944,
+   "t1": 2.5944,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "are",
+   "t0": 2.5944,
+   "t1": 2.7544,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "a",
+   "t0": 2.7544,
+   "t1": 2.9144,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "small",
+   "t0": 2.9144,
+   "t1": 3.1344,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "studio",
+   "t0": 3.1344,
+   "t1": 3.5744,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "that",
+   "t0": 3.5744,
+   "t1": 3.8544,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "you",
+   "t0": 3.8544,
+   "t1": 4.0144,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "set",
+   "t0": 4.0144,
+   "t1": 4.2544,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "up",
+   "t0": 4.2544,
+   "t1": 4.4144,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "once.",
+   "t0": 4.4144,
+   "t1": 4.8744,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "Start",
+   "t0": 5.1744,
+   "t1": 5.5544,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "with",
+   "t0": 5.5544,
+   "t1": 5.7344,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 5.7344,
+   "t1": 5.8744,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "footage",
+   "t0": 5.8744,
+   "t1": 6.2144,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "and",
+   "t0": 6.2144,
+   "t1": 6.3944,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "a",
+   "t0": 6.3944,
+   "t1": 6.4744,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "beat",
+   "t0": 6.4744,
+   "t1": 6.6744,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "grid,",
+   "t0": 6.6744,
+   "t1": 6.9544,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "and",
+   "t0": 6.9544,
+   "t1": 7.3744,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "let",
+   "t0": 7.3744,
+   "t1": 7.5744,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 7.5744,
+   "t1": 7.7344,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "engine",
+   "t0": 7.7344,
+   "t1": 8.0144,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "decide",
+   "t0": 8.0144,
+   "t1": 8.3944,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "where",
+   "t0": 8.3944,
+   "t1": 8.7344,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "every",
+   "t0": 8.7344,
+   "t1": 9.0544,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "cut",
+   "t0": 9.0544,
+   "t1": 9.3144,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "lands.",
+   "t0": 9.3144,
+   "t1": 9.8944,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "Then",
+   "t0": 10.1544,
+   "t1": 10.4144,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "add",
+   "t0": 10.4144,
+   "t1": 10.5744,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 10.5744,
+   "t1": 10.7144,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "captions",
+   "t0": 10.7144,
+   "t1": 11.1144,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "in",
+   "t0": 11.1144,
+   "t1": 11.3344,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "short",
+   "t0": 11.3344,
+   "t1": 11.6344,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "chunks",
+   "t0": 11.6344,
+   "t1": 11.9744,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "that",
+   "t0": 11.9744,
+   "t1": 12.2144,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "follow",
+   "t0": 12.2144,
+   "t1": 12.5144,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 12.5144,
+   "t1": 12.6744,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "voice.",
+   "t0": 12.6744,
+   "t1": 13.0944,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "Keep",
+   "t0": 13.3944,
+   "t1": 13.6144,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "each",
+   "t0": 13.6144,
+   "t1": 13.8744,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "chunk",
+   "t0": 13.8744,
+   "t1": 14.2144,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "to",
+   "t0": 14.2144,
+   "t1": 14.4144,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "two",
+   "t0": 14.4144,
+   "t1": 14.6144,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "lines,",
+   "t0": 14.6144,
+   "t1": 15.0944,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "so",
+   "t0": 15.0944,
+   "t1": 15.6744,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 15.6744,
+   "t1": 15.8344,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "eye",
+   "t0": 15.8344,
+   "t1": 15.9944,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "never",
+   "t0": 15.9944,
+   "t1": 16.2544,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "has",
+   "t0": 16.2544,
+   "t1": 16.4744,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "to",
+   "t0": 16.4744,
+   "t1": 16.6344,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "hunt.",
+   "t0": 16.6344,
+   "t1": 16.9944,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "Put",
+   "t0": 17.2944,
+   "t1": 17.5544,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "a",
+   "t0": 17.5544,
+   "t1": 17.6944,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "screen",
+   "t0": 17.6944,
+   "t1": 17.9944,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "capture",
+   "t0": 17.9944,
+   "t1": 18.3744,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "above",
+   "t0": 18.3744,
+   "t1": 18.6744,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 18.6744,
+   "t1": 18.8344,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "speaker",
+   "t0": 18.8344,
+   "t1": 19.1744,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "whenever",
+   "t0": 19.1744,
+   "t1": 19.5344,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "a",
+   "t0": 19.5344,
+   "t1": 19.8144,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "claim",
+   "t0": 19.8144,
+   "t1": 19.9944,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "needs",
+   "t0": 19.9944,
+   "t1": 20.2944,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "proof,",
+   "t0": 20.2944,
+   "t1": 20.7344,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "and",
+   "t0": 20.9144,
+   "t1": 21.2144,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "swap",
+   "t0": 21.2144,
+   "t1": 21.5344,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "it",
+   "t0": 21.5344,
+   "t1": 21.6744,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "every",
+   "t0": 21.6744,
+   "t1": 21.9144,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "second",
+   "t0": 21.9144,
+   "t1": 22.2944,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "or",
+   "t0": 22.2944,
+   "t1": 22.5144,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "two",
+   "t0": 22.5144,
+   "t1": 22.6944,
+   "emph": false,
+   "phrase": 11,
+   "line": 0
+  },
+  {
+   "text": "so",
+   "t0": 22.6944,
+   "t1": 22.9144,
+   "emph": false,
+   "phrase": 11,
+   "line": 0
+  },
+  {
+   "text": "nothing",
+   "t0": 22.9144,
+   "t1": 23.2544,
+   "emph": false,
+   "phrase": 11,
+   "line": 0
+  },
+  {
+   "text": "sits",
+   "t0": 23.2544,
+   "t1": 23.6344,
+   "emph": false,
+   "phrase": 11,
+   "line": 0
+  },
+  {
+   "text": "still.",
+   "t0": 23.6344,
+   "t1": 24.0544,
+   "emph": false,
+   "phrase": 11,
+   "line": 0
+  },
+  {
+   "text": "Alternate",
+   "t0": 24.3544,
+   "t1": 24.8344,
+   "emph": false,
+   "phrase": 12,
+   "line": 0
+  },
+  {
+   "text": "a",
+   "t0": 24.8344,
+   "t1": 24.9544,
+   "emph": false,
+   "phrase": 12,
+   "line": 0
+  },
+  {
+   "text": "wide",
+   "t0": 24.9544,
+   "t1": 25.1744,
+   "emph": false,
+   "phrase": 12,
+   "line": 0
+  },
+  {
+   "text": "shot",
+   "t0": 25.1744,
+   "t1": 25.4544,
+   "emph": false,
+   "phrase": 12,
+   "line": 0
+  },
+  {
+   "text": "with",
+   "t0": 25.4544,
+   "t1": 25.6344,
+   "emph": false,
+   "phrase": 12,
+   "line": 0
+  },
+  {
+   "text": "a",
+   "t0": 25.6344,
+   "t1": 25.7544,
+   "emph": false,
+   "phrase": 12,
+   "line": 0
+  },
+  {
+   "text": "close",
+   "t0": 25.7544,
+   "t1": 25.9744,
+   "emph": false,
+   "phrase": 12,
+   "line": 0
+  },
+  {
+   "text": "shot",
+   "t0": 25.9744,
+   "t1": 26.2344,
+   "emph": false,
+   "phrase": 12,
+   "line": 0
+  },
+  {
+   "text": "at",
+   "t0": 26.2344,
+   "t1": 26.3944,
+   "emph": false,
+   "phrase": 12,
+   "line": 0
+  },
+  {
+   "text": "each",
+   "t0": 26.3944,
+   "t1": 26.6144,
+   "emph": false,
+   "phrase": 13,
+   "line": 0
+  },
+  {
+   "text": "new",
+   "t0": 26.6144,
+   "t1": 26.8544,
+   "emph": false,
+   "phrase": 13,
+   "line": 0
+  },
+  {
+   "text": "sentence.",
+   "t0": 26.8544,
+   "t1": 27.3344,
+   "emph": false,
+   "phrase": 13,
+   "line": 0
+  },
+  {
+   "text": "That",
+   "t0": 27.8344,
+   "t1": 28.0944,
+   "emph": false,
+   "phrase": 14,
+   "line": 0
+  },
+  {
+   "text": "gives",
+   "t0": 28.0944,
+   "t1": 28.3344,
+   "emph": false,
+   "phrase": 14,
+   "line": 0
+  },
+  {
+   "text": "you",
+   "t0": 28.3344,
+   "t1": 28.4744,
+   "emph": false,
+   "phrase": 14,
+   "line": 0
+  },
+  {
+   "text": "rhythm",
+   "t0": 28.4744,
+   "t1": 28.6944,
+   "emph": false,
+   "phrase": 14,
+   "line": 0
+  },
+  {
+   "text": "from",
+   "t0": 28.6944,
+   "t1": 28.9344,
+   "emph": false,
+   "phrase": 14,
+   "line": 0
+  },
+  {
+   "text": "a",
+   "t0": 28.9344,
+   "t1": 29.0744,
+   "emph": false,
+   "phrase": 14,
+   "line": 0
+  },
+  {
+   "text": "single",
+   "t0": 29.0744,
+   "t1": 29.3544,
+   "emph": false,
+   "phrase": 14,
+   "line": 0
+  },
+  {
+   "text": "camera.",
+   "t0": 29.3544,
+   "t1": 29.7944,
+   "emph": false,
+   "phrase": 14,
+   "line": 0
+  },
+  {
+   "text": "Finally,",
+   "t0": 30.2344,
+   "t1": 30.6144,
+   "emph": false,
+   "phrase": 15,
+   "line": 0
+  },
+  {
+   "text": "render",
+   "t0": 30.8344,
+   "t1": 31.1744,
+   "emph": false,
+   "phrase": 15,
+   "line": 0
+  },
+  {
+   "text": "it,",
+   "t0": 31.1744,
+   "t1": 31.4944,
+   "emph": false,
+   "phrase": 15,
+   "line": 0
+  },
+  {
+   "text": "and",
+   "t0": 31.6144,
+   "t1": 31.8544,
+   "emph": false,
+   "phrase": 15,
+   "line": 0
+  },
+  {
+   "text": "check",
+   "t0": 31.8544,
+   "t1": 32.1144,
+   "emph": false,
+   "phrase": 15,
+   "line": 0
+  },
+  {
+   "text": "every",
+   "t0": 32.1144,
+   "t1": 32.4344,
+   "emph": false,
+   "phrase": 15,
+   "line": 0
+  },
+  {
+   "text": "frame.",
+   "t0": 32.4344,
+   "t1": 32.9944,
+   "emph": false,
+   "phrase": 15,
+   "line": 0
+  },
+  {
+   "text": "Follow",
+   "t0": 33.2144,
+   "t1": 33.6144,
+   "emph": false,
+   "phrase": 16,
+   "line": 0
+  },
+  {
+   "text": "for",
+   "t0": 33.6144,
+   "t1": 33.8344,
+   "emph": false,
+   "phrase": 16,
+   "line": 0
+  },
+  {
+   "text": "more",
+   "t0": 33.8344,
+   "t1": 34.0344,
+   "emph": false,
+   "phrase": 16,
+   "line": 0
+  },
+  {
+   "text": "ways",
+   "t0": 34.0344,
+   "t1": 34.2944,
+   "emph": false,
+   "phrase": 16,
+   "line": 0
+  },
+  {
+   "text": "to",
+   "t0": 34.2944,
+   "t1": 34.4744,
+   "emph": false,
+   "phrase": 16,
+   "line": 0
+  },
+  {
+   "text": "build",
+   "t0": 34.4744,
+   "t1": 34.6944,
+   "emph": false,
+   "phrase": 16,
+   "line": 0
+  },
+  {
+   "text": "your",
+   "t0": 34.6944,
+   "t1": 34.8944,
+   "emph": false,
+   "phrase": 16,
+   "line": 0
+  },
+  {
+   "text": "own",
+   "t0": 34.8944,
+   "t1": 35.1144,
+   "emph": false,
+   "phrase": 16,
+   "line": 0
+  },
+  {
+   "text": "edits.",
+   "t0": 35.1144,
+   "t1": 35.4544,
+   "emph": false,
+   "phrase": 16,
+   "line": 0
+  }
+ ],
+ "stats": {
+  "n_shots": 7,
+  "mean_shot_beats": 10.857,
+  "shot_beats_hist": {
+   "8.0": 3,
+   "9.0": 1,
+   "11.0": 1,
+   "16.0": 2
+  },
+  "planned_cut_offset_ms_from_sixteenth_grid_mean_abs": 9.43,
+  "n_events": 3,
+  "events_by_fx": {
+   "th_zoom": 3
+  }
+ },
+ "style_path": "/Users/student/dev/design-library/edits/talking-head-split/style.json",
+ "audio": {
+  "music_gain": 0.0
+ }
+}

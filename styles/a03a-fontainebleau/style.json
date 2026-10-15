@@ -1,0 +1,479 @@
+{
+ "name": "a03a-fontainebleau",
+ "description": "LDMS A3a Fontainebleau Meta ad: bw-flash-vo grade arc (monochrome to colour at the turn), calm cuts, no strobing, kinetic French captions.",
+ "defaults": {
+  "aspect": "9:16",
+  "duration": 40.5
+ },
+ "structure": {
+  "intro_beats": 5,
+  "outro_beats": 4,
+  "drop_at": 0.45,
+  "drop_beats": 8,
+  "vo_start_beats": 6,
+  "end_on_bar": true
+ },
+ "cuts": {
+  "first_shot_beats": 0.5,
+  "min_beats": 0.25,
+  "phrase_snap_beats": 0.5,
+  "lengths": {
+   "intro": [
+    [
+     0.25,
+     6
+    ],
+    [
+     0.5,
+     3
+    ],
+    [
+     0.75,
+     1
+    ]
+   ],
+   "low": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     0.5,
+     2
+    ]
+   ],
+   "mid": [
+    [
+     0.5,
+     4
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     0.25,
+     2
+    ]
+   ],
+   "high": [
+    [
+     0.25,
+     4
+    ],
+    [
+     0.5,
+     5
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   "drop": [
+    [
+     0.25,
+     5
+    ],
+    [
+     0.5,
+     4
+    ]
+   ],
+   "outro": [
+    [
+     2,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     0.5,
+     1
+    ]
+   ]
+  }
+ },
+ "clips": {
+  "select": "energy_match",
+  "avoid_repeat": 4,
+  "jitter": 0.3
+ },
+ "grade": {
+  "base": {
+   "contrast": 1.12,
+   "vignette": 0.25,
+   "grain": 0.02
+  },
+  "timeline": [
+   {
+    "frac": 0.0,
+    "grade": {
+     "bw": 1.0,
+     "contrast": 1.35,
+     "vignette": 0.45,
+     "target_luma": 0.26
+    }
+   },
+   {
+    "frac": 0.28,
+    "grade": {
+     "bw": 1.0,
+     "contrast": 1.35,
+     "vignette": 0.45,
+     "target_luma": 0.26
+    }
+   },
+   {
+    "frac": 0.36,
+    "grade": {
+     "bw": 0.1,
+     "saturation": 1.05,
+     "contrast": 1.12,
+     "vignette": 0.25,
+     "target_luma": 0.32
+    }
+   },
+   {
+    "frac": 0.84,
+    "grade": {
+     "bw": 0.1,
+     "saturation": 1.1,
+     "contrast": 1.12,
+     "vignette": 0.25,
+     "target_luma": 0.32
+    }
+   },
+   {
+    "frac": 0.9,
+    "grade": {
+     "bw": 1.0,
+     "contrast": 1.35,
+     "vignette": 0.45,
+     "target_luma": 0.26
+    }
+   }
+  ]
+ },
+ "moves": [
+  {
+   "fx": "slow_zoom",
+   "at": "shot",
+   "params": {
+    "from": 1.0,
+    "to": 1.09
+   },
+   "when": {
+    "shot_beats_min": 0.75
+   }
+  },
+  {
+   "fx": "flash",
+   "at": "cut",
+   "span_beats": [
+    0.0,
+    0.25
+   ],
+   "params": {
+    "shape": "decay",
+    "alpha": 1.0
+   },
+   "when": {
+    "role": [
+     "high",
+     "drop"
+    ],
+    "p": 0.6
+   }
+  },
+  {
+   "fx": "flash",
+   "at": "cut",
+   "span_beats": [
+    0.0,
+    0.25
+   ],
+   "params": {
+    "shape": "decay",
+    "alpha": 1.0
+   },
+   "when": {
+    "role": [
+     "intro"
+    ],
+    "p": 0.4
+   }
+  },
+  {
+   "fx": "flash",
+   "at": "cut",
+   "span_beats": [
+    0.0,
+    0.25
+   ],
+   "params": {
+    "shape": "decay",
+    "alpha": 1.0
+   },
+   "when": {
+    "role": [
+     "mid"
+    ],
+    "p": 0.12
+   }
+  },
+  {
+   "fx": "invert",
+   "at": "cut",
+   "span_beats": [
+    0.0,
+    0.25
+   ],
+   "params": {},
+   "when": {
+    "role": [
+     "high",
+     "drop"
+    ],
+    "p": 0.12
+   }
+  },
+  {
+   "fx": "invert",
+   "at": "cut",
+   "span_beats": [
+    0.0,
+    0.25
+   ],
+   "params": {},
+   "when": {
+    "role": [
+     "intro"
+    ],
+    "p": 0.12
+   }
+  },
+  {
+   "fx": "zoom_blur",
+   "at": "cut",
+   "span_beats": [
+    0.3,
+    0.3
+   ],
+   "params": {
+    "amount": 0.22
+   },
+   "when": {
+    "role": [
+     "mid",
+     "high",
+     "drop"
+    ],
+    "p": 0.22
+   },
+   "min_gap_beats": 1
+  },
+  {
+   "fx": "rgb_split",
+   "at": "drop",
+   "span_beats": [
+    0.0,
+    0.5
+   ],
+   "params": {
+    "amount": 0.02,
+    "shape": "decay"
+   }
+  },
+  {
+   "fx": "shake",
+   "at": "drop",
+   "span_beats": [
+    0.0,
+    0.6
+   ],
+   "params": {
+    "amount": 0.02
+   }
+  },
+  {
+   "fx": "flash",
+   "at": "drop",
+   "span_beats": [
+    0.0,
+    0.35
+   ],
+   "params": {
+    "shape": "decay"
+   }
+  },
+  {
+   "fx": "mask_flash",
+   "at": "shot",
+   "portion": [
+    0.12,
+    0.26
+   ],
+   "params": {
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "dim_bg": 0.0,
+    "shape": "tri"
+   },
+   "when": {
+    "last": true
+   }
+  },
+  {
+   "fx": "mask_flash",
+   "at": "shot",
+   "portion": [
+    0.5,
+    0.62
+   ],
+   "params": {
+    "color": [
+     255,
+     255,
+     255
+    ],
+    "shape": "tri"
+   },
+   "when": {
+    "last": true
+   }
+  },
+  {
+   "fx": "tile",
+   "at": "cut",
+   "span_beats": [
+    0.0,
+    0.5
+   ],
+   "params": {
+    "n": 2,
+    "hue_step": 30,
+    "shape": "decay"
+   },
+   "when": {
+    "role": [
+     "high"
+    ],
+    "p": 0.07
+   }
+  }
+ ],
+ "sfx": [
+  {
+   "kind": "whoosh",
+   "at": "cut",
+   "gain": 0.28,
+   "offset": -0.06,
+   "when": {
+    "role": [
+     "mid",
+     "high",
+     "drop"
+    ],
+    "p": 0.3
+   },
+   "min_gap_beats": 0.75
+  },
+  {
+   "kind": "impact",
+   "at": "drop",
+   "gain": 0.7
+  },
+  {
+   "kind": "riser",
+   "at": "drop",
+   "gain": 0.35,
+   "dur": 2.2,
+   "end_at_t": true
+  },
+  {
+   "kind": "hiss",
+   "at": "phrase",
+   "gain": 0.4,
+   "when": {
+    "p": 0.5
+   }
+  },
+  {
+   "kind": "click",
+   "at": "cut",
+   "gain": 0.4,
+   "when": {
+    "role": [
+     "intro"
+    ],
+    "p": 0.5
+   }
+  },
+  {
+   "kind": "gap",
+   "at": "cut",
+   "dur": 0.12,
+   "gain": 1,
+   "when": {
+    "role": [
+     "intro"
+    ],
+    "p": 0.35
+   }
+  }
+ ],
+ "captions": {
+  "kind": "kinetic",
+  "font": "Anton",
+  "key_font": "Anton",
+  "size_frac": 0.1,
+  "key_scale": 1.5,
+  "color": [
+   246,
+   243,
+   234
+  ],
+  "key_color": [
+   230,
+   200,
+   138
+  ],
+  "chunk_sizes": [
+   2,
+   2,
+   3
+  ],
+  "layout": "stack",
+  "align": "left",
+  "x": 0.07,
+  "y": 0.76,
+  "anchor": "bottom",
+  "leading": 0.08,
+  "tracking": 0.01,
+  "hold_beats": 0.5,
+  "scrim": 0.45,
+  "auto_emph": "longest",
+  "depth_text": {
+   "enabled": false
+  },
+  "timing": {
+   "mode": "grid",
+   "start_beat": 6,
+   "step_beats": 0.5,
+   "phrase_gap_beats": 1
+  },
+  "caption_sfx": null,
+  "caption_sfx_gain": 0.14,
+  "indent": 0.03
+ }
+}

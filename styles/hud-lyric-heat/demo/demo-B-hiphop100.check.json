@@ -1,0 +1,39 @@
+{
+ "bpm_planned": 100.0,
+ "bpm_rendered_audio": 99.96,
+ "n_planned_cuts": 3,
+ "n_cuts_detected_in_video": 3,
+ "planned_cut_offset_from_sixteenth_grid_ms_mean_abs": 0.31,
+ "video_cut_offset_from_nearest_sixteenth_ms_mean_abs": 1.6,
+ "share_of_cuts_within_one_frame_of_a_sixteenth": 1.0,
+ "share_of_cuts_on_a_beat_or_eighth_within_one_frame": 1.0,
+ "video_cut_offset_from_nearest_eighth_ms_mean_abs": 1.6,
+ "video_cut_offset_from_nearest_eighth_ms_median_abs": 1.2,
+ "video_cut_offset_from_nearest_beat_ms_mean_abs": 1.6,
+ "video_cut_offset_signed_mean_ms": 1.33,
+ "frame_ms": 33.33,
+ "regrid_from_rendered_mix_vs_planned_grid_ms_mean_abs": 101.2,
+ "vs_synthesised_ground_truth": {
+  "true_bpm": 100.0,
+  "video_cut_offset_vs_true_sixteenth_grid_ms_mean_abs": 0.4,
+  "planned_cut_offset_vs_true_sixteenth_grid_ms_mean_abs": 0.4,
+  "video_cut_offset_vs_true_sixteenth_grid_ms_max_abs": 0.4
+ },
+ "cuts": [
+  {
+   "planned": 4.8,
+   "measured": 4.8,
+   "off_sixteenth_ms": 3.2
+  },
+  {
+   "planned": 9.6,
+   "measured": 9.6,
+   "off_sixteenth_ms": 1.2
+  },
+  {
+   "planned": 13.2,
+   "measured": 13.2,
+   "off_sixteenth_ms": -0.4
+  }
+ ]
+}

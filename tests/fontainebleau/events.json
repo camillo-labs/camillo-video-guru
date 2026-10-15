@@ -1,0 +1,13 @@
+{
+ "per_fx_mean_abs_ms": {
+  "lyr_dip_mosaic": 54.3,
+  "lyr_haze_flash": 45.6,
+  "lyr_band_wipe": 21.1,
+  "lyr_radial_flash": 37.8,
+  "dip_black": 21.2,
+  "invert": 145.5
+ },
+ "all_events_mean_abs_ms": 54.3,
+ "n_events": 6,
+ "frame_ms": 33.3
+}

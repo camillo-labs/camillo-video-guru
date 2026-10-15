@@ -1,0 +1,748 @@
+{
+ "style": "lyric-word-beat",
+ "seed": 1,
+ "fps": 30,
+ "aspect": "16:9",
+ "duration": 15.7376,
+ "n_beats": 32,
+ "music": {
+  "path": "tests/green-label/assets/music/Voxel-Revolution.mp3",
+  "start": 62.9798,
+  "bpm": 122.0,
+  "beat_period": 0.4918,
+  "drops_in_window": [
+   5.901
+  ]
+ },
+ "voiceover": null,
+ "shots": [
+  {
+   "beat0": 0.0,
+   "beat1": 3.0,
+   "role": "intro",
+   "t0": 0.0,
+   "t1": 1.4666666666666666,
+   "clip": "tests/dachshunds/assets/clips/pexels-6953299.mp4",
+   "clip_kind": "video",
+   "src_in": 8.0,
+   "speed": 1.0,
+   "focus": [
+    0.4781860859501922,
+    0.49370552167651127
+   ],
+   "mask": null,
+   "w": 1280,
+   "h": 720,
+   "src_dur": 1.4666666666666666,
+   "target_q": 0.17,
+   "grade": {
+    "contrast": 1.12,
+    "saturation": 1.05,
+    "vignette": 0.3,
+    "grain": 0.012,
+    "target_luma": 0.2,
+    "target_strength": 0.85
+   }
+  },
+  {
+   "beat0": 3.0,
+   "beat1": 7.0,
+   "role": "low",
+   "t0": 1.4666666666666666,
+   "t1": 3.433333333333333,
+   "clip": "tests/dachshunds/assets/clips/pexels-3042471.mp4",
+   "clip_kind": "video",
+   "src_in": 7.5,
+   "speed": 1.0,
+   "focus": [
+    0.5322578400594425,
+    0.5306688244149669
+   ],
+   "mask": null,
+   "w": 1280,
+   "h": 720,
+   "src_dur": 1.9666666666666666,
+   "target_q": 0.13,
+   "grade": {
+    "contrast": 1.12,
+    "saturation": 1.05,
+    "vignette": 0.3,
+    "grain": 0.012,
+    "target_luma": 0.2,
+    "target_strength": 0.85
+   }
+  },
+  {
+   "beat0": 7.0,
+   "beat1": 12.0,
+   "role": "low",
+   "t0": 3.433333333333333,
+   "t1": 5.9,
+   "clip": "tests/dachshunds/assets/clips/pexels-6953022.mp4",
+   "clip_kind": "video",
+   "src_in": 4.0,
+   "speed": 1.0,
+   "focus": [
+    0.528188115926648,
+    0.4761201778142827
+   ],
+   "mask": null,
+   "w": 720,
+   "h": 1280,
+   "src_dur": 2.4666666666666672,
+   "target_q": 0.14,
+   "grade": {
+    "contrast": 1.12,
+    "saturation": 1.05,
+    "vignette": 0.3,
+    "grain": 0.012,
+    "target_luma": 0.2,
+    "target_strength": 0.85
+   }
+  },
+  {
+   "beat0": 12.0,
+   "beat1": 17.0,
+   "role": "drop",
+   "t0": 5.9,
+   "t1": 8.366666666666667,
+   "clip": "tests/dachshunds/assets/clips/pexels-6953362.mp4",
+   "clip_kind": "video",
+   "src_in": 5.0,
+   "speed": 1.0,
+   "focus": [
+    0.4897605757238202,
+    0.39732084762919817
+   ],
+   "mask": null,
+   "w": 720,
+   "h": 1280,
+   "src_dur": 2.466666666666667,
+   "target_q": 0.21,
+   "grade": {
+    "contrast": 1.12,
+    "saturation": 1.05,
+    "vignette": 0.3,
+    "grain": 0.012,
+    "target_luma": 0.2,
+    "target_strength": 0.85
+   }
+  },
+  {
+   "beat0": 17.0,
+   "beat1": 22.0,
+   "role": "low",
+   "t0": 8.366666666666667,
+   "t1": 10.833333333333334,
+   "clip": "tests/dachshunds/assets/clips/pexels-6953299.mp4",
+   "clip_kind": "video",
+   "src_in": 7.5,
+   "speed": 1.0,
+   "focus": [
+    0.4781860859501922,
+    0.49370552167651127
+   ],
+   "mask": null,
+   "w": 1280,
+   "h": 720,
+   "src_dur": 2.466666666666667,
+   "target_q": 0.18,
+   "grade": {
+    "contrast": 1.12,
+    "saturation": 1.05,
+    "vignette": 0.3,
+    "grain": 0.012,
+    "target_luma": 0.2,
+    "target_strength": 0.85
+   }
+  },
+  {
+   "beat0": 22.0,
+   "beat1": 26.0,
+   "role": "low",
+   "t0": 10.833333333333334,
+   "t1": 12.8,
+   "clip": "tests/dachshunds/assets/clips/pexels-10660961.mp4",
+   "clip_kind": "video",
+   "src_in": 4.25,
+   "speed": 1.0,
+   "focus": [
+    0.47911288962985205,
+    0.5145565964587852
+   ],
+   "mask": null,
+   "w": 720,
+   "h": 1280,
+   "src_dur": 1.9666666666666668,
+   "target_q": 0.2,
+   "grade": {
+    "contrast": 1.12,
+    "saturation": 1.05,
+    "vignette": 0.3,
+    "grain": 0.012,
+    "target_luma": 0.2,
+    "target_strength": 0.85
+   }
+  },
+  {
+   "beat0": 26.0,
+   "beat1": 31.0,
+   "role": "low",
+   "t0": 12.8,
+   "t1": 15.233333333333333,
+   "clip": "tests/dachshunds/assets/clips/pexels-3042471.mp4",
+   "clip_kind": "video",
+   "src_in": 7.5,
+   "speed": 1.0,
+   "focus": [
+    0.5322578400594425,
+    0.5306688244149669
+   ],
+   "mask": null,
+   "w": 1280,
+   "h": 720,
+   "src_dur": 2.433333333333332,
+   "target_q": 0.25,
+   "grade": {
+    "contrast": 1.12,
+    "saturation": 1.05,
+    "vignette": 0.3,
+    "grain": 0.012,
+    "target_luma": 0.2,
+    "target_strength": 0.85
+   }
+  },
+  {
+   "beat0": 31.0,
+   "beat1": 32.0,
+   "role": "outro",
+   "seam": true,
+   "t0": 15.233333333333333,
+   "t1": 15.733333333333333,
+   "clip": "tests/dachshunds/assets/clips/pexels-6953299.mp4",
+   "clip_kind": "video",
+   "src_in": 8.0,
+   "speed": 1.0,
+   "focus": [
+    0.4781860859501922,
+    0.49370552167651127
+   ],
+   "mask": null,
+   "w": 1280,
+   "h": 720,
+   "src_dur": 0.5,
+   "target_q": 0.17,
+   "grade": {
+    "contrast": 1.12,
+    "saturation": 1.05,
+    "vignette": 0.3,
+    "grain": 0.012,
+    "target_luma": 0.2,
+    "target_strength": 0.85
+   }
+  }
+ ],
+ "events": [
+  {
+   "fx": "lyr_dip_mosaic",
+   "t0": 1.4667,
+   "t1": 2.0568,
+   "tc": 1.4667,
+   "params": {
+    "black": 0.25,
+    "mosaic_end": 0.8,
+    "cells": 3
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "lyr_haze_flash",
+   "t0": 3.3842,
+   "t1": 3.876,
+   "tc": 3.4333,
+   "params": {
+    "cut_u": 0.1,
+    "flash_u": [
+     0.35,
+     0.45
+    ],
+    "veil": 0.65
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "lyr_band_wipe",
+   "t0": 5.9,
+   "t1": 6.4902,
+   "tc": 5.9,
+   "params": {
+    "top0": 0.2,
+    "bot0": 0.38,
+    "close_u": 0.85
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "lyr_radial_flash",
+   "t0": 8.1208,
+   "t1": 8.4896,
+   "tc": 8.3667,
+   "params": {
+    "cut_u": 0.667,
+    "amount": 0.22,
+    "white_u": 0.18
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "mask_flash",
+   "t0": 10.8333,
+   "t1": 12.8,
+   "tc": 10.8333,
+   "params": {
+    "alpha": 0.0,
+    "tag": "sticker"
+   },
+   "layer": "post",
+   "at": "shot"
+  },
+  {
+   "fx": "lyr_card_up",
+   "t0": 12.8,
+   "t1": 14.177,
+   "tc": 12.8,
+   "params": {
+    "black": 0.1,
+    "up_end": 0.26,
+    "hold_end": 0.62,
+    "full": 0.78,
+    "card_scale": 0.62
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "dip_black",
+   "t0": 15.2333,
+   "t1": 15.5776,
+   "tc": 15.2333,
+   "params": {
+    "peak": 0.8
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "invert",
+   "t0": 15.6022,
+   "t1": 15.7251,
+   "tc": 15.2333,
+   "params": {
+    "shape": "hold"
+   },
+   "layer": "pre",
+   "at": "cut"
+  }
+ ],
+ "sfx": [],
+ "words": [
+  {
+   "text": "Dachshund",
+   "t0": 0.0,
+   "t1": 0.2459,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "means",
+   "t0": 0.2459,
+   "t1": 0.4918,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "badger",
+   "t0": 0.4918,
+   "t1": 0.6148,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "dog",
+   "t0": 0.6148,
+   "t1": 0.8606,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "Bred",
+   "t0": 1.3525,
+   "t1": 1.7213,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "to",
+   "t0": 1.7213,
+   "t1": 1.9672,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "flush",
+   "t0": 1.9672,
+   "t1": 2.0902,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "out",
+   "t0": 2.0902,
+   "t1": 2.336,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "badgers",
+   "t0": 2.336,
+   "t1": 2.582,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "Smooth,",
+   "t0": 3.0738,
+   "t1": 3.3196,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "wire",
+   "t0": 3.3196,
+   "t1": 3.4426,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "or",
+   "t0": 3.4426,
+   "t1": 3.6885,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "long",
+   "t0": 3.6885,
+   "t1": 4.0574,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "haired",
+   "t0": 4.0574,
+   "t1": 4.3032,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "A",
+   "t0": 4.795,
+   "t1": 4.918,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "German",
+   "t0": 4.918,
+   "t1": 5.1639,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "breed",
+   "t0": 5.1639,
+   "t1": 5.4098,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "Dachshund",
+   "t0": 5.9016,
+   "t1": 6.1475,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "means",
+   "t0": 6.1475,
+   "t1": 6.2704,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "badger",
+   "t0": 6.2704,
+   "t1": 6.5164,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "dog",
+   "t0": 6.5164,
+   "t1": 6.8852,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "Bred",
+   "t0": 7.377,
+   "t1": 7.6229,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "to",
+   "t0": 7.6229,
+   "t1": 7.7459,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "flush",
+   "t0": 7.7458,
+   "t1": 7.9918,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "out",
+   "t0": 7.9918,
+   "t1": 8.2376,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "badgers",
+   "t0": 8.2376,
+   "t1": 8.4836,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "Smooth,",
+   "t0": 8.9754,
+   "t1": 9.0983,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "wire",
+   "t0": 9.0983,
+   "t1": 9.3442,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "or",
+   "t0": 9.3442,
+   "t1": 9.7131,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "long",
+   "t0": 9.7131,
+   "t1": 9.959,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "haired",
+   "t0": 9.959,
+   "t1": 10.0819,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "A",
+   "t0": 10.5737,
+   "t1": 10.8196,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "German",
+   "t0": 10.8196,
+   "t1": 11.0655,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "breed",
+   "t0": 11.0655,
+   "t1": 11.3114,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "Dachshund",
+   "t0": 11.8032,
+   "t1": 11.9262,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "means",
+   "t0": 11.9262,
+   "t1": 12.172,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "badger",
+   "t0": 12.172,
+   "t1": 12.5409,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "dog",
+   "t0": 12.5409,
+   "t1": 12.7868,
+   "emph": false,
+   "phrase": 8,
+   "line": 0
+  },
+  {
+   "text": "Bred",
+   "t0": 13.2786,
+   "t1": 13.4016,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "to",
+   "t0": 13.4016,
+   "t1": 13.6474,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "flush",
+   "t0": 13.6474,
+   "t1": 13.8934,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "out",
+   "t0": 13.8934,
+   "t1": 14.1392,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "badgers",
+   "t0": 14.1392,
+   "t1": 14.2622,
+   "emph": false,
+   "phrase": 9,
+   "line": 0
+  },
+  {
+   "text": "Smooth,",
+   "t0": 14.754,
+   "t1": 14.9999,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  },
+  {
+   "text": "wire",
+   "t0": 14.9999,
+   "t1": 15.3688,
+   "emph": false,
+   "phrase": 10,
+   "line": 0
+  }
+ ],
+ "stats": {
+  "n_shots": 8,
+  "mean_shot_beats": 4.0,
+  "shot_beats_hist": {
+   "1.0": 1,
+   "3.0": 1,
+   "4.0": 2,
+   "5.0": 4
+  },
+  "planned_cut_offset_ms_from_sixteenth_grid_mean_abs": 9.3,
+  "n_events": 8,
+  "events_by_fx": {
+   "dip_black": 1,
+   "invert": 1,
+   "lyr_band_wipe": 1,
+   "lyr_card_up": 1,
+   "lyr_dip_mosaic": 1,
+   "lyr_haze_flash": 1,
+   "lyr_radial_flash": 1,
+   "mask_flash": 1
+  }
+ },
+ "style_path": "/Users/student/dev/build-overnight-improve-video-edit-e/edits/lyric-word-beat/style.json",
+ "finish": {
+  "hook": {
+   "kind": "caption_preroll",
+   "intro_s": 0.0
+  },
+  "loop_seam_beats": 2.0,
+  "end_card": null
+ },
+ "audio": {
+  "bed_db": -20.0
+ }
+}

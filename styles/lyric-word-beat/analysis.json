@@ -1,0 +1,1328 @@
+{
+ "source": "v2 ScreenRecording 22-33-20 (TikTok phone recording of a 16:9 lyric edit)",
+ "band_crop": {
+  "x": 0,
+  "y": 911,
+  "w": 1290,
+  "h": 724,
+  "note": "16:9 band inside the 1290x2796 recording, TikTok UI sits over the right edge and is not part of the edit"
+ },
+ "music": {
+  "bpm": 138.7,
+  "beat_s": 0.4326,
+  "phase_s": 0.26,
+  "downbeat_positions": "beat 0 of 4 (kick), accents on 1 and 3 (snare)",
+  "bars": [
+   0.11,
+   0.133,
+   0.16,
+   0.245,
+   0.218,
+   0.146,
+   0.115,
+   0.153,
+   0.204
+  ],
+  "accent_by_beat_pos": [
+   0.1409632701619909,
+   0.25312386261391484,
+   0.14775409734055928,
+   0.24791507375435196
+  ],
+  "beats": [
+   0.26,
+   0.693,
+   1.125,
+   1.558,
+   1.99,
+   2.423,
+   2.856,
+   3.288,
+   3.721,
+   4.153,
+   4.586,
+   5.018,
+   5.451,
+   5.884,
+   6.316,
+   6.749,
+   7.181,
+   7.614,
+   8.047,
+   8.479,
+   8.912,
+   9.344,
+   9.777,
+   10.21,
+   10.642,
+   11.075,
+   11.507,
+   11.94,
+   12.372,
+   12.805,
+   13.238,
+   13.67,
+   14.103,
+   14.535,
+   14.968,
+   15.401,
+   15.833,
+   16.266,
+   16.698
+  ],
+  "bar_rms_note": "bars start 0.26,1.99,3.72,5.45,7.18,8.91,10.64,12.37,14.10 s"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "t_in": 0.0,
+   "t_out": 1.467,
+   "content": "A night bridge runner (handheld, warm lamps)",
+   "beats": 3.39,
+   "transition_in": "none (loop seam: caption LEVEL then IS)"
+  },
+  {
+   "n": 2,
+   "t_in": 1.467,
+   "t_out": 2.0,
+   "content": "black dip, then 3x3 monochrome mosaic reveal of shot 3",
+   "beats": 1.23,
+   "transition_in": "hard cut to black at 1.467, tiles 1.633-1.9, strobe 2.0-2.1"
+  },
+  {
+   "n": 3,
+   "t_in": 2.0,
+   "t_out": 3.7,
+   "content": "B runner legs close-up",
+   "beats": 3.93,
+   "transition_in": "2-frame strobe colour pop on downbeat 2.0"
+  },
+  {
+   "n": 4,
+   "t_in": 3.7,
+   "t_out": 6.033,
+   "content": "C gym pull-up from behind",
+   "beats": 5.39,
+   "transition_in": "haze veil 3.70, 50 percent card 3.77-3.9, white flash 3.90, fog peak 4.10, full 4.13"
+  },
+  {
+   "n": 5,
+   "t_in": 6.033,
+   "t_out": 8.4,
+   "content": "D two runners from behind, night road",
+   "beats": 5.47,
+   "transition_in": "horizontal band wipe 6.033-6.567, flare and bloom 6.567-6.7"
+  },
+  {
+   "n": 6,
+   "t_in": 8.4,
+   "t_out": 10.267,
+   "content": "E sunset pull-up silhouette",
+   "beats": 4.32,
+   "transition_in": "radial zoom blur 8.40-8.57, cream white 8.57-8.63, hard cut 8.667"
+  },
+  {
+   "n": 7,
+   "t_in": 10.267,
+   "t_out": 12.5,
+   "content": "F night bridge runner, Nike sticker and JUST DO IT",
+   "beats": 5.16,
+   "transition_in": "hard cut 10.267 with red swoosh sticker, silhouette strobe 10.667-10.833, wordmark 11.333"
+  },
+  {
+   "n": 8,
+   "t_in": 12.5,
+   "t_out": 14.6,
+   "content": "G dusk field push-up",
+   "beats": 4.85,
+   "transition_in": "dip to black 12.5, card slides up 12.733, 62 percent card hold 13.0-13.55, scale to full by 13.75"
+  },
+  {
+   "n": 9,
+   "t_in": 14.6,
+   "t_out": 16.433,
+   "content": "H sunset duo from behind",
+   "beats": 4.24,
+   "transition_in": "hard cut 14.6"
+  },
+  {
+   "n": 10,
+   "t_in": 16.433,
+   "t_out": 16.87,
+   "content": "A night bridge runner again (repeats shot 1)",
+   "beats": 1.0,
+   "transition_in": "hard cut 16.433, dip black 16.67, invert flash 16.77-16.87, loop to shot 1"
+  }
+ ],
+ "transitions_measured": {
+  "dip_to_black": {
+   "t": 1.467,
+   "nearest_low_onset_ms": 100,
+   "nearest_any_onset_ms": 77
+  },
+  "colour_pop_strobe": {
+   "t": 2.0,
+   "nearest_low_onset_ms": -15,
+   "nearest_any_onset_ms": -3
+  },
+  "haze_flash_start": {
+   "t": 3.7,
+   "nearest_low_onset_ms": 38,
+   "nearest_any_onset_ms": -8
+  },
+  "white_flash": {
+   "t": 3.9,
+   "nearest_low_onset_ms": 13,
+   "nearest_any_onset_ms": -208
+  },
+  "slat_start": {
+   "t": 6.033,
+   "nearest_low_onset_ms": 51,
+   "nearest_any_onset_ms": -147
+  },
+  "slat_land_flare": {
+   "t": 6.567,
+   "nearest_low_onset_ms": -77,
+   "nearest_any_onset_ms": -147
+  },
+  "zoomblur_start": {
+   "t": 8.4,
+   "nearest_low_onset_ms": -134,
+   "nearest_any_onset_ms": 99
+  },
+  "white_peak": {
+   "t": 8.6,
+   "nearest_low_onset_ms": 316,
+   "nearest_any_onset_ms": -101
+  },
+  "new_shot_after_blur": {
+   "t": 8.667,
+   "nearest_low_onset_ms": 249,
+   "nearest_any_onset_ms": 64
+  },
+  "hard_cut_nike": {
+   "t": 10.267,
+   "nearest_low_onset_ms": -50,
+   "nearest_any_onset_ms": -39
+  },
+  "strobe_start": {
+   "t": 10.667,
+   "nearest_low_onset_ms": 107,
+   "nearest_any_onset_ms": -55
+  },
+  "logo_in": {
+   "t": 11.333,
+   "nearest_low_onset_ms": 10,
+   "nearest_any_onset_ms": -25
+  },
+  "dip2": {
+   "t": 12.5,
+   "nearest_low_onset_ms": 74,
+   "nearest_any_onset_ms": -530
+  },
+  "card_up_start": {
+   "t": 12.733,
+   "nearest_low_onset_ms": 108,
+   "nearest_any_onset_ms": 491
+  },
+  "card_full": {
+   "t": 13.75,
+   "nearest_low_onset_ms": -4,
+   "nearest_any_onset_ms": -62
+  },
+  "hard_cut_sunset": {
+   "t": 14.6,
+   "nearest_low_onset_ms": -76,
+   "nearest_any_onset_ms": -64
+  },
+  "dip3": {
+   "t": 16.433,
+   "nearest_low_onset_ms": -63,
+   "nearest_any_onset_ms": -75
+  },
+  "invert_flash": {
+   "t": 16.767,
+   "nearest_low_onset_ms": -72,
+   "nearest_any_onset_ms": -409
+  }
+ },
+ "caption": {
+  "onsets_15fps_reading": [
+   [
+    "IS",
+    0.067,
+    23,
+    23
+   ],
+   [
+    "JUST",
+    0.267,
+    7,
+    7
+   ],
+   [
+    "SO",
+    0.467,
+    -10,
+    -10
+   ],
+   [
+    "ADVANCED",
+    0.533,
+    57,
+    -51
+   ],
+   [
+    "THE",
+    1.0,
+    91,
+    -17
+   ],
+   [
+    "BEZEL",
+    1.133,
+    8,
+    8
+   ],
+   [
+    "IS2",
+    1.333,
+    -8,
+    -8
+   ],
+   [
+    "TIFFANY",
+    1.533,
+    -24,
+    -24
+   ],
+   [
+    "STAMP",
+    1.933,
+    -57,
+    51
+   ],
+   [
+    "A",
+    2.2,
+    -7,
+    -7
+   ],
+   [
+    "GRIP",
+    2.4,
+    -23,
+    -23
+   ],
+   [
+    "ON",
+    2.6,
+    -39,
+    -39
+   ],
+   [
+    "MY",
+    2.733,
+    94,
+    -14
+   ],
+   [
+    "HAND",
+    2.867,
+    11,
+    11
+   ],
+   [
+    "I",
+    3.067,
+    -5,
+    -5
+   ],
+   [
+    "KNOW",
+    3.333,
+    45,
+    45
+   ],
+   [
+    "THAT",
+    3.467,
+    -38,
+    -38
+   ],
+   [
+    "I2",
+    3.533,
+    29,
+    29
+   ],
+   [
+    "CAME",
+    3.733,
+    13,
+    13
+   ],
+   [
+    "HERE",
+    3.867,
+    -70,
+    38
+   ],
+   [
+    "TO",
+    4.0,
+    63,
+    -45
+   ],
+   [
+    "SLIDE",
+    4.133,
+    -20,
+    -20
+   ],
+   [
+    "FROM",
+    4.4,
+    30,
+    30
+   ],
+   [
+    "LEFT",
+    4.6,
+    14,
+    14
+   ],
+   [
+    "TO2",
+    4.733,
+    -69,
+    39
+   ],
+   [
+    "THE2",
+    4.867,
+    64,
+    -44
+   ],
+   [
+    "RIGHT",
+    5.0,
+    -18,
+    -18
+   ],
+   [
+    "BUT",
+    5.267,
+    32,
+    32
+   ],
+   [
+    "NOW",
+    5.467,
+    16,
+    16
+   ],
+   [
+    "I3",
+    5.667,
+    -1,
+    -1
+   ],
+   [
+    "DON'T",
+    5.867,
+    -17,
+    -17
+   ],
+   [
+    "WANNA",
+    6.067,
+    -33,
+    -33
+   ],
+   [
+    "DANCE",
+    6.267,
+    -50,
+    -50
+   ],
+   [
+    "I4",
+    6.667,
+    -82,
+    26
+   ],
+   [
+    "GOT",
+    6.933,
+    -32,
+    -32
+   ],
+   [
+    "TOO",
+    7.067,
+    102,
+    -7
+   ],
+   [
+    "MUCH",
+    7.2,
+    19,
+    19
+   ],
+   [
+    "ON2",
+    7.333,
+    -64,
+    44
+   ],
+   [
+    "THE3",
+    7.467,
+    69,
+    -39
+   ],
+   [
+    "LINE",
+    7.6,
+    -14,
+    -14
+   ],
+   [
+    "TOO2",
+    7.867,
+    36,
+    36
+   ],
+   [
+    "MUCH2",
+    8.067,
+    20,
+    20
+   ],
+   [
+    "ON3",
+    8.2,
+    -63,
+    45
+   ],
+   [
+    "MY2",
+    8.333,
+    70,
+    -38
+   ],
+   [
+    "MIND",
+    8.533,
+    54,
+    -54
+   ],
+   [
+    "TOO3",
+    8.733,
+    38,
+    38
+   ],
+   [
+    "MUCH3",
+    8.933,
+    22,
+    22
+   ],
+   [
+    "AIN'T",
+    9.067,
+    -61,
+    47
+   ],
+   [
+    "ENOUGH",
+    9.267,
+    -78,
+    30
+   ],
+   [
+    "FOR",
+    9.467,
+    -94,
+    14
+   ],
+   [
+    "MY3",
+    9.6,
+    39,
+    39
+   ],
+   [
+    "PLANS",
+    9.733,
+    -44,
+    -44
+   ],
+   [
+    "DON'T2",
+    10.4,
+    -26,
+    -26
+   ],
+   [
+    "PAY",
+    10.667,
+    25,
+    25
+   ],
+   [
+    "ME",
+    10.8,
+    -58,
+    50
+   ],
+   [
+    "TO3",
+    10.933,
+    75,
+    -33
+   ],
+   [
+    "TELL",
+    11.067,
+    -8,
+    -8
+   ],
+   [
+    "YOU",
+    11.2,
+    -91,
+    17
+   ],
+   [
+    "LOGO",
+    11.333,
+    42,
+    42
+   ],
+   [
+    "THEY",
+    11.8,
+    76,
+    -32
+   ],
+   [
+    "PAY2",
+    11.933,
+    -7,
+    -7
+   ],
+   [
+    "ME2",
+    12.133,
+    -23,
+    -23
+   ],
+   [
+    "THE4",
+    12.2,
+    44,
+    44
+   ],
+   [
+    "SHIT",
+    12.4,
+    28,
+    28
+   ],
+   [
+    "I5",
+    12.6,
+    11,
+    11
+   ],
+   [
+    "DO",
+    12.8,
+    -5,
+    -5
+   ],
+   [
+    "IT",
+    12.933,
+    -88,
+    20
+   ],
+   [
+    "AGAIN",
+    13.067,
+    45,
+    45
+   ],
+   [
+    "I6",
+    13.6,
+    -70,
+    38
+   ],
+   [
+    "CAN'T",
+    13.867,
+    -20,
+    -20
+   ],
+   [
+    "BE",
+    14.0,
+    -103,
+    5
+   ],
+   [
+    "PALE",
+    14.133,
+    31,
+    31
+   ],
+   [
+    "IN",
+    14.267,
+    -52,
+    -52
+   ],
+   [
+    "MY4",
+    14.4,
+    81,
+    -27
+   ],
+   [
+    "CASKET",
+    14.533,
+    -2,
+    -2
+   ],
+   [
+    "MAKE",
+    14.933,
+    -35,
+    -35
+   ],
+   [
+    "SURE",
+    15.133,
+    -51,
+    -51
+   ],
+   [
+    "I7",
+    15.267,
+    82,
+    -26
+   ],
+   [
+    "DIE",
+    15.4,
+    -1,
+    -1
+   ],
+   [
+    "WITH",
+    15.6,
+    -17,
+    -17
+   ],
+   [
+    "A2",
+    15.733,
+    -100,
+    8
+   ],
+   [
+    "10",
+    15.867,
+    33,
+    33
+   ],
+   [
+    "THE5",
+    16.6,
+    -98,
+    10
+   ],
+   [
+    "LEVEL",
+    16.867,
+    -48,
+    -48
+   ]
+  ],
+  "whisper_words": [
+   [
+    " The",
+    0.0,
+    0.14
+   ],
+   [
+    " bezel",
+    0.14,
+    0.14
+   ],
+   [
+    " is",
+    0.14,
+    0.32
+   ],
+   [
+    " just",
+    0.32,
+    0.42
+   ],
+   [
+    " to",
+    0.42,
+    0.6
+   ],
+   [
+    " advance,",
+    0.6,
+    0.94
+   ],
+   [
+    " the",
+    1.06,
+    1.12
+   ],
+   [
+    " bezel",
+    1.12,
+    1.38
+   ],
+   [
+    " is",
+    1.38,
+    1.56
+   ],
+   [
+    " Tiffany's",
+    1.56,
+    2.06
+   ],
+   [
+    " stamp,",
+    2.06,
+    2.22
+   ],
+   [
+    " no",
+    2.32,
+    2.4
+   ],
+   [
+    " grip",
+    2.4,
+    2.58
+   ],
+   [
+    " on",
+    2.58,
+    2.72
+   ],
+   [
+    " my",
+    2.72,
+    2.88
+   ],
+   [
+    " hand",
+    2.88,
+    3.12
+   ],
+   [
+    " I",
+    3.12,
+    3.3
+   ],
+   [
+    " know",
+    3.3,
+    3.44
+   ],
+   [
+    " that",
+    3.44,
+    3.56
+   ],
+   [
+    " I",
+    3.56,
+    3.68
+   ],
+   [
+    " came",
+    3.68,
+    3.92
+   ],
+   [
+    " with",
+    3.92,
+    4.04
+   ],
+   [
+    " a",
+    4.04,
+    4.16
+   ],
+   [
+    " slob",
+    4.16,
+    4.44
+   ],
+   [
+    " from",
+    4.44,
+    4.58
+   ],
+   [
+    " left",
+    4.58,
+    4.82
+   ],
+   [
+    " to",
+    4.82,
+    5.0
+   ],
+   [
+    " right,",
+    5.0,
+    5.24
+   ],
+   [
+    " but",
+    5.26,
+    5.44
+   ],
+   [
+    " now",
+    5.44,
+    5.66
+   ],
+   [
+    " I",
+    5.66,
+    5.84
+   ],
+   [
+    " don't",
+    5.84,
+    6.14
+   ],
+   [
+    " wanna",
+    6.14,
+    6.26
+   ],
+   [
+    " dance",
+    6.26,
+    6.58
+   ],
+   [
+    " I",
+    6.58,
+    6.88
+   ],
+   [
+    " got",
+    6.88,
+    7.02
+   ],
+   [
+    " too",
+    7.02,
+    7.16
+   ],
+   [
+    " much",
+    7.16,
+    7.38
+   ],
+   [
+    " on",
+    7.38,
+    7.5
+   ],
+   [
+    " the",
+    7.5,
+    7.6
+   ],
+   [
+    " line,",
+    7.6,
+    7.84
+   ],
+   [
+    " too",
+    7.96,
+    8.04
+   ],
+   [
+    " much",
+    8.04,
+    8.24
+   ],
+   [
+    " on",
+    8.24,
+    8.34
+   ],
+   [
+    " my",
+    8.34,
+    8.48
+   ],
+   [
+    " mind,",
+    8.48,
+    8.72
+   ],
+   [
+    " too",
+    8.8,
+    8.88
+   ],
+   [
+    " much",
+    8.88,
+    9.12
+   ],
+   [
+    " ain't",
+    9.12,
+    9.26
+   ],
+   [
+    " enough",
+    9.26,
+    9.5
+   ],
+   [
+    " of",
+    9.5,
+    9.6
+   ],
+   [
+    " my",
+    9.6,
+    9.72
+   ],
+   [
+    " plans",
+    9.72,
+    10.04
+   ],
+   [
+    " Like",
+    10.04,
+    10.4
+   ],
+   [
+    " you",
+    10.4,
+    10.5
+   ],
+   [
+    " don't",
+    10.5,
+    10.66
+   ],
+   [
+    " pay",
+    10.66,
+    10.8
+   ],
+   [
+    " me",
+    10.8,
+    10.92
+   ],
+   [
+    " to",
+    10.92,
+    11.06
+   ],
+   [
+    " tell",
+    11.06,
+    11.22
+   ],
+   [
+    " you,",
+    11.22,
+    11.34
+   ],
+   [
+    " just",
+    11.42,
+    11.48
+   ],
+   [
+    " do",
+    11.48,
+    11.68
+   ],
+   [
+    " it,",
+    11.68,
+    11.76
+   ],
+   [
+    " they",
+    11.82,
+    11.9
+   ],
+   [
+    " pay",
+    11.9,
+    12.08
+   ],
+   [
+    " me",
+    12.08,
+    12.2
+   ],
+   [
+    " to",
+    12.2,
+    12.32
+   ],
+   [
+    " show",
+    12.32,
+    12.52
+   ],
+   [
+    " you",
+    12.52,
+    12.64
+   ],
+   [
+    " I'll",
+    12.64,
+    12.84
+   ],
+   [
+    " do",
+    12.84,
+    12.96
+   ],
+   [
+    " it",
+    12.96,
+    13.12
+   ],
+   [
+    " again",
+    13.12,
+    13.42
+   ],
+   [
+    " I",
+    13.42,
+    13.82
+   ],
+   [
+    " can't",
+    13.82,
+    14.02
+   ],
+   [
+    " be",
+    14.02,
+    14.1
+   ],
+   [
+    " pale",
+    14.1,
+    14.32
+   ],
+   [
+    " in",
+    14.32,
+    14.42
+   ],
+   [
+    " my",
+    14.42,
+    14.54
+   ],
+   [
+    " casket,",
+    14.54,
+    14.96
+   ],
+   [
+    " make",
+    14.98,
+    15.14
+   ],
+   [
+    " sure",
+    15.14,
+    15.3
+   ],
+   [
+    " I",
+    15.3,
+    15.4
+   ],
+   [
+    " die",
+    15.4,
+    15.56
+   ],
+   [
+    " with",
+    15.56,
+    15.72
+   ],
+   [
+    " a",
+    15.72,
+    15.9
+   ],
+   [
+    " ten",
+    15.9,
+    16.08
+   ]
+  ],
+  "gap_hist_in_eighths": {
+   "0.9": 26,
+   "0.3": 3,
+   "2.2": 2,
+   "0.6": 37,
+   "1.8": 3,
+   "1.2": 9,
+   "3.1": 1,
+   "2.5": 1,
+   "3.4": 1
+  },
+  "median_gap_s": 0.1999999999999993,
+  "words": 84,
+  "font": "geometric heavy sans, Montserrat ExtraBold-like, uppercase",
+  "cap_height_frac_of_band_h": 0.069,
+  "pos_y_frac": [
+   0.5,
+   0.75
+  ],
+  "pos_x_frac": 0.5,
+  "anim": "hard swap, no fade, no slide",
+  "fill": "white with difference blend",
+  "shadow": "soft dark, about 2px offset at 1290 wide"
+ },
+ "grade": {
+  "A_bridge_open": {
+   "mean_rgb": [
+    37.0,
+    24.0,
+    13.0
+   ],
+   "luma_mean": 0.102,
+   "p1": 0.004,
+   "p99": 0.382,
+   "sat_mean": 0.587,
+   "warmth_R_minus_B": 0.093
+  },
+  "B_legs": {
+   "mean_rgb": [
+    45.0,
+    30.0,
+    20.0
+   ],
+   "luma_mean": 0.126,
+   "p1": 0.016,
+   "p99": 0.257,
+   "sat_mean": 0.533,
+   "warmth_R_minus_B": 0.096
+  },
+  "C_pullup_gym": {
+   "mean_rgb": [
+    18.0,
+    14.0,
+    17.0
+   ],
+   "luma_mean": 0.058,
+   "p1": 0.003,
+   "p99": 0.276,
+   "sat_mean": 0.374,
+   "warmth_R_minus_B": 0.007
+  },
+  "D_duo_road": {
+   "mean_rgb": [
+    62.0,
+    54.0,
+    48.0
+   ],
+   "luma_mean": 0.216,
+   "p1": 0.063,
+   "p99": 0.5,
+   "sat_mean": 0.441,
+   "warmth_R_minus_B": 0.056
+  },
+  "E_sunset_pullup": {
+   "mean_rgb": [
+    124.0,
+    86.0,
+    113.0
+   ],
+   "luma_mean": 0.377,
+   "p1": 0.018,
+   "p99": 0.55,
+   "sat_mean": 0.342,
+   "warmth_R_minus_B": 0.041
+  },
+  "F_nike_bridge": {
+   "mean_rgb": [
+    47.0,
+    35.0,
+    24.0
+   ],
+   "luma_mean": 0.143,
+   "p1": 0.032,
+   "p99": 0.912,
+   "sat_mean": 0.472,
+   "warmth_R_minus_B": 0.09
+  },
+  "G_dusk_field": {
+   "mean_rgb": [
+    95.0,
+    72.0,
+    91.0
+   ],
+   "luma_mean": 0.306,
+   "p1": 0.037,
+   "p99": 0.644,
+   "sat_mean": 0.266,
+   "warmth_R_minus_B": 0.015
+  },
+  "H_sunset_duo": {
+   "mean_rgb": [
+    110.0,
+    75.0,
+    45.0
+   ],
+   "luma_mean": 0.314,
+   "p1": 0.04,
+   "p99": 0.608,
+   "sat_mean": 0.514,
+   "warmth_R_minus_B": 0.254
+  }
+ },
+ "alignment": {
+  "mean_abs_ms_event_to_nearest_low_onset": 86,
+  "mean_abs_ms_event_to_nearest_any_onset": 145,
+  "mean_abs_ms_caption_to_8th_grid": 42,
+  "mean_abs_ms_caption_to_16th_grid": 27,
+  "mean_abs_ms_whisper_to_8th_grid": 49,
+  "note": "chance level for an 8th grid is 54 ms and for a 16th grid 27 ms, so caption words follow vocal onsets, not the grid"
+ }
+}

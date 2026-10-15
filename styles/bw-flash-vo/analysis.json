@@ -1,0 +1,310 @@
+{
+ "source": "edit band of a vertical explainer video, 548x308 inside 576x1024 at x14 y97, 30 fps, 16.3 s of edit then a 4 s end card",
+ "music_or_beat_grid": {
+  "bpm": 128.4,
+  "beat_period_s": 0.46558,
+  "first_beat_s": 0.055,
+  "downbeat_phase": 0,
+  "note": "weak, the cuts are not locked to it"
+ },
+ "voiceover": {
+  "text": "And what do you plan to do if this whole dream of yours doesn't work out? That doesn't even enter my consciousness.",
+  "words": [
+   {
+    "text": "And",
+    "t0": 2.74,
+    "t1": 3.06
+   },
+   {
+    "text": "what",
+    "t0": 3.06,
+    "t1": 3.18
+   },
+   {
+    "text": "do",
+    "t0": 3.18,
+    "t1": 3.26
+   },
+   {
+    "text": "you",
+    "t0": 3.26,
+    "t1": 3.32
+   },
+   {
+    "text": "plan",
+    "t0": 3.32,
+    "t1": 3.56
+   },
+   {
+    "text": "to",
+    "t0": 3.56,
+    "t1": 3.7
+   },
+   {
+    "text": "do",
+    "t0": 3.7,
+    "t1": 3.86
+   },
+   {
+    "text": "if",
+    "t0": 3.86,
+    "t1": 4.02
+   },
+   {
+    "text": "this",
+    "t0": 4.02,
+    "t1": 4.2
+   },
+   {
+    "text": "whole",
+    "t0": 4.2,
+    "t1": 4.34
+   },
+   {
+    "text": "dream",
+    "t0": 4.34,
+    "t1": 4.64
+   },
+   {
+    "text": "of",
+    "t0": 4.64,
+    "t1": 4.8
+   },
+   {
+    "text": "yours",
+    "t0": 4.8,
+    "t1": 5.02
+   },
+   {
+    "text": "doesn't",
+    "t0": 5.02,
+    "t1": 5.36
+   },
+   {
+    "text": "work",
+    "t0": 5.36,
+    "t1": 5.5
+   },
+   {
+    "text": "out?",
+    "t0": 5.5,
+    "t1": 5.64
+   },
+   {
+    "text": "That",
+    "t0": 5.64,
+    "t1": 5.8
+   },
+   {
+    "text": "doesn't",
+    "t0": 5.8,
+    "t1": 6.08
+   },
+   {
+    "text": "even",
+    "t0": 6.08,
+    "t1": 6.18
+   },
+   {
+    "text": "enter",
+    "t0": 6.18,
+    "t1": 6.48
+   },
+   {
+    "text": "my",
+    "t0": 6.48,
+    "t1": 6.74
+   },
+   {
+    "text": "consciousness.",
+    "t0": 6.74,
+    "t1": 7.24
+   }
+  ],
+  "first_word_s": 2.74,
+  "first_word_beat": 5.77
+ },
+ "cuts_s": [
+  0.03,
+  0.23,
+  0.5,
+  0.63,
+  0.93,
+  1.07,
+  1.23,
+  1.4,
+  1.5,
+  1.87,
+  2.17,
+  3.13,
+  4.33,
+  4.9,
+  5.3,
+  5.63,
+  6.07,
+  6.47,
+  7.27,
+  7.43,
+  7.57,
+  7.67,
+  7.93,
+  8.07,
+  8.27,
+  8.47,
+  8.6,
+  8.77,
+  8.87,
+  9.0,
+  9.1,
+  9.3,
+  9.97,
+  10.17,
+  10.27,
+  10.47,
+  10.73,
+  11.0,
+  11.2,
+  11.53,
+  11.67,
+  11.97,
+  12.2,
+  12.33,
+  12.47,
+  12.7,
+  12.9,
+  13.03,
+  13.3,
+  13.43,
+  13.8,
+  13.9,
+  14.03,
+  14.23,
+  14.47,
+  14.77,
+  15.17,
+  15.33,
+  15.57,
+  15.97,
+  16.8
+ ],
+ "n_shots": 62,
+ "shot_length_beats": {
+  "median": 0.43,
+  "mean": 0.6,
+  "bins": {
+   "<0.3": 13,
+   "0.3-0.45": 18,
+   "0.45-0.6": 10,
+   "0.6-0.8": 8,
+   "0.8-1.2": 5,
+   "1.2-2": 4,
+   "2-4": 2
+  }
+ },
+ "cuts_per_second_by_section": {
+  "0-2.4 s flash intro": 4.17,
+  "2.4-7.3 s voiceover": 1.63,
+  "7.3-13.0 s montage": 4.91,
+  "13.0-16.8 s close": 3.42
+ },
+ "cut_offset_to_sixteenth_grid_ms_mean_abs": {
+  "measured": 31.2,
+  "chance": 29.1
+ },
+ "cut_offset_to_eighth_grid_ms_mean_abs": {
+  "measured": 54.7,
+  "chance": 58.2
+ },
+ "white_frames_s": [
+  4.3,
+  9.3,
+  9.93,
+  10.13,
+  10.27,
+  10.47,
+  10.73,
+  11.0,
+  11.2,
+  11.5,
+  11.97,
+  12.17,
+  12.33,
+  12.47,
+  12.57,
+  12.67,
+  13.4,
+  13.9,
+  14.73,
+  15.33,
+  15.53,
+  17.27
+ ],
+ "saturation_by_second": [
+  0.1,
+  0.1,
+  0.0,
+  0.1,
+  3.3,
+  32.6,
+  10.4,
+  21.6,
+  24.3,
+  15.8,
+  8.2,
+  23.0,
+  20.1,
+  5.9,
+  2.9,
+  15.9,
+  1.3
+ ],
+ "brightness_by_second": [
+  107,
+  83,
+  32,
+  58,
+  63,
+  72,
+  72,
+  67,
+  66,
+  81,
+  85,
+  113,
+  118,
+  59,
+  59,
+  74,
+  62
+ ],
+ "creator_annotations_read_from_the_explainer_timeline": [
+  "text",
+  "flash cuts",
+  "b&w colour",
+  "slow zoom",
+  "riser",
+  "charge",
+  "whoosh",
+  "tremolo",
+  "clicks",
+  "impact",
+  "page flick",
+  "hiss",
+  "radial blur + match cut",
+  "zoom + blur",
+  "AI edit video",
+  "tiled colour + zoom",
+  "masking flash"
+ ],
+ "caption": {
+  "font_look": "bold humanist sans, all caps, white, no outline, cap height about 6 percent of frame height",
+  "accents": [
+   "DREAM in dark red (about 150,20,20) and larger",
+   "CONSCIOUSNESS in cyan with a red chromatic split",
+   "OH in red then K in cyan on a white flash"
+  ],
+  "layout": "one word per line, each new word indented further right, block grows downward for the first phrase (WHAT DO YOU PLAN TO DO) and upward for the last (THAT, DOESN'T, EVEN ENTER, MY), the block persists across cuts and clears at the phrase end",
+  "anchor": "block starts at x 26 to 40 percent, y 28 to 74 percent of the band"
+ },
+ "end_card": "four second platform end card, not part of the style"
+}

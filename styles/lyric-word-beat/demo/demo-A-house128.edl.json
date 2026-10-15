@@ -1,0 +1,874 @@
+{
+ "style": "lyric-word-beat",
+ "seed": 1,
+ "fps": 30,
+ "aspect": "16:9",
+ "duration": 16.8761,
+ "n_beats": 36,
+ "music": {
+  "path": "_testdata/music/house128.wav",
+  "start": 16.8746,
+  "bpm": 127.99,
+  "beat_period": 0.46878,
+  "drops_in_window": [
+   5.625
+  ]
+ },
+ "voiceover": null,
+ "shots": [
+  {
+   "beat0": 0.0,
+   "beat1": 3.0,
+   "role": "intro",
+   "t0": 0.0,
+   "t1": 1.4,
+   "clip": "_testdata/clips/A_16x9/stars.mp4",
+   "clip_kind": "video",
+   "src_in": 0.75,
+   "speed": 1.0,
+   "focus": [
+    0.49346755199290165,
+    0.4783854646114777
+   ],
+   "mask": null,
+   "w": 960,
+   "h": 540,
+   "src_dur": 1.4,
+   "target_q": 0.25,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.15,
+    "grain": 0.012
+   }
+  },
+  {
+   "beat0": 3.0,
+   "beat1": 8.0,
+   "role": "mid",
+   "t0": 1.4,
+   "t1": 3.7666666666666666,
+   "clip": "_testdata/clips/A_16x9/plasma_slow.mp4",
+   "clip_kind": "video",
+   "src_in": 1.5,
+   "speed": 1.0,
+   "focus": [
+    0.47068147764988966,
+    0.31629629629629624
+   ],
+   "mask": null,
+   "w": 960,
+   "h": 540,
+   "src_dur": 2.3666666666666667,
+   "target_q": 0.54,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.15,
+    "grain": 0.012
+   }
+  },
+  {
+   "beat0": 8.0,
+   "beat1": 14.0,
+   "role": "mid",
+   "t0": 3.7666666666666666,
+   "t1": 6.566666666666666,
+   "clip": "_testdata/clips/A_16x9/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 3.0,
+   "speed": 1.0,
+   "focus": [
+    0.4968337569895783,
+    0.4526435004030412
+   ],
+   "mask": "_testdata/clips/A_16x9/figure.mask.mp4",
+   "w": 960,
+   "h": 540,
+   "src_dur": 2.8,
+   "target_q": 0.66,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.15,
+    "grain": 0.012
+   }
+  },
+  {
+   "beat0": 14.0,
+   "beat1": 19.0,
+   "role": "drop",
+   "t0": 6.566666666666666,
+   "t1": 8.9,
+   "clip": "_testdata/clips/A_16x9/plasma_fast.mp4",
+   "clip_kind": "video",
+   "src_in": 0.0,
+   "speed": 1.0,
+   "focus": [
+    0.49296526167841415,
+    0.24567901234567902
+   ],
+   "mask": null,
+   "w": 960,
+   "h": 540,
+   "src_dur": 2.333333333333334,
+   "target_q": 0.7,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.15,
+    "grain": 0.012
+   }
+  },
+  {
+   "beat0": 19.0,
+   "beat1": 25.0,
+   "role": "high",
+   "t0": 8.9,
+   "t1": 11.733333333333333,
+   "clip": "_testdata/clips/A_16x9/shapes_fast.mp4",
+   "clip_kind": "video",
+   "src_in": 0.0,
+   "speed": 1.0,
+   "focus": [
+    0.4837205625403232,
+    0.5055521558853865
+   ],
+   "mask": null,
+   "w": 960,
+   "h": 540,
+   "src_dur": 2.833333333333332,
+   "target_q": 0.82,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.15,
+    "grain": 0.012
+   }
+  },
+  {
+   "beat0": 25.0,
+   "beat1": 29.0,
+   "role": "high",
+   "t0": 11.733333333333333,
+   "t1": 13.6,
+   "clip": "_testdata/clips/A_16x9/metaballs.mp4",
+   "clip_kind": "video",
+   "src_in": 1.75,
+   "speed": 1.0,
+   "focus": [
+    0.4976574196615983,
+    0.4856693791993205
+   ],
+   "mask": null,
+   "w": 960,
+   "h": 540,
+   "src_dur": 1.8666666666666671,
+   "target_q": 0.85,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.15,
+    "grain": 0.012
+   }
+  },
+  {
+   "beat0": 29.0,
+   "beat1": 33.0,
+   "role": "high",
+   "t0": 13.6,
+   "t1": 15.466666666666667,
+   "clip": "_testdata/clips/A_16x9/figure.mp4",
+   "clip_kind": "video",
+   "src_in": 2.25,
+   "speed": 1.0,
+   "focus": [
+    0.4968337569895783,
+    0.4526435004030412
+   ],
+   "mask": "_testdata/clips/A_16x9/figure.mask.mp4",
+   "w": 960,
+   "h": 540,
+   "src_dur": 1.8666666666666671,
+   "target_q": 0.81,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.15,
+    "grain": 0.012
+   }
+  },
+  {
+   "beat0": 33.0,
+   "beat1": 35.0,
+   "role": "mid",
+   "t0": 15.466666666666667,
+   "t1": 16.4,
+   "clip": "_testdata/clips/A_16x9/plasma_fast.mp4",
+   "clip_kind": "video",
+   "src_in": 1.75,
+   "speed": 1.0,
+   "focus": [
+    0.49296526167841415,
+    0.24567901234567902
+   ],
+   "mask": null,
+   "w": 960,
+   "h": 540,
+   "src_dur": 0.9333333333333318,
+   "target_q": 0.67,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.15,
+    "grain": 0.012
+   }
+  },
+  {
+   "beat0": 35.0,
+   "beat1": 36.0,
+   "role": "outro",
+   "seam": true,
+   "t0": 16.4,
+   "t1": 16.866666666666667,
+   "clip": "_testdata/clips/A_16x9/stars.mp4",
+   "clip_kind": "video",
+   "src_in": 0.75,
+   "speed": 1.0,
+   "focus": [
+    0.49346755199290165,
+    0.4783854646114777
+   ],
+   "mask": null,
+   "w": 960,
+   "h": 540,
+   "src_dur": 0.46666666666666856,
+   "target_q": 0.25,
+   "grade": {
+    "contrast": 1.06,
+    "saturation": 1.05,
+    "vignette": 0.15,
+    "grain": 0.012
+   }
+  }
+ ],
+ "events": [
+  {
+   "fx": "lyr_dip_mosaic",
+   "t0": 1.4,
+   "t1": 1.9625,
+   "tc": 1.4,
+   "params": {
+    "black": 0.25,
+    "mosaic_end": 0.8,
+    "cells": 3
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "lyr_strobe_pop",
+   "t0": 3.7667,
+   "t1": 3.9307,
+   "tc": 3.7667,
+   "params": {
+    "gain": 1.75,
+    "sat": 1.35
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "lyr_haze_flash",
+   "t0": 6.5198,
+   "t1": 6.9886,
+   "tc": 6.5667,
+   "params": {
+    "cut_u": 0.1,
+    "flash_u": [
+     0.35,
+     0.45
+    ],
+    "veil": 0.65
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "lyr_band_wipe",
+   "t0": 8.9,
+   "t1": 9.4625,
+   "tc": 8.9,
+   "params": {
+    "top0": 0.2,
+    "bot0": 0.38,
+    "close_u": 0.85
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "lyr_radial_flash",
+   "t0": 11.4989,
+   "t1": 11.8505,
+   "tc": 11.7333,
+   "params": {
+    "cut_u": 0.667,
+    "amount": 0.22,
+    "white_u": 0.18
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "mask_flash",
+   "t0": 13.6,
+   "t1": 15.4667,
+   "tc": 13.6,
+   "params": {
+    "alpha": 0.0,
+    "tag": "sticker"
+   },
+   "layer": "post",
+   "at": "shot"
+  },
+  {
+   "fx": "dip_black",
+   "t0": 16.4,
+   "t1": 16.7281,
+   "tc": 16.4,
+   "params": {
+    "peak": 0.8
+   },
+   "layer": "pre",
+   "at": "cut"
+  },
+  {
+   "fx": "invert",
+   "t0": 16.7516,
+   "t1": 16.8688,
+   "tc": 16.4,
+   "params": {
+    "shape": "hold"
+   },
+   "layer": "pre",
+   "at": "cut"
+  }
+ ],
+ "sfx": [],
+ "words": [
+  {
+   "text": "we",
+   "t0": 0.0,
+   "t1": 0.2344,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "run",
+   "t0": 0.2344,
+   "t1": 0.4688,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 0.4688,
+   "t1": 0.586,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "night",
+   "t0": 0.586,
+   "t1": 0.8204,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "until",
+   "t0": 0.8204,
+   "t1": 1.172,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 1.1719,
+   "t1": 1.4063,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "city",
+   "t0": 1.4063,
+   "t1": 1.5235,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "blurs",
+   "t0": 1.5235,
+   "t1": 1.7579,
+   "emph": false,
+   "phrase": 0,
+   "line": 0
+  },
+  {
+   "text": "every",
+   "t0": 2.2267,
+   "t1": 2.4611,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "step",
+   "t0": 2.4611,
+   "t1": 2.6955,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "is",
+   "t0": 2.6955,
+   "t1": 2.8127,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "louder",
+   "t0": 2.8127,
+   "t1": 3.0471,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "than",
+   "t0": 3.0471,
+   "t1": 3.3987,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 3.3987,
+   "t1": 3.633,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "doubt",
+   "t0": 3.633,
+   "t1": 3.7502,
+   "emph": false,
+   "phrase": 1,
+   "line": 0
+  },
+  {
+   "text": "keep",
+   "t0": 4.219,
+   "t1": 4.4534,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "your",
+   "t0": 4.4534,
+   "t1": 4.6878,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "head",
+   "t0": 4.6878,
+   "t1": 4.9222,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "up",
+   "t0": 4.9222,
+   "t1": 5.0394,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "when",
+   "t0": 5.0394,
+   "t1": 5.2738,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 5.2738,
+   "t1": 5.6254,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "lights",
+   "t0": 5.6254,
+   "t1": 5.8598,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "go",
+   "t0": 5.8598,
+   "t1": 5.9769,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "out",
+   "t0": 5.9769,
+   "t1": 6.2113,
+   "emph": false,
+   "phrase": 2,
+   "line": 0
+  },
+  {
+   "text": "nothing",
+   "t0": 6.6801,
+   "t1": 6.9145,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "in",
+   "t0": 6.9145,
+   "t1": 7.1489,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "my",
+   "t0": 7.1489,
+   "t1": 7.2661,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "way",
+   "t0": 7.2661,
+   "t1": 7.5005,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "but",
+   "t0": 7.5005,
+   "t1": 7.8521,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "open",
+   "t0": 7.8521,
+   "t1": 8.0865,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "road",
+   "t0": 8.0865,
+   "t1": 8.2036,
+   "emph": false,
+   "phrase": 3,
+   "line": 0
+  },
+  {
+   "text": "count",
+   "t0": 8.6724,
+   "t1": 8.9068,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 8.9068,
+   "t1": 9.1412,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "beats",
+   "t0": 9.1412,
+   "t1": 9.3756,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "and",
+   "t0": 9.3756,
+   "t1": 9.4928,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "feel",
+   "t0": 9.4928,
+   "t1": 9.7272,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "them",
+   "t0": 9.7272,
+   "t1": 10.0788,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "in",
+   "t0": 10.0788,
+   "t1": 10.3132,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "your",
+   "t0": 10.3132,
+   "t1": 10.4304,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "chest",
+   "t0": 10.4304,
+   "t1": 10.6647,
+   "emph": false,
+   "phrase": 4,
+   "line": 0
+  },
+  {
+   "text": "one",
+   "t0": 11.1335,
+   "t1": 11.3679,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "more",
+   "t0": 11.3679,
+   "t1": 11.6023,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "mile",
+   "t0": 11.6023,
+   "t1": 11.7195,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "and",
+   "t0": 11.7195,
+   "t1": 11.9539,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "then",
+   "t0": 11.9539,
+   "t1": 12.3055,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "we",
+   "t0": 12.3055,
+   "t1": 12.5399,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "call",
+   "t0": 12.5399,
+   "t1": 12.6571,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "it",
+   "t0": 12.6571,
+   "t1": 12.8914,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "done",
+   "t0": 12.8914,
+   "t1": 13.1258,
+   "emph": false,
+   "phrase": 5,
+   "line": 0
+  },
+  {
+   "text": "hold",
+   "t0": 13.5946,
+   "t1": 13.829,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 13.829,
+   "t1": 13.9462,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "line",
+   "t0": 13.9462,
+   "t1": 14.1806,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "and",
+   "t0": 14.1806,
+   "t1": 14.5322,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "never",
+   "t0": 14.5322,
+   "t1": 14.7666,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "look",
+   "t0": 14.7666,
+   "t1": 14.8838,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "behind",
+   "t0": 14.8838,
+   "t1": 15.1182,
+   "emph": false,
+   "phrase": 6,
+   "line": 0
+  },
+  {
+   "text": "rise",
+   "t0": 15.5869,
+   "t1": 15.8213,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "again",
+   "t0": 15.8213,
+   "t1": 16.0557,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "before",
+   "t0": 16.0557,
+   "t1": 16.1729,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "the",
+   "t0": 16.1729,
+   "t1": 16.4073,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  },
+  {
+   "text": "morning",
+   "t0": 16.4073,
+   "t1": 16.7589,
+   "emph": false,
+   "phrase": 7,
+   "line": 0
+  }
+ ],
+ "stats": {
+  "n_shots": 9,
+  "mean_shot_beats": 4.0,
+  "shot_beats_hist": {
+   "1.0": 1,
+   "2.0": 1,
+   "3.0": 1,
+   "4.0": 2,
+   "5.0": 2,
+   "6.0": 2
+  },
+  "planned_cut_offset_ms_from_sixteenth_grid_mean_abs": 7.86,
+  "n_events": 8,
+  "events_by_fx": {
+   "dip_black": 1,
+   "invert": 1,
+   "lyr_band_wipe": 1,
+   "lyr_dip_mosaic": 1,
+   "lyr_haze_flash": 1,
+   "lyr_radial_flash": 1,
+   "lyr_strobe_pop": 1,
+   "mask_flash": 1
+  }
+ },
+ "style_path": "/Users/student/dev/design-library/edits/lyric-word-beat/style.json"
+}

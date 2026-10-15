@@ -1,0 +1,187 @@
+{
+ "source": "Downloads/206c7a965974423c9b603e52fa06f89c.MP4 (@raycfu, 'How to do motion design with Claude Opus 5.5', AirDropped 12 Oct 2026). 720x1280, 30 fps, HEVC, 58.7 s, AAC 44.1 kHz stereo (speech to 56.9 s). Copy in _source/talking-head-split-raycfu.MP4 (gitignored).",
+ "method": "ffmpeg scene detection (threshold 0.08 and 0.25), per-frame region statistics at 30 fps (half-resolution numpy pass, 0.13 GB peak), caption white-pixel masks, local Whisper large-v3-turbo (mlx 4-bit, 0.9 GB peak, 12 s) for word times, ebur128 loudness, frames viewed in contact sheets and at full size.",
+ "layout": {
+  "frame": [
+   720,
+   1280
+  ],
+  "talker": "full bleed, one continuous take, two digital framings (wide: standing figure small in the lower half, close: head and shoulders about 1.7x)",
+  "card_rect_px": [
+   65,
+   291,
+   654,
+   622
+  ],
+  "card_rect_frac": {
+   "x": 0.09,
+   "y": 0.2273,
+   "w": 0.82,
+   "h": 0.2594,
+   "aspect": "16:9"
+  },
+  "caption_rows_px": [
+   938,
+   1060
+  ],
+  "caption_top_frac": 0.733,
+  "caption_line_pitch_px": 64,
+  "caption_max_width_frac": 0.82,
+  "title_px": {
+   "x": 60,
+   "y_top": 330,
+   "line_pitch": 82,
+   "lines": 3
+  }
+ },
+ "head_shots": {
+  "boundaries_s": [
+   0,
+   4.43,
+   7.63,
+   9.3,
+   11.5,
+   19.0,
+   23.87,
+   30.7,
+   32.93,
+   37.47,
+   41.33,
+   47.1,
+   54.7,
+   58.7
+  ],
+  "framing": [
+   "wide",
+   "close",
+   "wide",
+   "close",
+   "wide",
+   "close",
+   "wide",
+   "close",
+   "wide",
+   "close",
+   "wide",
+   "close",
+   "end card"
+  ],
+  "lengths_s": [
+   4.43,
+   3.2,
+   1.67,
+   2.2,
+   7.5,
+   4.87,
+   6.83,
+   2.23,
+   4.54,
+   3.86,
+   5.77,
+   7.6,
+   4.0
+  ],
+  "median_s": 4.48,
+  "mean_s": 4.56,
+  "cut_to_nearest_word_start_s_median": 0.02,
+  "cut_type": "all hard, one frame"
+ },
+ "cards": {
+  "first_on_s": 4.43,
+  "last_off_s": 48.97,
+  "share_of_runtime_with_a_card": 0.76,
+  "event_times_s": [
+   4.43,
+   4.63,
+   5.17,
+   5.4,
+   6.53,
+   7.63,
+   7.77,
+   7.9,
+   8.03,
+   8.43,
+   8.63,
+   9.3,
+   12.3,
+   13.33,
+   15.03,
+   17.03,
+   24.97,
+   25.83,
+   26.0,
+   30.7,
+   36.0,
+   37.47,
+   40.13,
+   41.33,
+   47.1,
+   47.87,
+   48.97
+  ],
+  "burst_4.43_to_9.3_median_gap_s": 0.23,
+  "steady_median_gap_s": 1.7,
+  "transition": "hard cut, no animation, square corners, no shadow",
+  "content": "real screen recordings and screenshots (Claude chat UI, product sites, code, charts), motion inside the card, tool logos (FFmpeg, Playwright) float above the card"
+ },
+ "captions": {
+  "font_nearest": "high-contrast condensed Didone serif, close to Ivy Presto Display or Canela. Nearest bundled OFL face: Playfair Display weight 600 with tracking -0.035 em",
+  "size_px_at_720": 64,
+  "colour": "white",
+  "shadow": "soft black, about 3 px down, 6 px blur, 60 percent",
+  "lines": 2,
+  "changes_in_58s": 47,
+  "median_chunk_s": 1.1,
+  "mean_words_per_chunk": 5.6,
+  "onset_vs_first_word_s_median": 0.0,
+  "onset_vs_first_word_s_range": [
+   -0.17,
+   0.23
+  ],
+  "animation": "hard swap, no word highlight, no fade",
+  "words_per_second_speech": 4.9,
+  "highlight": "none in the captions, gold only in the title"
+ },
+ "title": {
+  "text": "How to do / motion design with / Claude Opus 5.5",
+  "font": "same serif, bold, about 82 px",
+  "colour_white": "#FFFFFF",
+  "colour_gold_rgb": [
+   240,
+   200,
+   21
+  ],
+  "gold_runs": [
+   "motion design",
+   "Claude Opus 5.5"
+  ],
+  "on_s": [
+   0,
+   4.43
+  ],
+  "exit": "hard cut when the first card arrives"
+ },
+ "colour": {
+  "grade": "none, natural phone footage, grey room",
+  "title_gold_hex": "#F0C815",
+  "card_backgrounds": "white or off-white UI, black title card, saturated orange poster"
+ },
+ "end": {
+  "start_s": 54.7,
+  "dim_factor": 0.25,
+  "content": "platform end screen: Instagram icon and handle over the picture dimmed to 25 percent, caption 'tech and AI' fading",
+  "note": "added by the platform on export, not part of the creator's edit"
+ },
+ "overlays_not_part_of_style": "Instagram glyph and @raycfu handle, drifting between top right and left of the card in the first 55 s",
+ "audio": {
+  "integrated_lufs": -13.9,
+  "loudness_range_lu": 2.5,
+  "true_peak_dbfs": 0.1,
+  "speech_rms_db_mean": -18.4,
+  "music_bed": "none (gaps fall to digital silence, p10 -91 dB)",
+  "sound_effects": "none (4 non-speech onsets, all breaths or the end)",
+  "speech_end_s": 56.88,
+  "words": 269
+ },
+ "transcript": "edits/techniques-2026-10-12.md"
+}
