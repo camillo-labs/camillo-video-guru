@@ -15,7 +15,7 @@ Claude Code skill that picks between them.
 ## Install as a Claude Code skill
 
 ```
-git clone https://github.com/Mokzy/short-videos.git ~/.claude/skills/making-short-videos
+git clone https://github.com/camillo-labs/short-videos.git ~/.claude/skills/making-short-videos
 ```
 
 Or clone it anywhere and link it in. On Windows:
