@@ -3,7 +3,7 @@
 Works on any video or still image. A still is treated as a clip of unlimited length with zero motion
 (the renderer animates it with a pan or punch-in).
 """
-import json, os, re, subprocess, hashlib
+import json, os, re, subprocess, hashlib, shutil
 from pathlib import Path
 import numpy as np
 import cv2
@@ -48,7 +48,7 @@ def vision_bin():
     if VISION.exists():
         return VISION
     src = Path(__file__).parent / 'vision.swift'
-    if src.exists() and subprocess.run(['which', 'swiftc'], capture_output=True).returncode == 0:
+    if src.exists() and shutil.which('swiftc'):   # Windows has no `which`; shutil.which is portable
         VISION.parent.mkdir(exist_ok=True)
         if subprocess.run(['swiftc', '-O', str(src), '-o', str(VISION)], capture_output=True).returncode == 0:
             return VISION

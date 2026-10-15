@@ -43,6 +43,25 @@ FONT_FILES = {
     'sf mono': ('/System/Library/Fonts/SFNSMono.ttf', 0),
     'sf': ('/System/Library/Fonts/SFNS.ttf', 0),
 }
+# Windows equivalents for the macOS system fonts above
+_WD = os.path.join(os.environ.get('WINDIR', 'C:\\Windows'), 'Fonts')
+WIN_FONTS = {
+    'arial black': (os.path.join(_WD, 'ariblk.ttf'), 0),
+    'impact': (os.path.join(_WD, 'impact.ttf'), 0),
+    'din condensed': (os.path.join(_WD, 'bahnschrift.ttf'), 0),
+    'din alternate': (os.path.join(_WD, 'bahnschrift.ttf'), 0),
+    'futura': (os.path.join(_WD, 'segoeuib.ttf'), 0),
+    'helvetica bold': (os.path.join(_WD, 'arialbd.ttf'), 0),
+    'helvetica neue bold': (os.path.join(_WD, 'arialbd.ttf'), 0),
+    'avenir next heavy': (os.path.join(_WD, 'segoeuib.ttf'), 0),
+    'avenir next bold': (os.path.join(_WD, 'segoeuib.ttf'), 0),
+    'georgia': (os.path.join(_WD, 'georgia.ttf'), 0),
+    'times': (os.path.join(_WD, 'times.ttf'), 0),
+    'courier': (os.path.join(_WD, 'cour.ttf'), 0),
+    'menlo': (os.path.join(_WD, 'consola.ttf'), 0),
+    'sf mono': (os.path.join(_WD, 'consola.ttf'), 0),
+    'sf': (os.path.join(_WD, 'segoeui.ttf'), 0),
+}
 
 
 @lru_cache(maxsize=256)
@@ -53,7 +72,8 @@ def font(name, size):
     key = (name or '').lower()
     if os.path.exists(name or ''): cands.append((name, 0))
     if key in FONT_FILES: cands.append(FONT_FILES[key])
-    cands += [FONT_FILES['arial black'], FONT_FILES['helvetica bold']]
+    if key in WIN_FONTS: cands.append(WIN_FONTS[key])
+    cands += [FONT_FILES['arial black'], FONT_FILES['helvetica bold'], WIN_FONTS['arial black'], WIN_FONTS['helvetica bold']]
     for p, idx in cands:
         try:
             return ImageFont.truetype(p, size, index=idx)

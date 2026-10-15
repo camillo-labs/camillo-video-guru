@@ -42,7 +42,7 @@ def media_available(*rels):
 
 
 def skip_reason(*rels):
-    miss = [str(media(r)) for r in rels if not media(r).exists()]
+    miss = [media(r).as_posix() for r in rels if not media(r).exists()]   # forward slashes on every OS
     if not miss:
         return None
     return ('media not found: ' + ', '.join(miss) + '. Set VIDEO_ENGINE_MEDIA to the folder that holds '
