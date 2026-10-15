@@ -16,7 +16,10 @@ absent).
 `captions.txt` was supplied; the caption kind resolved to `kinetic`.
 
 ## SFX and licence
-13 cleared sound effects (`sfx/index.json`). `gate.licence_check` returned `True`.
+No sound effects in this render (`edl.json` has none), and no cleared sample library exists yet:
+all 13 entries in `sfx/index.json` still read "unknown, personal and internal use only until
+cleared". `gate.licence_check` returned `True` because there was nothing to check. (Corrected by
+final-review, 15 Oct.)
 
 ## Gate results
 - **Safe-area:** 15 of 113 sampled caption frames (breach rate 0.133) sit outside the safe box.
@@ -35,3 +38,8 @@ absent).
 `sidebyside.mp4` plays the named baseline (`tests/fontainebleau/fontainebleau.mp4`, sha256
 `9dbd263d153a25c7c64234162da45ace98c6af991e37e9d4571f0377db1b86c2`) then this render, each with its
 own audio. 36.1s total, both video and audio streams present.
+
+## Known defect (final-review, 15 Oct)
+This render is 1280x720 (16:9, `edl.json` `"aspect": "16:9"`), because auto mode took the style's 16:9
+default when no `--aspect` was passed. `make_edit.py` now defaults auto mode to 9:16, and a re-render is
+queued as follow-up build work. The music pick also came from the style's mood, not the `--mood` above.

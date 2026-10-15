@@ -24,8 +24,10 @@ the render itself; the safe-area gate below measures real caption boxes moving f
 the captions did draw.
 
 ## SFX and licence
-13 cleared sound effects (`sfx/index.json`). `gate.licence_check(edl, '../sfx/index.json')`
-returned `True`.
+No sound effects in this render (`edl.json` has none), and no cleared sample library exists yet:
+all 13 entries in `sfx/index.json` still read "unknown, personal and internal use only until
+cleared". `gate.licence_check(edl, '../sfx/index.json')` returned `True` because there was nothing
+to check. (Corrected by final-review, 15 Oct.)
 
 ## Gate results
 - **Safe-area:** 13 of 106 sampled caption frames (breach rate 0.123) sit outside the safe box
@@ -41,3 +43,8 @@ returned `True`.
 `sidebyside.mp4` plays the named baseline (`tests/dachshunds/out/edit.mp4`, sha256
 `be6875976cf77d8e6a122575c481b3ab7db080dafd7f72e741c421a6d2482786`) then this render back to
 back, each with its own audio. 29.6s total, both video and audio streams present (`ffprobe`).
+
+## Known defect (final-review, 15 Oct)
+This render is 1280x720 (16:9, `edl.json` `"aspect": "16:9"`), because auto mode took the style's 16:9
+default when no `--aspect` was passed. `make_edit.py` now defaults auto mode to 9:16, and a re-render is
+queued as follow-up build work. The music pick also came from the style's mood, not the `--mood` above.

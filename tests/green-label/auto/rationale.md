@@ -21,9 +21,11 @@ below target" wording applies this time, but the shortfall against N3's target s
 resolved to `kinetic`.
 
 ## SFX and licence
-13 cleared sound effects (`sfx/index.json`, Stage 5's replacement for the 13 personal-use-only
-clips). `gate.licence_check(edl, '../sfx/index.json')` returned `True`: every audio sample this
-render used carries a licence id and credit in the index.
+No cleared sample library yet: all 13 entries in `sfx/index.json` still read "unknown, personal and
+internal use only until cleared", so the clearance filter leaves none. Every SFX event in this
+render's `edl.json` is synthesised (no `sample`), so `gate.licence_check(edl, '../sfx/index.json')`
+returned `True` because there was no sample to check, not because a sample was cleared.
+(Corrected by final-review, 15 Oct.)
 
 ## Gate results
 - **Safe-area:** 66/66 sampled caption frames (breach rate 1.0) sit outside the union safe box
@@ -44,3 +46,8 @@ render used carries a licence id and credit in the index.
 `sidebyside.mp4` plays the named baseline (`tests/green-label/green-label.mp4`, sha256
 `1f0ae00ab8e91dc0ed45f2cc7906c0b36ef83a9592db2048eeb9e71913537a3e`) then this render back to back,
 each with its own audio. 35.5s total, both video and audio streams present (`ffprobe`).
+
+## Known defect (final-review, 15 Oct)
+This render is 1280x720 (16:9, `edl.json` `"aspect": "16:9"`), because auto mode took the style's 16:9
+default when no `--aspect` was passed. `make_edit.py` now defaults auto mode to 9:16, and a re-render is
+queued as follow-up build work. The music pick also came from the style's mood, not the `--mood` above.

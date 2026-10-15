@@ -158,7 +158,10 @@ def main(argv=None):
         a.style = decision['style']
     style, style_name, variant_name, sp = load_style(a.style)
     dflt = style.get('defaults', {})
-    aspect = a.aspect or dflt.get('aspect', '9:16')
+    # auto mode serves TikTok/Reels briefs, so it renders vertical unless --aspect says otherwise;
+    # four of the six style defaults are 16:9 (choose_style.py docstring), which made every auto
+    # render landscape (final-review, 15 Oct)
+    aspect = a.aspect or ('9:16' if decision is not None else dflt.get('aspect', '9:16'))
     if a.duration is not None:
         duration = a.duration
     else:
@@ -192,6 +195,9 @@ def main(argv=None):
                 a.music_start = picked['start']
             if decision is not None:
                 decision['music_pick'] = picked
+                decision['aspect'] = aspect
+                # rewrite now the track is picked, so decisions.json carries the music reason too
+                json.dump({'features': b, **decision}, open(out / 'decisions.json', 'w'), indent=1)
         print('analysing music'); song = audio.analyse(a.music, out / 'song.json')
         print(f"  {song['bpm']:.1f} BPM, {len(song['beats'])} beats, drops {song['drops']}")
         print('analysing clips'); cl = clipmod.analyse_folder(a.clips, out / 'cache')
