@@ -1,4 +1,4 @@
-# short-videos
+# Camillo Video Guru
 
 Will and Cam's shared kit for short videos: reels, ads, explainers and motion graphics. It has two parts and one
 Claude Code skill that picks between them.
@@ -15,11 +15,11 @@ Claude Code skill that picks between them.
 ## Install as a Claude Code skill
 
 ```
-git clone https://github.com/camillo-labs/short-videos.git ~/.claude/skills/making-short-videos
+git clone https://github.com/camillo-labs/camillo-video-guru.git ~/.claude/skills/camillo-video-guru
 ```
 
 Or clone it anywhere and link it in. On Windows:
-`cmd /c mklink /J %USERPROFILE%\.claude\skills\making-short-videos <clone>`. Restart Claude Code and ask for a video.
+`cmd /c mklink /J %USERPROFILE%\.claude\skills\camillo-video-guru <clone>`. Restart Claude Code and ask for a video.
 
 ## Layout
 

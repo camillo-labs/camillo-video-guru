@@ -1,9 +1,9 @@
 ---
-name: making-short-videos
+name: camillo-video-guru
 description: Use when making or improving a short video, reel, ad, explainer, launch or product video, promo or motion graphic (9:16 or other), whether cutting clips to a song in a learned edit style or building a voiceover-led piece with Remotion, HyperFrames or ffmpeg, especially with maps or data, real footage, generated music or sound effects, or a reference reel to match; or when someone says a cut looks AI-made, templated, cheap, rushed, sudden or badly mixed.
 ---
 
-# Making short videos
+# Camillo Video Guru
 
 ## Overview
 
