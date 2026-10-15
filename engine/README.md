@@ -3,8 +3,8 @@
 Takes any clips and any song and returns a video in one of the learned styles, with the cuts, moves, transitions, sound effects and captions placed on the new song's beats. One command:
 
 ```
-cd /Users/student/dev/design-library/edits
-python3 -m venv .venv && .venv/bin/pip install -r requirements.txt     # once
+cd /Users/student/dev/video-engine
+scripts/setup.sh     # once: .venv, requirements.txt, the Swift Vision helper
 .venv/bin/python engine/make_edit.py --style bw-flash-vo --clips ./footage --music ./song.mp3 \
     --captions "line one\nline two with a *key* word" --duration 18 --aspect 9:16 --out ./out
 ```
@@ -25,7 +25,7 @@ macOS only for the Vision helpers (engine/vision.swift builds on first use with 
 
 ## Style files
 
-A style is edits/<name>/style.json. Every key is optional except name.
+A style is styles/<name>/style.json. Every key is optional except name.
 
 ```
 name, description
@@ -83,7 +83,7 @@ Drop a module in engine/ext/ (auto-imported). Register effects with `@fx.fx('nam
 
 ## Test material
 
-engine/make_testdata.sh builds self-generated songs (synth.py) and footage (gen_clips.py) into edits/_testdata, so demos never redistribute anyone's media. The synthesised songs have a .truth.json with the exact tempo, which check.py uses to report how far the rendered cuts are from the true beat grid.
+scripts/make_testdata.sh builds self-generated songs (synth.py) and footage (gen_clips.py) into _testdata (under $VIDEO_ENGINE_MEDIA if set), so demos never redistribute anyone's media. The synthesised songs have a .truth.json with the exact tempo, which check.py uses to report how far the rendered cuts are from the true beat grid.
 
 ## Known limits
 
@@ -95,7 +95,7 @@ Caption kind `kinetic` (engine/ext/kinetic.py) is the default treatment: a heavy
 
 Depth text: `captions.depth_text {enabled, behind_ratio, min_visible, min_cover, max_cover}` (default enabled, 0.5). Key (emphasis) words alternate behind and in front of the subject through the matte, supporting words stay in front. The matte is Apple Vision person segmentation, and for footage with no person a saliency-seeded GrabCut matte (kind `object`). A behind word the subject hides more than 1 - `min_visible` stays in front so it can be read. hud_row phrases alternate the same way.
 
-Other keys added in this pass: grade `target_luma` and `target_strength` (pull a shot to a mean luma), captions timing `fill` and `fill_whole` (repeat phrases to cover the edit), sfx kind `gap` (mutes the music), hud captions `gap_em`, `fit_up`, `wipe_color`, `band_color`, `hold_last`, hud effects `texture`, `band_y`, `normalise`, `reroll`, overlay `hud_end_matte`. tools/framegrid.py makes reference-over-render contact sheets for reviews.
+Other keys added in this pass: grade `target_luma` and `target_strength` (pull a shot to a mean luma), captions timing `fill` and `fill_whole` (repeat phrases to cover the edit), sfx kind `gap` (mutes the music), hud captions `gap_em`, `fit_up`, `wipe_color`, `band_color`, `hold_last`, hud effects `texture`, `band_y`, `normalise`, `reroll`, overlay `hud_end_matte`. scripts/framegrid.py makes reference-over-render contact sheets for reviews.
 
 ## Speed ramps and slow motion (Stage 8, 15 October 2026)
 
@@ -107,5 +107,5 @@ wants shot-relative timing instead. Any shot whose ramp (or base `speed`) dips u
 (0.92x) now decodes at a raised frame rate through ffmpeg's `minterpolate` (blend mode), which interpolates
 between the two neighbouring source frames, rather than the plain `fps` filter, which just repeats the
 nearest decoded frame when upsampling — so a ramped-down shot reads as smooth slow motion, not a stutter.
-`edits/stacked-story-split/` is a best-effort, explicitly incomplete prototype for a dual-stream (stacked
+`styles/stacked-story-split/` is a best-effort, explicitly incomplete prototype for a dual-stream (stacked
 two-pane) layout: it ships with no `style.json`, so it cannot be selected by name or by the chooser.
