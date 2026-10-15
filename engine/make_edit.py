@@ -128,6 +128,7 @@ def main(argv=None):
     ap.add_argument('--seed', type=int, default=1); ap.add_argument('--music-start', type=float, default=None)
     ap.add_argument('--out', default='edit_out'); ap.add_argument('--plan-only', action='store_true'); ap.add_argument('--edl', help='render an existing edl.json')
     ap.add_argument('--no-check', action='store_true')
+    ap.add_argument('--storyboard', action='store_true', help='write storyboard.html, .pdf and .json of the key frames (from the plan with --plan-only, else from the render)')
     ap.add_argument('--mood', default=None, help='auto mode: edgy, dark, energetic, calm, heritage, ...')
     ap.add_argument('--audience', default=None, help='auto mode: who the edit is for')
     ap.add_argument('--caption-kind', default=None, help='auto mode: lyric, slogan, steps, tool, how-to, workflow, ...')
@@ -248,7 +249,13 @@ def main(argv=None):
         if style.get('audio') or edl.get('audio'): edl['audio'] = merge_audio(style, edl)   # style-level mix settings merge over the chooser's, not replace them
         json.dump(edl, open(out / 'edl.json', 'w'), indent=1)
         print(f"planned {edl['stats']['n_shots']} shots, mean {edl['stats']['mean_shot_beats']} beats, events {edl['stats']['events_by_fx']}")
-    if a.plan_only: return edl
+    def _storyboard(video=None):
+        import storyboard
+        r = storyboard.storyboard(edl, out, video, decision, title=f"Storyboard: {style_name}")
+        print('storyboard:', r['html'], r['pdf'] or '(no pdf)')
+    if a.plan_only:
+        if a.storyboard: _storyboard()
+        return edl
     if edl.get('audio_shape'):
         import audio_shape
         song_path = audio_shape.shape_music(song_path, edl, out / 'music_shaped.wav')
@@ -260,6 +267,7 @@ def main(argv=None):
         json.dump(res, open(out / 'check.json', 'w'), indent=1)
         print(json.dumps({k: v for k, v in res.items() if k != 'cuts'}, indent=1))
     print('wrote', video)
+    if a.storyboard: _storyboard(video)
     return edl
 
 
