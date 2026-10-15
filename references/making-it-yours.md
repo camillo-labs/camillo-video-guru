@@ -20,4 +20,4 @@ Two people with the same brief, the same toolkit and the same AI will make the s
 - **Differ on purpose from anyone working on the same brief.** If you know of a classmate's or a reference's specific choices (their comparison, structure, signature move), pick different ones. The facts can be the same; the angle shouldn't be.
 - **One language, executed fully, beats several half-done ones.** Mixing styles reads as cheap.
 - **Test the brief early.** Render 3–4 stills or a 6–10 s animatic and get a reaction before building the rest.
-- **The case study (`case-study.md`) is evidence of what works, not a template.** Take its principles (sound, motion, checks) and leave its look.
+- **The lessons (`lessons.md`) are evidence of what works, not a template.** Take their principles (sound, motion, checks) and leave their look.

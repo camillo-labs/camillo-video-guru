@@ -1,7 +1,6 @@
 """Voice pauses that never click: open a gap in a voice track at the quietest 10 ms inside a chosen window.
 
-Adapted from Will Leikauskas's making-short-videos/scripts/mix_soundtrack.py (MIT, see THIRD_PARTY.md), the voice
-section: each pause is placed at the quietest 10 ms window within 0.25 s of where it was asked for, the piece before
+The voice section of scripts/mix_soundtrack.py (the playbook's mixer) as a library: each pause is placed at the quietest 10 ms window within 0.25 s of where it was asked for, the piece before
 fades out over 60 ms and the piece after fades in over 15 ms. The picture must use the same pauses, so
 shift_time() and shift_words() map voice time to film time.
 

@@ -1,6 +1,6 @@
 """Velocity to motion blur: how much directional blur a layer moving v pixels per frame should get.
 
-Adapted from Will Leikauskas's making-short-videos (MIT, see THIRD_PARTY.md): references/motion.md for the
+Same rule as the playbook: references/motion.md for the
 rule ("anything over about 12 px/frame gets directional blur, about 0.12 px of blur per px/frame, capped at
 22 px") and remotion-kit/mblur.tsx for the nine preset blur steps and the dominant-axis choice. There the blur
 is an SVG feGaussianBlur; here it is the same Gaussian along one axis in OpenCV.

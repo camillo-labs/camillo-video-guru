@@ -7,7 +7,7 @@ sfx-heavy one could land at very different perceived volumes, and a hot single h
 whole mix down rather than just itself. The alternative a single-pass loudnorm filter (the
 dynamic, one-shot mode) is worse: it rides gain over the length of the mix and audibly pumps under
 the hit gaps and voiceover ducking render.mix_audio already shapes in. This follows the practice in
-Will Leikauskas's making-short-videos/scripts/mix_soundtrack.py (MIT, see THIRD_PARTY.md): measure
+scripts/mix_soundtrack.py, the playbook's mixer: measure
 once, apply one constant gain, then limit only the peaks that remain.
 
     mix, report = normalise(mix, sr)   # mix at TARGET_I LUFS integrated, peaks under TARGET_TP dBTP
