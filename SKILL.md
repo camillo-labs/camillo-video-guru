@@ -1,6 +1,6 @@
 ---
 name: making-short-videos
-description: Use when making or improving a short video, reel, ad, explainer or motion graphic (9:16 or other), whether cutting clips to a song in a learned edit style or building a voiceover-led piece with Remotion, HyperFrames or ffmpeg, especially with maps or data, real footage, generated music or sound effects, or a reference reel to match; or when someone says a cut looks AI-made, templated, cheap, rushed, sudden or badly mixed.
+description: Use when making or improving a short video, reel, ad, explainer, launch or product video, promo or motion graphic (9:16 or other), whether cutting clips to a song in a learned edit style or building a voiceover-led piece with Remotion, HyperFrames or ffmpeg, especially with maps or data, real footage, generated music or sound effects, or a reference reel to match; or when someone says a cut looks AI-made, templated, cheap, rushed, sudden or badly mixed.
 ---
 
 # Making short videos
@@ -13,6 +13,7 @@ Two tools in one repo, sharing one set of sound and QA rules. **The core princip
 |---|---|---|
 | Clips and a song, and want a cut in a known style (montage, lyric or HUD edit, talking-head split, kinetic explainer) | **The engine** | `engine/make_edit.py --style auto` |
 | A story to tell over a voiceover (ad, explainer, fundraising film, maps or data) | **The playbook** | The workflow below, `remotion-kit/` |
+| A launch or product video for an app, tool or repo | **The engine** for screen captures and kinetic text cut to music (`kinetic-card-explainer`, `talking-head-split`); **the playbook** when a voiceover tells the story | If the brief doesn't say whether there's a voiceover, ask |
 | A reference reel to match | Measure it first (`scripts/analyse_reference.py`, `references/reference-study.md`) | Then learn it as an engine style (`engine/README.md`) or build it with the playbook |
 
 ## The engine
