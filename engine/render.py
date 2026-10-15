@@ -11,6 +11,7 @@ import captions as capm
 import sfx as sfxm
 import clips as clipmod
 import audio as audiomod
+import loudness as loudnessmod
 
 HERE = Path(__file__).parent
 OVERLAYS = {}
@@ -170,8 +171,7 @@ def mix_audio(edl, out_wav, song_path, vo_path=None, tail_fade=True):
         mix = mix * duck[:, None] + vv
     sx = sfxm.mix(D, [e for e in edl['sfx'] if e['kind'] != 'gap'])
     mix = mix + sx[:len(mix)]
-    pk = np.abs(mix).max()
-    if pk > 0.89: mix = mix * (0.89 / pk)
+    mix, _loudness_report = loudnessmod.normalise(mix, SR)
     import wave
     pcm = (np.clip(mix, -1, 1) * 32767).astype('<i2')
     with wave.open(str(out_wav), 'wb') as w:

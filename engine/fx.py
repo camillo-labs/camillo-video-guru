@@ -315,3 +315,23 @@ def letterbox(img, k, p, ctx):
 
 def apply(name, img, k, p, ctx):
     return FX[name](img, k, p, ctx)
+
+
+@fx('pan_blur')
+def pan_blur(img, k, p, ctx):
+    """A slide across the frame with blur sized from its own speed (motionblur.py, after Will Leikauskas's motion.md rule).
+    The frame travels `distance` (a fraction of the width, or of the height with axis 'y') over the span with the named
+    ease; the blur follows the measured px/frame of that move, so a fast slide smears and a slow one stays sharp.
+    Params: axis 'x'|'y' (x), distance (0.5), ease ('out_cubic'), dir (1 or -1), quantise (true)."""
+    import motionblur
+    h, w = img.shape[:2]
+    ax = p.get('axis', 'x'); size = w if ax == 'x' else h
+    dist = p.get('distance', 0.5) * size * p.get('dir', 1)
+    name = p.get('ease', 'out_cubic')
+    n = max(1.0, k['span'] * ctx['fps'])                       # frames in the span
+    pos = lambda f: dist * ease(name, f / n)
+    f0 = k['u'] * n
+    v = motionblur.velocity(pos, f0)
+    d = pos(f0)
+    out = zoom_img(img, 1.0, 0.5, 0.5, d if ax == 'x' else 0, d if ax == 'y' else 0)
+    return motionblur.directional_blur(out, v if ax == 'x' else 0.0, v if ax == 'y' else 0.0, p.get('quantise', True))
