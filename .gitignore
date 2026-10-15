@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .DS_Store
 engine/bin/
+node_modules/
 # rendered video, audio and large media stay out of git (see fixtures/README.md)
 *.mp4
 *.mov

@@ -1,51 +1,68 @@
-# Video engine
+# short-videos
 
-Cam's video edit engine. Give it clips, a song and some caption text. It returns a short video in one of
-several learned editing styles, with cuts, moves, transitions, sound effects and captions placed on the new
-song's beats.
+Will and Cam's shared kit for short videos: reels, ads, explainers and motion graphics. It has two parts and one
+Claude Code skill that picks between them.
 
-It started in `design-library/edits` and now lives here on its own. It also holds the best ideas from Will
-Leikauskas's `making-short-videos` repo, with credit.
+- **The engine** (`engine/`, `styles/`). Give it clips, a song and some caption text. It returns a finished cut in
+  one of several learned editing styles, with cuts, moves, transitions, sound effects and captions placed on the
+  song's beats, and checks its own render.
+- **The playbook** (`references/`, `remotion-kit/`, `scripts/`). For a bespoke, voiceover-led piece built in
+  Remotion: study a reference reel, lock the script, generate the voice, keep one visual language, mix at fixed
+  levels, check every number.
 
-## What it does
+`SKILL.md` is what Claude reads first. It says which part to use and holds the rules both share.
 
-- Reads the song (tempo, beat grid, downbeats, drops, phrases) and the clips (scenes, motion, faces, focus).
-- With `--style auto` it scores every style against the footage and brief and picks one. It writes
-  `decisions.json` with the score, the runner-up and, when nothing fits, the reason.
-- Plans an edit decision list (`edl.json`) from the style's rules, then renders it with ffmpeg and OpenCV.
-- Checks the result: beat alignment, safe areas, flash frequency, dead frames and sound effect licences.
-- Mixes the sound to -14 LUFS with a limiter at -1 dBTP.
+## Install as a Claude Code skill
+
+```
+git clone https://github.com/Mokzy/short-videos.git ~/.claude/skills/making-short-videos
+```
+
+Or clone it anywhere and link it in. On Windows:
+`cmd /c mklink /J %USERPROFILE%\.claude\skills\making-short-videos <clone>`. Restart Claude Code and ask for a video.
 
 ## Layout
 
-| Folder | What is in it |
+| Path | What is in it |
 | --- | --- |
-| `engine/` | The code. `make_edit.py` is the entry point. `engine/README.md` explains the style file format. |
-| `engine/ext/` | Style-specific effects, captions and overlays. |
-| `styles/` | One folder per style: `style.json`, a README with the measured rules, `analysis.json`, `filmcraft.md`. |
-| `lessons/`, `research/` | What each reference video taught the engine, plus plans and reviews. |
-| `tests/` | Unit tests, and one folder per real test project with its plan and reports. |
-| `scripts/` | Setup, test media generation, credits, contact sheets, gate report, loudness comparison. |
-| `sfx/` | The sound effect index. The WAV files are not in git. |
-| `examples/explainer/` | The scripts that made the engine's own explainer film. Kept for reference, paths not updated. |
-| `fixtures/README.md` | Where the media lives and how to get it back. |
-| `THIRD_PARTY.md` | Licences and credit for what was adapted. |
+| `SKILL.md` | Which part to use, the shared sound and QA rules, the red flags |
+| `engine/` | The edit engine. `make_edit.py` is the entry point. `engine/README.md` explains the style file format |
+| `engine/ext/` | Style-specific effects, captions and overlays |
+| `styles/` | One folder per style: `style.json`, a README with the measured rules, `analysis.json`, `filmcraft.md` |
+| `references/` | The playbook: making it yours, reference study, visual language, motion, sound, toolchain, sources |
+| `references/lessons.md` | The Fontainebleau ad, round by round: what was said, the root cause, the fix |
+| `remotion-kit/` | Motion blur, shots and word-timed captions for Remotion |
+| `scripts/` | Reference analysis, ElevenLabs, the soundtrack mixer, dead frames, contact sheets, side-by-sides, gate report, credits, setup |
+| `lessons/`, `research/` | What each reference video taught the engine, plus plans, reviews and comparisons |
+| `tests/` | Unit tests, and one folder per real test project with its plan and reports |
+| `sfx/` | The sound effect index. The WAV files are not in git |
+| `examples/explainer/` | The scripts that made the engine's own explainer film. Kept for reference, paths not updated |
+| `fixtures/README.md` | Where the media lives and how to get it back |
 
-Older notes under `styles/` and `tests/` still say `edits/` and `.venv` in their old places. Read `edits/` as
-the repo root.
+Older notes under `styles/` and `tests/` still say `edits/` and `.venv` in their old places. Read `edits/` as the
+repo root.
 
 ## Set up
 
-You need Python 3 and ffmpeg on the PATH.
+Both parts need ffmpeg on the PATH.
+
+Engine, Python 3:
 
 ```
-scripts/setup.sh                 # .venv, requirements.txt, the Swift Vision helper on macOS
+scripts/setup.sh                 # macOS/Linux: .venv, requirements.txt, the Swift Vision helper on macOS
 scripts/setup.sh --testdata      # also builds the generated test songs and clips
 ```
 
-Media is found through `engine/paths.py`. By default it uses `/Users/student/dev/design-library/edits`. Set
-`VIDEO_ENGINE_MEDIA` to use another folder. Voiceover transcription uses a local Whisper environment, set with
-`VIDEO_ENGINE_WHISPER_PY`.
+On Windows: `py -m venv .venv` then `.venv\Scripts\pip install -r requirements.txt`, and run everything with
+`.venv\Scripts\python`. The Vision helpers are macOS only; without them the engine falls back to a saliency
+focus point.
+
+Media is found through `engine/paths.py`. Set `VIDEO_ENGINE_MEDIA` to the folder that holds `_testdata/` and
+`tests/*/assets/`. Voiceover transcription uses a local Whisper environment, set with `VIDEO_ENGINE_WHISPER_PY`.
+
+Playbook: Node 20+ and a Remotion project (`npx create-video@latest`); Python with `numpy` and `matplotlib`; for
+studying a reference, `pip install demucs faster-whisper yt-dlp`; an ElevenLabs key in `ELEVENLABS_API_KEY` for
+voice, music and sound effects.
 
 ## Render an edit
 
@@ -60,20 +77,17 @@ it with `--edl out/edl.json`. Use `--plan-only` to write only the plan. `--list`
 caption kinds. Without a mood hint the chooser may say no style fits. Pass `--mood`, `--audience` or
 `--caption-kind` to help it, or name a style with `--style lyric-word-beat`.
 
-## From Will Leikauskas's making-short-videos (MIT)
-
-| Idea | Where |
-| --- | --- |
-| One measured static gain to -14 LUFS, then a limiter, instead of a peak scale | `engine/loudness.py` |
-| Motion blur from speed: 0.12 px per px/frame, capped at 22 | `engine/motionblur.py` and the `pan_blur` effect |
-| Voice pauses at the quietest 10 ms with short fades | `engine/voicepause.py` (a library, not wired in yet) |
-
-The comparison, what was left out and why are in `research/from-will.md`. Licence text is in `THIRD_PARTY.md`.
-
 ## Test
 
 ```
 .venv/bin/python -m unittest discover -s tests
 ```
 
-Tests that need the design-library media skip with a message when it is absent. See `fixtures/README.md`.
+Tests that need the media skip with a message when it is absent. See `fixtures/README.md`.
+
+## Next
+
+`research/from-will.md` lists playbook ideas not yet in the engine (Demucs when learning a style, 4x subframe
+motion blur, band-limited sound effects, the red flags as gate checks, wiring in voice pauses). The end of
+`research/compare-making-short-videos-2026-10-15.md` lists engine ideas the playbook could use (style files,
+low-band voice ducking, the post-render gates).
