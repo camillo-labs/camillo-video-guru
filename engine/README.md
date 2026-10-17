@@ -23,6 +23,12 @@ Options: `--clips` folder of videos and stills (jpg, png, webp). `--music` any a
 
 macOS only for the Vision helpers (engine/vision.swift builds on first use with swiftc, bin/vision is gitignored). Everything else is portable. ffmpeg needs no drawtext or libass, text is drawn with Pillow.
 
+## Storyboard
+
+`--storyboard` on make_edit.py, or `.venv/bin/python engine/storyboard.py out/edl.json` (or `out/edit.mp4`), builds a grid of the key frames: the hook, each section change, the drop, every caption, every cut transition and the end card, capped at 18 panels (`--cap`). Each panel shows the frame, time and frame number, section, source clip and time, on-screen text, effect, beat cue, sound effect and one line of intent from the EDL and decisions.json. Output in `out/`: storyboard.html, storyboard.pdf (A4 landscape, 6 panels a page, headless Chrome) and storyboard.json.
+
+With `--plan-only --storyboard`, or an edl.json input, the frames come from the plan: the source frame at the planned clip time, cropped around the focus point, with the shot's grade and caption drawn on. Camera moves, transitions and overlays show only in the render. With a rendered `edit.mp4` the frames are the exact ones at the same timestamps. Review the plan storyboard before the full render to save time, and share either with clients.
+
 ## Style files
 
 A style is styles/<name>/style.json. Every key is optional except name.
