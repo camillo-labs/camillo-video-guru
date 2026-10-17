@@ -16,6 +16,9 @@ The bar set in the case study: **"always very dynamic, but not sudden"**, measur
 |---|---|
 | Easing | Arrivals ease out (cubic, or `bezier(.16,1,.3,1)`); moves between two holds in-out cubic over 12–16 frames; camera zoom interpolated in **log space**; springs critically damped (closed-form `spring(t,k≈400,c≈24)`), overshoot ≤2% except one or two landings per film. |
 | Holds | Never a still frame: push 1.00 → 1.12 per shot and start the next shot moving. Run `deadframes.py`; only deliberate hushes may be flagged. |
+| Camera moves | Never a global `blur()` that grows with speed: Will called it "too much global motion blur". For a camera move, draw the whole frame at sub-frame times and average them (`remotion-kit/subframes.tsx`): each part smears along its own path and anything still stays sharp. Keep samples at most about 1.2 px apart (up to 16) and measure speed at the fastest points (in perspective, the near corners). |
+| Into a drawn object | Don't cut from a drawing to a flat copy of its screen. Give the drawing a real camera (`remotion-kit/isocam.ts`): swing from the iso view to face the screen and move in, in one move; face the plane exactly while its content must read. Show a 3 s test clip of the move before the full render. |
+| UI tours | About 3 s per stop was the minimum; with the final pace Will asked for, 3.5 s per stop and 5 s for a two-line caption. Add whole beats so cuts stay on the music. A spotlight on the part, one kinetic line per stop, the camera drifting in while it holds. |
 | Fast moves | Anything over ~12 px/frame gets directional blur: about 0.12 px of blur per px/frame, capped at 22 px, through an SVG `feGaussianBlur stdDeviation="s 0"` (`remotion-kit/mblur.tsx`). Without it, 90–180 px/frame slides strobe. |
 | Transitions | Use, in order of preference: iris from a meaningful point; push into a point and reveal (scale 1 → 2.4 with `pow(t, 2.2)` over 22 frames); sideways strip of panels; vertical push; shared-element bookends. One themed shader transition at most (the ridged burn on "brûlé"). No crossfades, glitch or spin packs. |
 | Strobe opening | Change the card's photo every 3 frames; each change pops to a new size and angle (scale 1.08 → 1 spring); the card tilts continuously (rotateY 22° → -10°), then grows into full-frame footage over 12 frames. |
@@ -38,7 +41,7 @@ The bar set in the case study: **"always very dynamic, but not sudden"**, measur
 
 ## Sources for these rules
 
-- **Prompt Motion** (prompt-motion.com): a gallery of motion videos made with Opus, with their prompts. The useful entries cover subframe motion blur (render at ×4 fps and `tmix=frames=4`, no blur across hard cuts), speed limits, easing tokens, log-space zoom, word-by-word captions, iris and flood timing (18–24 frames, overscan past the corners), and a QA scan of frame differences.
+- **Prompt Motion** (prompt-motion.com): a gallery of motion videos made with Opus, with their prompts. Its "Frame by Frame" keynote sting set the Nightcrew film's look: shots enter moving with an exponential ease-out, blur follows speed, a cursor clicks, cuts land on the drop, type moves. The useful entries cover subframe motion blur (render at ×4 fps and `tmix=frames=4`, no blur across hard cuts), speed limits, easing tokens, log-space zoom, word-by-word captions, iris and flood timing (18–24 frames, overscan past the corners), and a QA scan of frame differences.
 - **Reference repos**:
   - `github.com/Leonxlnx/cinetic`: Remotion starter with motion tokens, a seam catalogue and an offline motion-blur pass;
   - `github.com/Rieranthony/product-film-skill`: spring tracks, "magic move" transitions, the 240 fps `tmix` recipe.

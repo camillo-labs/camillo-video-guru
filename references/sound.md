@@ -19,6 +19,7 @@ Build the whole soundtrack in Python (`scripts/mix_soundtrack.py`) and mux it on
   - Negative: "EDM, NCS, dubstep, trap, four-on-the-floor kick, synth lead, supersaw, drop, vocals, choir, cheesy, corporate".
 - **What failed:** "modern cinematic … felt piano, pizzicato, tight percussion" came out generic, which the client called "NCS". Naming a real studio ("A24 trailer style") returned a ToS rejection.
 - Make 2–3 variants and mux each onto the same silent render (no re-render), so the client can pick by ear.
+- **Track shorter than the film:** repeat whole bars from a steady section, joined on bar lines with 15 ms equal-power crossfades (`scripts/extend_music.py`), and check each join's largest sample step against the track's 99.9th percentile. To land the first kick on a cut, trim the track's start (a negative delay) rather than shifting the cut.
 - The account allows 2–4 concurrent requests; a 429 means too many at once, so run them in sequence.
 
 ## Sound effects (ElevenLabs `POST /v1/sound-generation`)

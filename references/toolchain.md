@@ -10,6 +10,7 @@
 | **HyperFrames** (`github.com/heygen-com/hyperframes`, 0.8.152) | Catalog of shader transitions and caption styles | `npx --yes hyperframes@0.8.152 init <name> --example blank --resolution portrait` with `HYPERFRAMES_SKIP_SKILLS=1 DO_NOT_TRACK=1`; `catalog --tag transition --json`; `add <name> --no-clipboard --json`. Its Claude Code plugin: `claude plugin marketplace add heygen-com/hyperframes`. |
 | **Demucs** 4.1.0, **faster-whisper**, **yt_dlp** | Reference study | See `reference-study.md` |
 | **Prompt Motion** (prompt-motion.com) and **cinetic** / **product-film-skill** repos | Motion rules, seam catalogue, motion-blur recipe | See `motion.md` |
+| **What Ships** (whatships.com) | Current launch videos from X, by category and views | See `reference-study.md` |
 | **EFFIS WFS**, **OSM Overpass**, **Wikimedia Commons API**, **Pexels** | Burned perimeters, map layers, photos, drone video | See `sources-and-facts.md` |
 
 ## Render recipe (Windows)
@@ -33,6 +34,11 @@
 - **A Remotion `Sequence` never renders before `from`,** so it can't show negative local frames. Hold animations back with a context (for example, `BurnDelay`).
 - **Overlapping semi-transparent shapes add up to opaque.** Draw one shape with a mask made from the union of the circles.
 - **SVG text over a scaled map gets big.** Keep camera zoom at about 2.0 or below, or counter-scale the labels.
+- **SVG text inside a CSS-scaled layer can render at a stale scale** under parallel rendering (shifted, clipped text in some frames; a single `remotion still` looks fine). Zoom with SVG transforms or computed sizes; check with `scripts/framecheck.py`.
+- **`mix-blend-mode: plus-lighter` on transparent copies shifts colours** in Chrome's software compositor. To average frames, average opaque ones at opacity 1/(i+1) (`remotion-kit/subframes.tsx`).
+- **Heavy frames time out** (many blurred copies, big box shadows): `--timeout=120000 --concurrency=4`.
+- **`ffprobe … -of csv=p=0` ends with a comma** (`1260,`); strip it before comparing frame counts.
+- **A text change on the end card** doesn't need a full render: render those frames with `--frames=a-b` and splice them in (`scripts/splice_tail.py`), then mix again.
 - **ElevenLabs:** 2–4 concurrent requests at most; the music model can reject studio and artist names; "silence" sections are ignored.
 - Run Python **`-I`** on anything that reads downloaded files.
 
@@ -47,3 +53,9 @@
 - [ ] Every number re-checked against its live source; labels say exactly what the source says.
 - [ ] Credits on the end card; footage licences recorded.
 - [ ] Captions readable with the sound off; text between 14% and 65% of the height.
+- [ ] For a Remotion render with camera zooms or sub-frame blur: `python -I scripts/framecheck.py <project> <Comp> out.mp4 <frames in each move>`.
+
+## Delivery formats
+
+- **16:9** for X, Reddit, YouTube and a GitHub README; **9:16** for Shorts, Reels and TikTok; **4:5** for LinkedIn and the Instagram feed (in the Nightcrew film, 4:5 used the square layout with room above and below).
+- **GitHub README video:** upload the mp4 as an attachment through an issue's text box (no need to submit the issue), under 10 MB on a free plan (`-crf 23 -preset slow -tune animation` gave 6.9 MB for 42 s of 1080p), and put the bare `https://github.com/user-attachments/assets/<id>` URL on its own line. It plays for signed-out visitors through a signed link, although the bare URL returns 404 to them.

@@ -2,6 +2,12 @@
 
 Impressions of a reel ("it's dynamic") produce imitations of its surface. Measuring it produces rules. In the case study, two rounds were wasted copying a reference's tricks; the third worked after this study.
 
+## Where to find one
+
+- **What Ships** (whatships.com): a curated feed of startup and product launch videos from X, filterable by category (AI, developer tools, design, motion, productivity, consumer, hardware), with length and view counts. Good for a launch or product film: sort what is working now by views, then study one.
+- **Prompt Motion** (prompt-motion.com): motion pieces made with Opus, each with its full build prompt. The prompt tells you the rules the piece was built on (see `motion.md`).
+- **X itself**: the client's own picks. The Nightcrew film started from two posts Will chose (a hairline isometric piece and a real-UI close-up piece), studied in the browser through contact sheets, without downloading.
+
 ## Steps
 
 1. **Get the file.** Downloading needs the client's (or your own) explicit approval each time: name the file, source and size. Use `python -I -m yt_dlp --no-playlist -f "best[ext=mp4]/best" -o ref.%(ext)s <url>` into a new empty folder. It's for analysis only, never reused in the work.

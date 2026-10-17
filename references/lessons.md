@@ -1,5 +1,7 @@
 # Lessons from the Fontainebleau ad (13 Oct 2026)
 
+(The second case study, a product launch film with a 3D camera and no voice, is in `lessons-product-film.md`.)
+
 This is Will's feedback round by round: what he said, the root cause, and the fix that worked. The final film is `ForestPop3FR` in the worked example (38 s, 9:16, French voiceover in his ElevenLabs clone). It was submitted for LDMS A03a, and his verdict was "good, I like it" and "can't tell that it's AI at all".
 
 ## What he liked (keep doing)

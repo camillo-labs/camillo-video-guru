@@ -79,8 +79,11 @@ python engine/make_edit.py --style auto --mood calm --clips ./footage --music ./
   - `mix_soundtrack.py`: inserts voice pauses, shapes the effects, holds the score at a fixed level, sets loudness.
   - `burn_transition.py`: the HyperFrames ridged-burn shader applied to real frames.
   - `deadframes.py`, `framegrid.py`, `sidebyside.py`, `gate_report.py`: checks and comparisons.
+  - `framecheck.py`: compares frames of a Remotion render with direct stills (parallel rendering can draw a frame wrong).
+  - `splice_tail.py`: replaces the end of a render (an end card that changed) without rendering it all again.
+  - `extend_music.py`: lengthens a track by repeating whole bars, joined on bar lines, and checks the joins for clicks.
   - `credits.py`: credits text from the music, SFX and footage manifests.
   - `setup.sh`, `make_testdata.sh`: engine setup and generated test media.
-- **`remotion-kit/`**: motion blur, shots, word-timed captions. See its README.
-- **What worked and what failed, round by round:** `references/lessons.md`. **Footage, licences, credits and ad rules:** `references/sources-and-facts.md`.
+- **`remotion-kit/`**: motion blur (directional, and real sub-frame blur for camera moves), a camera for drawn 3D objects, shots, word-timed captions. See its README.
+- **What worked and what failed, round by round:** `references/lessons.md` (an ad with a voiceover) and `references/lessons-product-film.md` (a product launch film, no voice). **Footage, licences, credits and ad rules:** `references/sources-and-facts.md`.
 - **Open ideas** to carry between the two parts: `research/from-will.md` and the end of `research/compare-making-short-videos-2026-10-15.md`.
